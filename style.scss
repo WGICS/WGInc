@@ -1,0 +1,54 @@
+/*!
+    Theme Name:     Want Man Group
+    Template: Divi
+    Theme URI: http://www.elegantthemes.com/gallery/divi/
+    Description:    Want Man Group Theme.
+    Author:         WGI Creative
+    Author URI:     http://wgicreative.com
+    Version: 1.0.0
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Text Domain: Beautiful Chaos
+    Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* =========================================================================
+   Parent
+   ========================================================================= */
+
+@import "../Divi/style.css";
+
+/* =========================================================================
+   Modules
+   ========================================================================= */
+@import "sass/modules/variables";
+@import "sass/modules/mixins";
+@import "sass/modules/typography";
+
+/* =========================================================================
+   Vendors
+   ========================================================================= */
+@import "sass/vendors/normalize/normalize";
+@import "sass/vendors/breakpoint/breakpoint";
+@import "sass/vendors/Owl/owl.carousel";
+@import "sass/vendors/Owl/owl.theme";
+
+/* =========================================================================
+   Partials --> Pages
+   ========================================================================= */
+@import "sass/partials/pages/news";
+@import "sass/partials/pages/WGI";
+@import "sass/partials/pages/home"; 
+@import "sass/partials/pages/Projects";
+@import "sass/partials/pages/portfolio";
+@import "sass/partials/pages/locations";
+@import "sass/partials/pages/videos"; 
+@import "sass/partials/pages/leadershipteam";
+
+/* =========================================================================
+   Partials --> Global
+   ========================================================================= */
+@import "sass/partials/global/structure";

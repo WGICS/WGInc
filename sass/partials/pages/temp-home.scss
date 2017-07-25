@@ -1,0 +1,225 @@
+/* ==========================================================================
+   Temp Home
+   ========================================================================== */
+
+/* Styles for the Temporary Home page */
+.page-id-178
+{
+    background-image: url(/wp-content/uploads/2016/06/Temp_BG.jpg);
+    
+    header, footer
+    {
+        display: none;
+    }
+    
+    #page-container
+    {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+}
+
+#Home
+{
+    padding: 0;
+    height: 100vh;
+    background: none !important;
+    
+    #H-Content
+    {
+        width: 100%;
+        padding: 0;
+        max-width: none;
+//        justify-content: center;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+        background: rgba($overlay, .3);
+        align-items: center;
+            
+//        @include breakpoint(max-width 550px)
+//        {
+//            background: rgba($overlay, .7);
+//        }
+        
+        .h-text
+        {
+            @include breakpoint(max-width 550px)
+            {
+                margin-bottom: 0;
+            }
+            
+            @media screen and (max-width: 850px) and (orientation: landscape)
+            {
+                margin-bottom: 0;
+            }
+        }
+        
+        h1
+        {
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 1.2;
+            letter-spacing: 4px;
+            font-size: 9em;
+            color: $t-text;
+            
+            @include breakpoint(max-width 850px)
+            {
+                font-size: 7em;
+            }
+            
+            @include breakpoint(max-width 550px)
+            {
+                font-size: 3.5em;
+            }
+            
+            @media screen and (max-width: 850px) and (orientation: landscape)
+            {
+                font-size: 3.5em;
+            }
+        }
+        
+        .columns
+        {
+            width: 60% !important;
+            margin-top: 6%;
+//            justify-content: center;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            
+            @include breakpoint(max-width 1300px)
+            {
+                width: 90% !important;
+            }
+            
+            @include breakpoint(max-width 850px)
+            {
+                margin-top: 25%;
+            }
+            
+            @media screen and (max-width: 850px) and (orientation: landscape)
+            {
+                margin-top: 5%;
+            }
+        }
+        
+        .logo-white
+        {
+            width: 25%;
+            margin: 0;
+            
+            @include breakpoint(max-width 850px)
+            {
+                width: 45%;
+            }
+            
+            @media screen and (max-width: 850px) and (orientation: landscape)
+            {
+                width: 25%;
+            }
+        }
+        
+        .h-form
+        {
+            width: 80%;
+        }
+        
+        .connect-form
+        {
+            nf-fields-wrap
+            {
+                display: flex;
+                flex-direction: row;   
+                
+                nf-field:first-child
+                {
+                    flex-grow: 1;
+                    margin-right: 2%;
+                }
+            
+                @include breakpoint(max-width 550px)
+                {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+            
+            .connect-email
+            {
+                
+                input
+                {
+                    padding-left: 5%;
+                    line-height: 2em;
+                    font-size: 4em;
+                    color: $t-text;
+                    border: 3px solid $t-text;
+                    background: transparent;
+            
+                    @include breakpoint(max-width 550px)
+                    {
+                        line-height: 2.5em;
+                        font-size: 2em;
+                    }
+            
+                    @media screen and (max-width: 850px) and (orientation: landscape)
+                    {
+                        line-height: 1.8em;
+                        font-size: 2em;
+                    }
+                }
+            }
+            
+            .connect-submit
+            {
+                width: 20%;
+                
+                input
+                {
+                    padding: 0 40%;
+                    line-height: 2.8em;
+                    font-size: 3em;
+                    color: $overlay;
+                    border: 3px solid $t-text;
+                    background: white;
+            
+                    @include breakpoint(max-width 550px)
+                    {
+                        padding: 25% 35%;
+                        line-height: 1.5em;
+                        font-size: 1.8em;
+                    }
+            
+                    @media screen and (max-width: 850px) and (orientation: landscape)
+                    {
+                        padding: 25% 35%;
+                        line-height: 1.5em;
+                        font-size: 1.8em;
+                    }
+                }
+            }
+            
+            .connect-email, .connect-submit
+            {
+                input
+                {
+                    letter-spacing: 4px;
+                }
+            }
+        }
+                
+        .nf-error-msg
+        {
+            text-align: left;
+            font-size: 1.5em;
+            color: $t-text;
+            
+            @include breakpoint(max-width 550px)
+            { 
+                text-align: center;
+            }
+        }
+    }
+}

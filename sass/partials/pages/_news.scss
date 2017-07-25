@@ -1,0 +1,143 @@
+/* ==========================================================================
+   NEWS ========================================================================== */
+
+
+#news {
+    width: 100%!important;
+    padding: 0
+}
+
+#news .picture {
+    width: 100%!important;
+    max-width: 2560px!important;
+    padding-top: 0%;
+    margin-top: -6%
+}
+
+#news .title {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.1
+}
+
+#news .title h1 {
+    color: #00843D;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    font-weight: bold;
+    margin: 0
+}
+
+#news .text {
+    max-width: 900px;
+    padding: 0
+}
+
+#news .text p {
+    font-size: 1.8em;
+    line-height: 1.4em;
+    font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+    color: black
+}
+
+#news .text p a {
+    color: #00843D;
+    font-weight: bold;
+    text-decoration: none
+}
+
+#news .text p #left-area ol,
+#news .text p .entry-content ol {
+    font-size: 1.4em!important;
+    color: black;
+    padding-left: 7%;
+    font-weight: 600
+}
+
+#news .text p #left-area ol li,
+#news .text p .entry-content ol li {}
+
+#news .text p .pic {
+    margin: 4px;
+    border: 1px solid black
+}
+
+#news .text p .images {
+    align-content: center
+}
+
+#All-News .news-article,
+#Home-News .news-article {
+    margin-bottom: 1.5%;
+    padding-bottom: .5%;
+    border-bottom: 2px solid #404040
+}
+
+#All-News .news-article .article-teaser p,
+#Home-News .news-article .article-teaser p {
+    font-size: 16px
+}
+
+#All-News .news-article .read-more,
+#Home-News .news-article .read-more {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px
+}
+
+#Home-News .news-article {
+    border-bottom: none
+}
+
+#Home-News .news-article h3 {
+    font-size: 14px;
+    color: #667
+}
+
+#Home-News .news-article .read-more {
+    font-size: 12px
+}
+
+.custom-pagination .page-numbers {
+    font-weight: 500;
+    font-size: 20px
+}
+
+.custom-pagination a {
+    color: #00843D
+}
+
+.sfsi_socialwpr {
+    margin-left: 30%!important
+}
+
+@media (max-width:1920px) {
+    .sfsi_socialwpr {
+        margin-left: 26%!important
+    }
+}
+
+@media (max-width:1200px) {
+    .sfsi_socialwpr {
+        margin-left: 20%!important
+    }
+}
+
+@media (max-width:667px) {
+    .sfsi_socialwpr {
+        margin-left: 20%!important
+    }
+}
+
+@media (max-width:390px) {
+    .sfsi_socialwpr {
+        margin-left: 20%!important
+    }
+}
+
+@media (max-width:320px) {
+    .sfsi_socialwpr {
+        margin-left: 15%!important
+    }
+}

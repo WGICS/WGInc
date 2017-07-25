@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Awards ========================================================================== */
+
+#awards_page {
+    width: 100%;
+    padding:0;
+   
+    .picture {
+        width: 100%;
+        background-color:#d5d5d3;
+        max-width: none;
+        padding:0;
+        margin:auto;
+        
+        
+    }
+    .title {
+        width: 100%;
+        margin:auto;
+        padding-bottom: 0;
+        
+        h2 {
+        color: #00833c;
+        text-transform: uppercase;
+        font-size: 5em;
+        }
+        
+        .content {
+            margin-bottom:3%;
+            
+            p {
+                font-size: 18px;
+            line-height: 1.3em;
+            text-rendering: optimizeLegibility;
+            font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
+            color: #404040;
+            }
+        }
+    }
+}

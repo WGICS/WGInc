@@ -1,0 +1,243 @@
+/* ==========================================================================
+   About,Awards.History.Public Entities, Private Clients, Engineering,Transportation, Sturctures, Water Resources, Land Development, Municipal,Land Services,Planning, Landscape Architecture, Survey, SUE, Environmental,Creative Services,Design-Build. 
+   ========================================================================== */
+
+#body {
+    width: 100%;
+    padding: 0
+}
+
+#body .leadership {
+    padding-top: 0%!important;
+    width: 100%
+}
+
+#body .picture {
+    width: 100%!important;
+    max-width: 2560px!important;
+    padding-top: 0%;
+    margin-top: -6%
+}
+
+#body .picture .et_pb_column {
+    margin-bottom: 0px!important
+}
+
+@media (max-width:1920px) {
+    #body .picture {
+        margin-top: -3%
+    }
+}
+
+@media (max-width:768px) {
+    #body .picture {
+        margin-top: 0%
+    }
+}
+
+@media (max-width:667px) {
+    #body .picture {
+        margin-top: 0%
+    }
+}
+
+@media (max-width:320px) {
+    #body .picture {
+        margin-top: 0%
+    }
+}
+
+#body .banner {
+    width: 100%;
+    background-color: #d5d5d3;
+    max-width: none!important;
+    padding: 0px
+}
+
+#body .title {
+    width: 100%;
+    max-width: 1350px;
+    margin: auto
+}
+
+#body .title h1 {
+    color: #00843D;
+    text-transform: uppercase;
+    font-size: 4.5em;
+    font-weight: bold;
+    margin: 0
+}
+
+@media (max-width:1370px) {
+    #body .title h1 {
+        font-size: 2.5em
+    }
+}
+
+@media (max-width:980px) {
+    #body .title h1 {
+        font-size: 2.5em
+    }
+}
+
+#body .title h2 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 2%;
+    text-align: left
+}
+
+#body .title h3 {
+    color: #00843D;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 3%;
+    text-align: left
+}
+
+@media (max-width:1370px) {
+    #body .title {
+        padding: 4% 4% 2% 4%;
+        font-size: 1.2em;
+        margin-bottom: 0!important
+    }
+}
+
+@media (max-width:980px) {
+    #body .title {
+        padding: 4% 4% 2% 4%;
+        font-size: 1.2em;
+        margin-bottom: 0!important
+    }
+}
+
+#body .content {
+    width: 100%;
+    max-width: 1350px;
+    background-color: white;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 3%
+}
+
+#body .content p {
+    font-size: 1.8em;
+    text-rendering: optimizeLegibility;
+    font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+    color: #404040;
+    line-height: 1.3em
+}
+
+@media (max-width:1370px) {
+    #body .content {
+        padding: 4% 4% 0% 4%
+    }
+}
+
+@media (max-width:980px) {
+    #body .content {
+        padding: 0% 4% 2% 4%
+    }
+}
+
+#body .content .list {
+    font-size: 1.5em;
+    text-rendering: optimizeLegibility;
+    color: #808285
+}
+
+@media (max-width:320px) {
+    #body .content .list {
+        padding-bottom: 2%
+    }
+}
+
+#body .content .list ul {
+    list-style-type: none;
+    padding-bottom: 0em
+}
+
+#body .content .list li:before {
+    content: "-";
+    position: relative;
+    left: -5px
+}
+
+#body .content .list em,
+#body .content .list i {
+    color: grey;
+    font-style: italic
+}
+
+#body .content .list h6 {
+    font-size: 1.2em;
+    color: #000000
+}
+
+#body .content .list a {
+    color: #00843D;
+    text-decoration: none
+}
+
+#body .officers {
+    width: 100%;
+    max-width: 1350px;
+    background-color: white;
+    padding: 0px
+}
+
+@media (max-width:1200px) {
+    #body .officers {
+        font-size: .8em
+    }
+}
+
+@media (max-width:667px) {
+    #body .officers {
+        font-size: .6em
+    }
+}
+
+@media (max-width:390px) {
+    #body .officers {
+        font-size: .6em
+    }
+}
+
+@media (max-width:320px) {
+    #body .officers {
+        font-size: .5em;
+        padding: 1em!important
+    }
+}
+
+#body .awards p {
+    font-size: 1.1em;
+    line-height: 1.4em;
+    color: black
+}
+
+#body .awards .contact-form {
+    font-size: 1.2em
+}
+
+#body .awards .contact-form .fname {
+    height: 60px;
+    background-color: #d5d5d3;
+    text-transform: uppercase;
+    border: none;
+    padding: .8em 1em;
+    color: black
+}
+
+#body .awards .contact-form .box {
+    height: 177px;
+    background-color: #d5d5d3;
+    border: none;
+    text-transform: uppercase;
+    color: black;
+    padding: .8em 1em
+}
