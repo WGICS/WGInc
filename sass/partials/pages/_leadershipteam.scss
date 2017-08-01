@@ -12,7 +12,7 @@ Leadership team
         left: 0;
         margin: auto;
         padding-top: 2%;
-    .featured {
+    
         .title {
             width: 35.5%;
             max-width: 1350px;
@@ -41,7 +41,7 @@ Leadership team
                 }
             }
         }
-    }
+   
         .description {
             width: 58%;
             @include breakpoint(max-width 550px) {

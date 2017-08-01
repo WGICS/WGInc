@@ -1607,29 +1607,29 @@ Leadership team
     left: 0;
     margin: auto;
     padding-top: 2%; }
-    #leaders .leadership .featured .title {
+    #leaders .leadership .title {
       width: 35.5%;
       max-width: 1350px; }
       @media (max-width: 1350px) {
-        #leaders .leadership .featured .title {
+        #leaders .leadership .title {
           width: 57.5%; } }
       @media (max-width: 550px) {
-        #leaders .leadership .featured .title {
+        #leaders .leadership .title {
           width: 100% !important;
           margin-left: 10%;
           margin-top: 10px; } }
       @media (max-width: 372px) {
-        #leaders .leadership .featured .title {
+        #leaders .leadership .title {
           width: 90% !important;
           margin-left: 7%;
           margin-top: 10px; } }
-      #leaders .leadership .featured .title h2 {
+      #leaders .leadership .title h2 {
         color: #00833c;
         text-transform: uppercase;
         font-size: 3.5em;
         font-weight: bold; }
         @media (max-width: 550px) {
-          #leaders .leadership .featured .title h2 {
+          #leaders .leadership .title h2 {
             width: 100% !important;
             margin-left: -3%; } }
     #leaders .leadership .description {
