@@ -1607,62 +1607,29 @@ Leadership team
     left: 0;
     margin: auto;
     padding-top: 2%; }
-    #leaders .leadership .title {
+    #leaders .leadership .featured .title {
       width: 35.5%;
-      max-width: 1350px;
-      /* @include breakpoint(max-width 1800px) {
-          width: 16.6% !important;
-            
-        }*/
-      /* @include breakpoint(max-width 1400px) {
-            width: 33% !important;
-            margin: 0px 0px -7px;
-        }*/
-      /*@include breakpoint(max-width 1200px) {
-            width: 33% !important;
-            margin: 0px 0px -7px;
-        }*/
-      /*@include breakpoint(max-width 900px) {
-            width: 50%!important;
-            margin-top: 0px !important;
-			margin-right: 0px !important;
-			margin-left: 0px !important;
-			margin-bottom: -5px;
-        }*/
-      /*@include breakpoint(max-width 700px) {
-            margin-top: 0px !important;
-			margin-right: 0px !important;
-			margin-left: 0px !important;
-			margin-bottom: -5px;
-            }*/
-      /* @include breakpoint(max-width 600px) {
-			width: 49% !important;
-			margin-top: 0px !important;
-			margin-right: 0px !important;
-			margin-left: 0px !important;
-			margin-bottom: -5px;
-            
-        }*/ }
+      max-width: 1350px; }
       @media (max-width: 1350px) {
-        #leaders .leadership .title {
+        #leaders .leadership .featured .title {
           width: 57.5%; } }
       @media (max-width: 550px) {
-        #leaders .leadership .title {
+        #leaders .leadership .featured .title {
           width: 100% !important;
           margin-left: 10%;
           margin-top: 10px; } }
       @media (max-width: 372px) {
-        #leaders .leadership .title {
+        #leaders .leadership .featured .title {
           width: 90% !important;
           margin-left: 7%;
           margin-top: 10px; } }
-      #leaders .leadership .title h2 {
+      #leaders .leadership .featured .title h2 {
         color: #00833c;
         text-transform: uppercase;
         font-size: 3.5em;
         font-weight: bold; }
         @media (max-width: 550px) {
-          #leaders .leadership .title h2 {
+          #leaders .leadership .featured .title h2 {
             width: 100% !important;
             margin-left: -3%; } }
     #leaders .leadership .description {

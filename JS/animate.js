@@ -7,7 +7,7 @@ jq(document).ready(function () {
 
     owl.owlCarousel({
         pagination: false,
-        autoPlay: 6000,
+        autoPlay: 9000,
         stopOnHover: true,
         items: 10, //10 items above 1000px browser width
         itemsDesktop: [1199, 6], //6 items between 1000px and 901px
@@ -20,7 +20,7 @@ jq(document).ready(function () {
 
     owl.owlCarousel({
         pagination: false,
-        autoPlay: 6000,
+        autoPlay: 9000,
         stopOnHover: true,
         items: 10, //10 items above 1000px browser width
         itemsDesktop: [1199, 6], //6 items between 1000px and 901px
