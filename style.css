@@ -1633,7 +1633,7 @@ Leadership team
           #leaders .leadership .title h2 {
             width: 100% !important;
             margin-left: -3%; } }
-    #leaders .leadership .featured .title h2 {
+    #leaders .leadership .featured h2 {
       color: #00833c;
       text-transform: uppercase;
       font-size: 3.5em;
