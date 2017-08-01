@@ -1,15 +1,14 @@
-@charset "UTF-8";
 /*!
-    Theme Name:     Want Man Group
+    Theme Name:     Wantman Group
     Template: Divi
     Theme URI: http://www.elegantthemes.com/gallery/divi/
-    Description:    Want Man Group Theme.
+    Description:    Wantman Group Theme.
     Author:         WGI Creative
     Author URI:     http://wgicreative.com
     Version: 1.0.0
     License: GNU General Public License v2 or later
     License URI: http://www.gnu.org/licenses/gpl-2.0.html
-    Text Domain: Beautiful Chaos
+    Text Domain: Wantman Group
     Tags:
 
 This theme, like WordPress, is licensed under the GPL.
@@ -244,6 +243,7 @@ figure {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   /* 1 */
   height: 0;
@@ -336,6 +336,7 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   color: inherit;
@@ -361,6 +362,7 @@ textarea {
  */
 [type="checkbox"],
 [type="radio"] {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -436,7 +438,7 @@ textarea {
   overflow: hidden;
   position: relative;
   width: 100%;
-  margin-bottom: -3.1% !important;}
+  margin-bottom: -3% !important; }
 
 .owl-carousel .owl-wrapper-outer.autoHeight {
   -webkit-transition: height 500ms ease-in-out;
@@ -447,15 +449,14 @@ textarea {
 
 .owl-carousel .owl-item {
   float: left;
- 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-}
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%); }
 
 .owl-carousel .owl-item:hover {
-	-webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
-  	filter: grayscale(0);
-	
-}
+  -webkit-filter: grayscale(0);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(0); }
 
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div {
@@ -540,27 +541,33 @@ textarea {
 @-webkit-keyframes empty {
   0% {
     opacity: 1; } }
+
 @-moz-keyframes empty {
   0% {
     opacity: 1; } }
+
 @keyframes empty {
   0% {
     opacity: 1; } }
+
 @-webkit-keyframes fadeOut {
   0% {
     opacity: 1; }
   100% {
     opacity: 0; } }
+
 @-moz-keyframes fadeOut {
   0% {
     opacity: 1; }
   100% {
     opacity: 0; } }
+
 @keyframes fadeOut {
   0% {
     opacity: 1; }
   100% {
     opacity: 0; } }
+
 @-webkit-keyframes backSlideOut {
   25% {
     opacity: .5;
@@ -571,6 +578,7 @@ textarea {
   100% {
     opacity: .5;
     -webkit-transform: translateZ(-500px) translateX(-200%); } }
+
 @-moz-keyframes backSlideOut {
   25% {
     opacity: .5;
@@ -581,16 +589,21 @@ textarea {
   100% {
     opacity: .5;
     -moz-transform: translateZ(-500px) translateX(-200%); } }
+
 @keyframes backSlideOut {
   25% {
     opacity: .5;
+    -webkit-transform: translateZ(-500px);
     transform: translateZ(-500px); }
   75% {
     opacity: .5;
+    -webkit-transform: translateZ(-500px) translateX(-200%);
     transform: translateZ(-500px) translateX(-200%); }
   100% {
     opacity: .5;
+    -webkit-transform: translateZ(-500px) translateX(-200%);
     transform: translateZ(-500px) translateX(-200%); } }
+
 @-webkit-keyframes backSlideIn {
   0%, 25% {
     opacity: .5;
@@ -601,6 +614,7 @@ textarea {
   100% {
     opacity: 1;
     -webkit-transform: translateZ(0) translateX(0); } }
+
 @-moz-keyframes backSlideIn {
   0%, 25% {
     opacity: .5;
@@ -611,61 +625,82 @@ textarea {
   100% {
     opacity: 1;
     -moz-transform: translateZ(0) translateX(0); } }
+
 @keyframes backSlideIn {
   0%, 25% {
     opacity: .5;
+    -webkit-transform: translateZ(-500px) translateX(200%);
     transform: translateZ(-500px) translateX(200%); }
   75% {
     opacity: .5;
+    -webkit-transform: translateZ(-500px);
     transform: translateZ(-500px); }
   100% {
     opacity: 1;
+    -webkit-transform: translateZ(0) translateX(0);
     transform: translateZ(0) translateX(0); } }
+
 @-webkit-keyframes scaleToFade {
   to {
     opacity: 0;
     -webkit-transform: scale(0.8); } }
+
 @-moz-keyframes scaleToFade {
   to {
     opacity: 0;
     -moz-transform: scale(0.8); } }
+
 @keyframes scaleToFade {
   to {
     opacity: 0;
+    -webkit-transform: scale(0.8);
     transform: scale(0.8); } }
+
 @-webkit-keyframes goDown {
   from {
     -webkit-transform: translateY(-100%); } }
+
 @-moz-keyframes goDown {
   from {
     -moz-transform: translateY(-100%); } }
+
 @keyframes goDown {
   from {
+    -webkit-transform: translateY(-100%);
     transform: translateY(-100%); } }
+
 @-webkit-keyframes scaleUpFrom {
   from {
     opacity: 0;
     -webkit-transform: scale(1.5); } }
+
 @-moz-keyframes scaleUpFrom {
   from {
     opacity: 0;
     -moz-transform: scale(1.5); } }
+
 @keyframes scaleUpFrom {
   from {
     opacity: 0;
+    -webkit-transform: scale(1.5);
     transform: scale(1.5); } }
+
 @-webkit-keyframes scaleUpTo {
   to {
     opacity: 0;
     -webkit-transform: scale(1.5); } }
+
 @-moz-keyframes scaleUpTo {
   to {
     opacity: 0;
     -moz-transform: scale(1.5); } }
+
 @keyframes scaleUpTo {
   to {
     opacity: 0;
+    -webkit-transform: scale(1.5);
     transform: scale(1.5); } }
+
 .owl-theme .owl-controls {
   margin-top: 10px;
   text-align: center; }
@@ -780,6 +815,8 @@ textarea {
   border: 1px solid black; }
 
 #news .text p .images {
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
   align-content: center; }
 
 #All-News .news-article,
@@ -821,18 +858,23 @@ textarea {
 @media (max-width: 1920px) {
   .sfsi_socialwpr {
     margin-left: 26% !important; } }
+
 @media (max-width: 1200px) {
   .sfsi_socialwpr {
     margin-left: 20% !important; } }
+
 @media (max-width: 667px) {
   .sfsi_socialwpr {
     margin-left: 20% !important; } }
+
 @media (max-width: 390px) {
   .sfsi_socialwpr {
     margin-left: 20% !important; } }
+
 @media (max-width: 320px) {
   .sfsi_socialwpr {
     margin-left: 15% !important; } }
+
 /* ==========================================================================
    About,Awards.History.Public Entities, Private Clients, Engineering,Transportation, Sturctures, Water Resources, Land Development, Municipal,Land Services,Planning, Landscape Architecture, Survey, SUE, Environmental,Creative Services,Design-Build. 
    ========================================================================== */
@@ -856,15 +898,19 @@ textarea {
 @media (max-width: 1920px) {
   #body .picture {
     margin-top: -3%; } }
+
 @media (max-width: 768px) {
   #body .picture {
     margin-top: 0%; } }
+
 @media (max-width: 667px) {
   #body .picture {
     margin-top: 0%; } }
+
 @media (max-width: 320px) {
   #body .picture {
     margin-top: 0%; } }
+
 #body .banner {
   width: 100%;
   background-color: #d5d5d3;
@@ -886,9 +932,11 @@ textarea {
 @media (max-width: 1370px) {
   #body .title h1 {
     font-size: 2.5em; } }
+
 @media (max-width: 980px) {
   #body .title h1 {
     font-size: 2.5em; } }
+
 #body .title h2 {
   color: black;
   text-transform: uppercase;
@@ -910,11 +958,13 @@ textarea {
     padding: 4% 4% 2% 4%;
     font-size: 1.2em;
     margin-bottom: 0 !important; } }
+
 @media (max-width: 980px) {
   #body .title {
     padding: 4% 4% 2% 4%;
     font-size: 1.2em;
     margin-bottom: 0 !important; } }
+
 #body .content {
   width: 100%;
   max-width: 1350px;
@@ -933,9 +983,11 @@ textarea {
 @media (max-width: 1370px) {
   #body .content {
     padding: 4% 4% 0% 4%; } }
+
 @media (max-width: 980px) {
   #body .content {
     padding: 0% 4% 2% 4%; } }
+
 #body .content .list {
   font-size: 1.5em;
   text-rendering: optimizeLegibility;
@@ -944,6 +996,7 @@ textarea {
 @media (max-width: 320px) {
   #body .content .list {
     padding-bottom: 2%; } }
+
 #body .content .list ul {
   list-style-type: none;
   padding-bottom: 0em; }
@@ -974,17 +1027,21 @@ textarea {
 
 @media (max-width: 1200px) {
   #body .officers {
-    font-size: 0.8em; } }
+    font-size: .8em; } }
+
 @media (max-width: 667px) {
   #body .officers {
-    font-size: 0.6em; } }
+    font-size: .6em; } }
+
 @media (max-width: 390px) {
   #body .officers {
-    font-size: 0.6em; } }
+    font-size: .6em; } }
+
 @media (max-width: 320px) {
   #body .officers {
     font-size: .5em;
     padding: 1em !important; } }
+
 #body .awards p {
   font-size: 1.1em;
   line-height: 1.4em;
@@ -1007,7 +1064,7 @@ textarea {
   border: none;
   text-transform: uppercase;
   color: black;
-  padding: 0.8em 1em; }
+  padding: .8em 1em; }
 
 /* ==========================================================================
    Home
@@ -1024,22 +1081,27 @@ textarea {
   #home .slider {
     margin: 0 !important;
     padding: 0 !important; } }
+
 @media (max-width: 375px) {
   #home #rev_slider_11_1_wrapper,
   #home .forcefullwidth_wrapper_tp_banner {
     height: 464px !important; } }
+
 @media (max-width: 500px) {
   #home #rev_slider_11_1_wrapper,
   #home .forcefullwidth_wrapper_tp_banner {
     height: 500px !important; } }
+
 @media (max-width: 1200px) {
   #home #rev_slider_11_1_wrapper,
   #home .forcefullwidth_wrapper_tp_banner {
     height: 1040px !important; } }
+
 @media (min-width: 981px) {
   #home .et_pb_row {
     padding: 0 !important;
     margin-bottom: 0 !important; } }
+
 .button-list {
   color: #fff !important;
   font-size: 1.5em;
@@ -1057,7 +1119,7 @@ textarea {
   padding: 2.2%;
   color: #fff;
   background-color: #00843D;
-  margin-right: 0.5%; }
+  margin-right: .5%; }
 
 .button-list a.button i {
   margin-right: 2%; }
@@ -1066,31 +1128,34 @@ textarea {
   .button-list {
     margin-top: -1.9%;
     margin-left: 59.6%; } }
+
 @media (max-width: 1650px) {
   .button-list {
     width: 30%;
     margin-top: -2.3%;
     margin-left: 60.9%; } }
+
 @media (max-width: 1450px) {
   .button-list {
     margin-top: -2.4%; } }
+
 @media (max-width: 1200px) {
   .button-list {
     width: 36%;
     margin-top: -2.9% !important; } }
+
 @media (max-width: 980px) {
   .button-list {
     margin-top: 0 !important;
     width: 100% !important;
     position: relative;
     margin-left: 0; }
-
   .button-list a.button {
     width: 33%;
     padding: 3%; }
-
   .button-list a.button.careers {
     margin-right: 0; } }
+
 /* ==========================================================================
    Projects
    ========================================================================== */
@@ -1118,7 +1183,8 @@ textarea {
 @media (max-width: 980px) {
   #main-content .container .project .project-prev-next .next-project,
   #main-content .container .project .project-prev-next .previous-project {
-    font-size: 0.8em; } }
+    font-size: .8em; } }
+
 #main-content .container .project .project-prev-next .previous-project {
   float: left; }
 
@@ -1142,19 +1208,24 @@ textarea {
     padding-right: 4.5%;
     padding-top: 5%;
     width: 100% !important; } }
+
 @media (max-width: 980px) {
   #main-content .container .project .project-details {
     width: 100%; } }
+
 @media (max-width: 1120px) {
   #main-content .container .project .project-details {
     padding-left: 2%;
     padding-top: 2%; } }
+
 @media (max-width: 1200px) {
   #main-content .container .project .project-details {
     padding: 2% 5%; } }
+
 @media (max-width: 1299px) {
   #main-content .container .project .project-details {
     padding: 2% 2% 2% 5%; } }
+
 #main-content .container .project .project-details .project-name {
   font-size: 3em;
   color: #00843D;
@@ -1164,6 +1235,7 @@ textarea {
 @media (max-width: 480px) {
   #main-content .container .project .project-details .project-name {
     font-size: 2.5em; } }
+
 #main-content .container .project .project-details .project-location {
   font-size: 2em;
   font-weight: bold;
@@ -1188,17 +1260,21 @@ textarea {
 @media (max-width: 667px) {
   #main-content .container .project .portfolio-categories {
     padding-left: 5%; } }
+
 @media (max-width: 731px) {
   #main-content .container .project .portfolio-categories {
     padding-left: 5%; } }
+
 @media (max-width: 1120px) {
   #main-content .container .project .portfolio-categories {
     padding-left: 5%;
     padding-top: 2%; } }
+
 @media (max-width: 320px) {
   #main-content .container .project .portfolio-categories {
     padding-left: 5%;
     padding-bottom: 3%; } }
+
 #main-content .container .project .portfolio-categories p {
   padding-bottom: 0; }
 
@@ -1291,9 +1367,11 @@ Portfolio
 @media (max-width: 1200px) {
   .portfolio-tiles .portfolio-project {
     width: 32.33333%; } }
+
 @media (max-width: 785px) {
   .portfolio-tiles .portfolio-project {
     width: 49%; } }
+
 .portfolio-tiles .portfolio-project .portfolio-project-img img {
   vertical-align: top; }
 
@@ -1305,16 +1383,20 @@ Portfolio
   height: 100%;
   width: 100%;
   -webkit-transition: all .25s;
+  -o-transition: all .25s;
   transition: all .25s;
+  -ms-transform: translate(0, 0);
   transform: translate(0, 0);
   -webkit-transform: translate(0, 0); }
 
 @media (max-width: 1200px) {
   .portfolio-tiles .portfolio-project .portfolio-project-overlay {
     padding: 25% 40px 0; } }
+
 @media (max-width: 550px) {
   .portfolio-tiles .portfolio-project .portfolio-project-overlay {
     padding: 20% 15px 0; } }
+
 .portfolio-tiles .portfolio-project .portfolio-project_name {
   margin-bottom: 2%;
   text-transform: uppercase;
@@ -1327,18 +1409,23 @@ Portfolio
 @media (max-width: 1920px) {
   .portfolio-tiles .portfolio-project .portfolio-project_name h5 {
     font-size: 16px; } }
+
 @media (max-width: 1200px) {
   .portfolio-tiles .portfolio-project .portfolio-project_name h5 {
     font-size: 16px; } }
+
 @media (max-width: 790px) {
   .portfolio-tiles .portfolio-project .portfolio-project_name h5 {
     font-size: 15px; } }
+
 @media (max-width: 667px) {
   .portfolio-tiles .portfolio-project .portfolio-project_name h5 {
     font-size: 13px; } }
+
 @media (max-width: 372px) {
   .portfolio-tiles .portfolio-project .portfolio-project_name h5 {
     font-size: 9px; } }
+
 .portfolio-tiles .portfolio-project .portfolio-project_name h5,
 .portfolio-tiles .portfolio-project .see-more {
   color: #FFF; }
@@ -1362,7 +1449,9 @@ Portfolio
   .portfolio-tiles .portfolio-project .see-more {
     width: 85%;
     font-size: 10px; } }
+
 .portfolio-tiles .portfolio-project:hover .portfolio-project-overlay {
+  -ms-transform: translate(0, -100%);
   transform: translate(0, -100%);
   -webkit-transform: translate(0, -100%); }
 
@@ -1442,9 +1531,11 @@ Portfolio
 @media (max-width: 1447px) {
   #Locations .locations-info ul.locationsList {
     width: 100%; } }
+
 @media (max-width: 1100px) {
   #Locations .locations-info ul.locationsList {
     width: 120%; } }
+
 #Locations .contact-form p {
   font-size: 1.1em;
   line-height: 1.4em;
@@ -1467,21 +1558,19 @@ Portfolio
   border: none;
   text-transform: uppercase;
   color: black;
-  padding: 0.8em 1em; }
+  padding: .8em 1em; }
 
 @media (min-width: 981px) {
   .offices .col1,
   .offices .col2 {
     width: 24%; }
-
   .offices .col1 {
     margin-right: 1%; }
-
   .offices .col2 {
     margin-right: 2%; }
-
   .offices .col3 {
     width: 49%; } }
+
 .offices .office-box {
   margin-bottom: 10px !important; }
   .offices .office-box h5 {
@@ -1510,38 +1599,170 @@ Leadership team
    ========================================================================== */
 #leaders {
   width: 100%;
-  max-width: 100%;
   padding: 0; }
-  #leaders .et_pb_row {
-    padding: 0px 0; }
-  #leaders .leadership h2 {
-    color: #00833c;
-    text-transform: uppercase;
-    font-size: 3.5em;
-    font-weight: bold;
-    padding-top: 1%; }
-    @media (max-width: 570px) {
-      #leaders .leadership h2 {
-       padding-top: 5%; } }
-    @media (max-width: 370px) {
-      #leaders .leadership h2 {
-         font-size: 3em !important;
-        width: 100%;
-        margin-left: 0%;
-        margin-bottom: 0%;
-        padding-top: 4%; } }
-  #leaders .featured h2 {
-    color: #00833c;
-    text-transform: uppercase;
-    font-size: 3.5em;
-    font-weight: bold;
-    padding-top: 5%; }
-    @media (max-width: 370px) {
-      #leaders .featured h2 {
-        font-size: 3em;
-        margin-bottom: -10%; } }
-  #leaders .boxes {
-    margin-bottom: 2%; }
+  #leaders .leadership {
+    background-color: purple;
+    width: 100%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding-top: 2%; }
+    #leaders .leadership .title {
+      width: 35.5%;
+      max-width: 1350px;
+      /* @include breakpoint(max-width 1800px) {
+          width: 16.6% !important;
+            
+        }*/
+      /* @include breakpoint(max-width 1400px) {
+            width: 33% !important;
+            margin: 0px 0px -7px;
+        }*/
+      /*@include breakpoint(max-width 1200px) {
+            width: 33% !important;
+            margin: 0px 0px -7px;
+        }*/
+      /*@include breakpoint(max-width 900px) {
+            width: 50%!important;
+            margin-top: 0px !important;
+			margin-right: 0px !important;
+			margin-left: 0px !important;
+			margin-bottom: -5px;
+        }*/
+      /*@include breakpoint(max-width 700px) {
+            margin-top: 0px !important;
+			margin-right: 0px !important;
+			margin-left: 0px !important;
+			margin-bottom: -5px;
+            }*/
+      /* @include breakpoint(max-width 600px) {
+			width: 49% !important;
+			margin-top: 0px !important;
+			margin-right: 0px !important;
+			margin-left: 0px !important;
+			margin-bottom: -5px;
+            
+        }*/ }
+      @media (max-width: 1350px) {
+        #leaders .leadership .title {
+          width: 57.5%; } }
+      @media (max-width: 550px) {
+        #leaders .leadership .title {
+          width: 100% !important;
+          margin-left: 10%;
+          margin-top: 10px; } }
+      @media (max-width: 372px) {
+        #leaders .leadership .title {
+          width: 90% !important;
+          margin-left: 7%;
+          margin-top: 10px; } }
+      #leaders .leadership .title h2 {
+        color: #00833c;
+        text-transform: uppercase;
+        font-size: 3.5em;
+        font-weight: bold; }
+        @media (max-width: 550px) {
+          #leaders .leadership .title h2 {
+            width: 100% !important;
+            margin-left: -3%; } }
+    #leaders .leadership .description {
+      width: 58%; }
+      @media (max-width: 550px) {
+        #leaders .leadership .description {
+          width: 100% !important; } }
+      @media (max-width: 372px) {
+        #leaders .leadership .description {
+          width: 90%; } }
+      #leaders .leadership .description p {
+        font-size: 1.8em;
+        text-rendering: optimizeLegibility;
+        font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+        color: #404040;
+        line-height: 1.3em;
+        margin-left: -90%; }
+        @media (max-width: 550px) {
+          #leaders .leadership .description p {
+            margin-left: 7.5%;
+            margin-right: 5.5%; } }
+        @media (max-width: 372px) {
+          #leaders .leadership .description p {
+            margin-left: 10%; } }
+  #leaders .accord {
+    width: 90%;
+    max-width: 100%;
+    padding-right: 7%;
+    padding-left: 8%;
+    margin: auto;
+    overflow: hidden;
+    margin: 0 auto; }
+    @media (max-width: 2050px) {
+      #leaders .accord {
+        padding-left: 2%;
+        padding-bottom: 2%; } }
+    @media (max-width: 1920px) {
+      #leaders .accord {
+        padding-right: 1%;
+        padding-left: 1%; } }
+    @media (max-width: 1350px) {
+      #leaders .accord {
+        padding-left: 2%;
+        padding-bottom: 2%; } }
+    @media (max-width: 550px) {
+      #leaders .accord {
+        padding-bottom: 5%;
+        padding-left: 0%; } }
+    @media (max-width: 372px) {
+      #leaders .accord {
+        max-width: 100%;
+        width: 107%;
+        padding-right: 0%;
+        padding-left: 0%;
+        padding-top: 0px;
+        padding-bottom: 5%; } }
+  #leaders .accord li {
+    width: 5.75%;
+    margin-bottom: -10px;
+    display: block;
+    position: relative;
+    float: left;
+    /*border-left: .5px solid #ddd;*/
+    /*ansition: all 0.5s;*/
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: gray;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale;
+    filter: grayscale; }
+    @media (max-width: 1855px) {
+      #leaders .accord li {
+        width: 138px; } }
+    @media (max-width: 1750px) {
+      #leaders .accord li {
+        width: 134px; } }
+    @media (max-width: 550px) {
+      #leaders .accord li {
+        width: 72px !important; } }
+    @media (max-width: 500px) {
+      #leaders .accord li {
+        width: 81px !important; } }
+    @media (max-width: 372px) {
+      #leaders .accord li {
+        width: 75px !important; } }
+  #leaders ul li {
+    float: left;
+    margin: 0 0 0 0;
+    overflow: hidden;
+    /*right: -2600px;*/ }
+  #leaders .accord ul li:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0); }
+  #leaders .accord2 ul li:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0); }
+  #leaders .accord3 ul li:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0); }
+
 /* =========================================================================
    Partials --> Global
    ========================================================================= */
@@ -1574,19 +1795,23 @@ Leadership team
 @media (max-width: 500px) {
   #main-header .WGI-info .logo-info .logo_container {
     width: 100%; } }
+
 @media (max-width: 500px) {
   #main-header .WGI-info .logo-info .logo_container .logo_helper {
     display: none; } }
+
 #main-header .WGI-info .logo-info .logo_container #logo {
   max-width: 300px; }
 
 @media (max-width: 1400px) {
   #main-header .WGI-info .logo-info .logo_container #logo {
     max-width: 270px; } }
+
 @media (max-width: 500px) {
   #main-header .WGI-info .logo-info .logo_container #logo {
     margin: 0 auto;
     display: block; } }
+
 #main-header .WGI-info .logo-info .info_container {
   width: 40%;
   float: right; }
@@ -1594,15 +1819,19 @@ Leadership team
 @media (max-width: 1550px) {
   #main-header .WGI-info .logo-info .info_container {
     width: 50%; } }
+
 @media (max-width: 1250px) {
   #main-header .WGI-info .logo-info .info_container {
     width: 65%; } }
+
 @media (max-width: 980px) {
   #main-header .WGI-info .logo-info .info_container {
     width: auto; } }
+
 @media (max-width: 750px) {
   #main-header .WGI-info .logo-info .info_container {
     display: none; } }
+
 #main-header .WGI-info .logo-info .info_container .social-media {
   top: 10px;
   position: relative; }
@@ -1628,6 +1857,7 @@ Leadership team
 @media (max-width: 1300px) {
   #main-header .WGI-info .logo-info .info_container .info_text .title {
     font-size: 12px; } }
+
 #main-header .WGI-info .logo-info .info_container .info_text .description {
   text-transform: uppercase;
   font-weight: bold;
@@ -1636,9 +1866,11 @@ Leadership team
 @media (max-width: 1300px) {
   #main-header .WGI-info .logo-info .info_container .info_text .description {
     font-size: 16px; } }
+
 @media (max-width: 1100px) {
   #main-header .WGI-info .logo-info .info_container .info_text .description {
     font-size: 14px; } }
+
 #main-header .WGI-info .logo-info .info_container .info_text:before {
   top: 13px;
   position: absolute;
@@ -1651,9 +1883,10 @@ Leadership team
 @media (max-width: 980px) {
   #main-header .WGI-info .logo-info .info_container .location {
     display: none; } }
+
 #main-header .WGI-info .logo-info .info_container .location:before {
   left: -30px;
-  content: ""; }
+  content: "\f041"; }
 
 #main-header .WGI-info .logo-info .info_container .time .description {
   text-transform: none; }
@@ -1661,9 +1894,10 @@ Leadership team
 @media (max-width: 980px) {
   #main-header .WGI-info .logo-info .info_container .time {
     display: none; } }
+
 #main-header .WGI-info .logo-info .info_container .time:before {
   left: -45px;
-  content: ""; }
+  content: "\f003"; }
 
 #main-header .WGI-info .logo-info .info_container .phone {
   text-align: right;
@@ -1673,13 +1907,14 @@ Leadership team
 @media (max-width: 500px) {
   #main-header .WGI-info .logo-info .info_container .phone {
     display: none; } }
+
 #main-header .WGI-info .logo-info .info_container .phone .title {
   padding-bottom: .2%;
   font-size: 18px; }
 
 #main-header .WGI-info .logo-info .info_container .phone .title:before {
   padding-right: 3%;
-  content: ""; }
+  content: "\f095"; }
 
 #main-header .WGI-info .logo-info .info_container .phone .description {
   font-weight: bold;
@@ -1689,9 +1924,11 @@ Leadership team
 @media (max-width: 1300px) {
   #main-header .WGI-info .logo-info .info_container .phone .description {
     font-size: 30px; } }
+
 @media (max-width: 1100px) {
   #main-header .WGI-info .logo-info .info_container .phone .description {
     font-size: 28px; } }
+
 #main-header .WGI-info .logo-info .info_container .info_text:before,
 #main-header .WGI-info .logo-info .info_container .title:before {
   font-family: FontAwesome; }
@@ -1703,10 +1940,12 @@ Leadership team
   #main-header .nav-menu .container,
   #main-header .WGI-info .container {
     width: 90%; } }
+
 @media (max-width: 1100px) {
   #main-header .nav-menu .container,
   #main-header .WGI-info .container {
     width: 95%; } }
+
 #main-header .nav-menu {
   background-color: rgba(0, 132, 61, 0.85); }
 
@@ -1718,6 +1957,7 @@ Leadership team
 @media (max-width: 980px) {
   #main-header .nav-menu .navigation {
     padding-top: 5px; } }
+
 #main-header .nav-menu .navigation #top-menu-nav {
   width: 90%; }
 
@@ -1731,9 +1971,11 @@ Leadership team
 @media (max-width: 1420px) {
   #main-header .nav-menu .navigation #top-menu-nav #top-menu .menu-item {
     padding-right: 4.2%; } }
+
 @media (max-width: 1050px) {
   #main-header .nav-menu .navigation #top-menu-nav #top-menu .menu-item {
     padding-right: 3.5%; } }
+
 #main-header .nav-menu .navigation #top-menu-nav #top-menu .menu-item a {
   padding-bottom: 20px;
   text-transform: uppercase;
@@ -1795,6 +2037,7 @@ Leadership team
 @media (max-width: 980px) {
   #footer-bottom .container {
     width: 100%; } }
+
 #footer-bottom .footer-section {
   width: 33.33333%;
   padding: 0 2.5%;
@@ -1805,6 +2048,7 @@ Leadership team
   #footer-bottom .footer-section {
     width: 100%;
     padding: 2.5%; } }
+
 #footer-bottom .footer-section h2 {
   padding-bottom: 3%;
   font-weight: bold;
@@ -1818,6 +2062,7 @@ Leadership team
   #footer-bottom .footer-section:first-child {
     padding-left: 2.5%;
     border-right: none; } }
+
 #footer-bottom .footer-section:last-child {
   padding-right: 0;
   border-left: rgba(64, 64, 64, 0.8) solid 2px; }
@@ -1826,6 +2071,7 @@ Leadership team
   #footer-bottom .footer-section:last-child {
     padding-right: 2.5%;
     border-left: none; } }
+
 #footer-bottom .award-logos img {
   padding: 0 1.5%; }
 
@@ -1833,21 +2079,27 @@ Leadership team
   #footer-bottom .award-logos img {
     padding: 0 1%;
     max-width: 74px; } }
+
 @media (max-width: 1500px) {
   #footer-bottom .award-logos img {
     max-width: 68px; } }
+
 @media (max-width: 1300px) {
   #footer-bottom .award-logos img {
     max-width: 57px; } }
+
 @media (max-width: 1100px) {
   #footer-bottom .award-logos img {
     max-width: 58px; } }
+
 @media (max-width: 980px) {
   #footer-bottom .award-logos img {
     max-width: 60px; } }
+
 @media (max-width: 371px) {
   #footer-bottom .award-logos img {
     max-width: 55px; } }
+
 .twitter-feed .ctf-item {
   padding: 0; }
 
