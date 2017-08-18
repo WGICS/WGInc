@@ -1803,7 +1803,7 @@ Leadership team
   font-family: FontAwesome; }
 
 #main-header .WGI-info-home {
-  background-color: rgba(255, 255, 255, 0.85); }
+  /*background-color: rgba(255, 255, 255, 0.85)*/ }
 
 @media (max-width: 1250px) {
   #main-header .nav-menu .container,
