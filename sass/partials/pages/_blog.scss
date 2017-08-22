@@ -4,8 +4,12 @@ Blog
 
 .menu-bar {
     background-color: #00843D;
+
     
-.menu-bar:before {
+}
+
+    
+.menu-bar :before {
     content: '';
     position: absolute;
     top: 0;
@@ -14,5 +18,3 @@ Blog
     border-left: 80px solid transparent;
     width: 0;
     }    
-    
-}
