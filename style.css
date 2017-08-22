@@ -470,42 +470,7 @@ textarea {
   user-select: none;
   -webkit-tap-highlight-color: transparent; }
 
-.owl-prev {
-  position: absolute;
-  margin: -100px !important;
-  left: 50px;
-  content: "\f104";
-  font-family: FontAwesome; }
-  .owl-prev .owl-prev:before {
-    top: 50%;
-    text-decoration: inherit;
-    position: absolute;
-    padding-right: 0.5em;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 30px;
-    font-family: FontAwesome;
-    cursor: pointer;
-    color: rgba(0, 0, 0, 0.3); }
-
-.owl-next {
-  margin: -100px !important;
-  right: 50px;
-  position: absolute;
-  content: "\f105"; }
-
-.owl-prev:before, .owl-nex:before {
-  top: 50%;
-  text-decoration: inherit;
-  position: absolute;
-  padding-right: 0.5em;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 30px;
-  font-family: FontAwesome;
-  cursor: pointer;
-  color: rgba(0, 0, 0, 0.3); }
-
+/* INSERT NEXT/PREV CODE HERE */
 /* mouse grab icon */
 .grabbing {
   cursor: url(../../../JS/Owl/grabbing.png) 8 8, move; }
