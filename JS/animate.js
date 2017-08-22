@@ -6,7 +6,7 @@ jq(document).ready(function () {
     var owl = jq("#owl-example");
 
     owl.owlCarousel({
-        nav: true,
+        navigation: true,
         pagination: false,
         autoPlay: 2500,
         stopOnHover: true,
