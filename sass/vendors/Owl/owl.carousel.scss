@@ -68,6 +68,35 @@
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.owl-prev {
+    position: absolute;
+    margin: -100px;
+    left: 5px;
+    content: "\f104";
+}
+
+
+.owl-next {
+    margin: -100px;
+    right: 5px;
+    position: absolute;
+    content: "\f105";
+}
+
+.owl-prev:before, .owl-nex:before
+			{
+				top: 50%;
+				text-decoration: inherit;
+				position: absolute;
+				padding-right: 0.5em;
+				font-weight: normal;
+				font-style: normal;
+				font-size: 30px;
+				font-family: FontAwesome;
+				cursor: pointer;
+				color: rgba(#000, .3);
+			}
+
 /* mouse grab icon */
 .grabbing { 
     cursor:url(../../../JS/Owl/grabbing.png) 8 8, move;
