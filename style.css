@@ -472,12 +472,12 @@ textarea {
 
 .owl-prev {
   position: absolute;
-  margin: -100px;
+  margin: -100px !important;
   left: 5px;
   content: "\f104"; }
 
 .owl-next {
-  margin: -100px;
+  margin: -100px !important;
   right: 5px;
   position: absolute;
   content: "\f105"; }
