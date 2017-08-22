@@ -71,14 +71,28 @@
 .owl-prev {
     position: absolute;
     margin: -100px !important;
-    left: 5px;
+    left: 50px;
     content: "\f104";
+    
+    .owl-prev:before
+			{
+				top: 50%;
+				text-decoration: inherit;
+				position: absolute;
+				padding-right: 0.5em;
+				font-weight: normal;
+				font-style: normal;
+				font-size: 30px;
+				font-family: FontAwesome;
+				cursor: pointer;
+				color: rgba(#000, .3);
+			}
 }
 
 
 .owl-next {
     margin: -100px !important;
-    right: 5px;
+    right: 50px;
     position: absolute;
     content: "\f105";
 }
