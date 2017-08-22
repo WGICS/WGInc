@@ -1636,12 +1636,12 @@ Leadership team
 Blog
    ========================================================================== */
 .menu-bar {
-  background-color: rgba(0, 132, 61, 0.85); }
+  background-color: rgba(0, 132, 61, 0.85);
+  margin-bottom: .5% !important; }
   .menu-bar h3 {
     color: white;
     padding: 1%;
-    font-size: 18px;
-    margin-bottom: .5% !important; }
+    font-size: 18px; }
 
 .menu-bar :before {
   content: '';
