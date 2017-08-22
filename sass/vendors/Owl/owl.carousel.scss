@@ -73,8 +73,9 @@
     margin: -100px !important;
     left: 50px;
     content: "\f104";
+    font-family: FontAwesome;
     
-    .owl-prev:before
+.owl-prev:before
 			{
 				top: 50%;
 				text-decoration: inherit;
