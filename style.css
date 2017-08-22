@@ -1657,7 +1657,7 @@ Blog
   color: grey; }
 
 .blog .entry1 {
-  min-height: 250px;
+  padding: 15% 5%;
   background-color: indianred; }
 
 .blog h3 {
