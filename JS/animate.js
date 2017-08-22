@@ -14,7 +14,7 @@ jq(document).ready(function () {
 		itemsDesktopSmall: [900, 4], // betweem 900px and 601px
 		itemsMobile: [600, 3], //2 items between 600 and 0
 		itemsTablet: [600, 3], //2 items between 600 and 0
-        navigation: true;
+       
     });
 
     var owl = jq("#owl-hello");
@@ -28,6 +28,6 @@ jq(document).ready(function () {
 		itemsDesktopSmall: [900, 4], // betweem 900px and 601px
 		itemsMobile:  [ 600, 3], //3 items between 600 and 0
 		itemsTablet: [600, 3], //3 items between 600 and 0
-        navigation: true;
+        
     });
 });
