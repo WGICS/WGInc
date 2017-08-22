@@ -1637,6 +1637,8 @@ Blog
    ========================================================================== */
 .menu-bar {
   background-color: #00843D; }
+  .menu-bar h3 {
+    color: white; }
 
 .menu-bar :before {
   content: '';
