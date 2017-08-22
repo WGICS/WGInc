@@ -21,6 +21,7 @@ jq(document).ready(function () {
     var owl = jq("#owl-hello");
 
     owl.owlCarousel({
+        navigation: true,
         pagination: false,
         autoPlay: 2000,
         stopOnHover: true,
