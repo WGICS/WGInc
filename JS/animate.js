@@ -6,7 +6,7 @@ jq(document).ready(function () {
     var owl = jq("#owl-example");
 
     owl.owlCarousel({
-        navigation: true,
+        navigation: false,
         pagination: false,
         autoPlay: 2500,
         stopOnHover: true,
@@ -21,7 +21,7 @@ jq(document).ready(function () {
     var owl = jq("#owl-hello");
 
     owl.owlCarousel({
-        navigation: true,
+        navigation: false,
         pagination: false,
         autoPlay: 2000,
         stopOnHover: true,
