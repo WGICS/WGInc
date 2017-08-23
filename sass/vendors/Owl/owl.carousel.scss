@@ -103,9 +103,22 @@
 
 .owl-next {
     top: 50% !important;
-    right: -5px;
+    right: -5%;
     position: absolute;
     content: "\f105";
+    
+    &:before {
+        top: 50%;
+        text-decoration: inherit;
+        position: absolute;
+        padding-right: 0.5em;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 0;
+        font-family: FontAwesome;
+        cursor: pointer;
+        color: rgba(#000, .3);
+    }
 }
 
 
