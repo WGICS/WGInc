@@ -83,10 +83,10 @@
 
 .owl-prev {
     position: absolute;
-    margin: -100px !important;
-    left: 50px;
+    top: 50% !important;
+    left: -5%;
     content: "\f104";
-    font-family: FontAwesome;
+    
 &:before {
         top: 50%;
         text-decoration: inherit;
@@ -102,25 +102,13 @@
 }
 
 .owl-next {
-    margin: -100px !important;
-    right: 50px;
+    top: 50% !important;
+    right: -5px;
     position: absolute;
     content: "\f105";
 }
 
-.owl-prev:before,
-.owl-next:before {
-    top: 50%;
-    text-decoration: inherit;
-    position: absolute;
-    padding-right: 0.5em;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 30px;
-    font-family: FontAwesome;
-    cursor: pointer;
-    color: rgba(#000, .3);
-}
+
 
 
 /* mouse grab icon */
