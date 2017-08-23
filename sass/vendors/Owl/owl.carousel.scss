@@ -87,7 +87,7 @@
     left: -5%;
     content: "\f104";
     
-&:before {
+& :before {
         top: 50%;
         text-decoration: inherit;
         position: absolute;
@@ -107,7 +107,7 @@
     position: absolute;
     content: "\f105";
     
-    &:before {
+    & :before {
         top: 50%;
         text-decoration: inherit;
         position: absolute;
