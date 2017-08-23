@@ -7,6 +7,7 @@ jq(document).ready(function () {
 
     owl.owlCarousel({
         navigation: true,
+        navigationText : ["\f104","\f105"],
         pagination: false,
         autoPlay: 2500,
         stopOnHover: true,
