@@ -473,10 +473,13 @@ textarea {
   display: block;
   color: white;
   position: absolute;
-  top: 80%;
+  top: 79.5%;
   opacity: 1;
   text-align: left;
-  padding-left: .2%; }
+  font-size: 1.3em;
+  padding-top: .4%;
+  font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
+  font-weight: bold; }
 
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div {
