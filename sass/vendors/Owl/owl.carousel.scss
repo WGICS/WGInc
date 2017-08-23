@@ -128,7 +128,7 @@
 			} 
     
     @include breakpoint(max-width 1200px) {
-                 left: -8%;
+                 left: -12%;
           
             }
 
@@ -159,7 +159,7 @@
 
    
     @include breakpoint(max-width 1200px) {
-                 right: -6%;
+                 right: -8%;
           
             }
 }

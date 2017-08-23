@@ -514,7 +514,7 @@ textarea {
     color: rgba(0, 0, 0, 0.3); }
   @media (max-width: 1200px) {
     .owl-prev {
-      left: -8%; } }
+      left: -12%; } }
 
 .owl-next {
   top: 50% !important;
@@ -534,7 +534,7 @@ textarea {
     color: rgba(0, 0, 0, 0.3); }
   @media (max-width: 1200px) {
     .owl-next {
-      right: -6%; } }
+      right: -8%; } }
 
 /* mouse grab icon */
 .grabbing {
