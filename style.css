@@ -479,8 +479,7 @@ textarea {
 .owl-prev {
   position: absolute;
   top: 50% !important;
-  left: -5%;
-  content: "\f104"; }
+  left: -5%; }
   .owl-prev :before {
     top: 50%;
     text-decoration: inherit;
@@ -490,14 +489,14 @@ textarea {
     font-style: normal;
     font-size: 30px;
     font-family: FontAwesome;
+    content: "\f104";
     cursor: pointer;
     color: rgba(0, 0, 0, 0.3); }
 
 .owl-next {
   top: 50% !important;
   right: -5%;
-  position: absolute;
-  content: "\f105"; }
+  position: absolute; }
   .owl-next :before {
     top: 50%;
     text-decoration: inherit;
@@ -507,6 +506,7 @@ textarea {
     font-style: normal;
     font-size: 30px;
     font-family: FontAwesome;
+    content: "\f105";
     cursor: pointer;
     color: rgba(0, 0, 0, 0.3); }
 

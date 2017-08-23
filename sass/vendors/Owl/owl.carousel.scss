@@ -85,7 +85,7 @@
     position: absolute;
     top: 50% !important;
     left: -5%;
-    content:"\f104";
+    
     
 & :before {
 				top: 50%;
@@ -96,6 +96,7 @@
 				font-style: normal;
 				font-size: 30px;
 				font-family: FontAwesome;
+                content:"\f104";
 				cursor: pointer;
 				color: rgba(#000, .3);
 			} 
@@ -108,7 +109,7 @@
     top: 50% !important;
     right: -5%;
     position: absolute;
-    content:"\f105";
+    
     
     
  & :before
@@ -121,6 +122,7 @@
 				font-style: normal;
 				font-size: 30px;
 				font-family: FontAwesome;
+                content:"\f105";
 				cursor: pointer;
 				color: rgba(#000, .3);
 			}
