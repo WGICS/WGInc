@@ -481,34 +481,24 @@ textarea {
   top: 50% !important;
   left: -5%;
   content: "\f104"; }
-  .owl-prev:before {
-    top: 50%;
-    text-decoration: inherit;
-    position: absolute;
-    padding-right: 0.5em;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 0;
-    font-family: FontAwesome;
-    cursor: pointer;
-    color: rgba(0, 0, 0, 0.3); }
 
 .owl-next {
   top: 50% !important;
   right: -5%;
   position: absolute;
   content: "\f105"; }
-  .owl-next:before {
-    top: 50%;
-    text-decoration: inherit;
-    position: absolute;
-    padding-right: 0.5em;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 0;
-    font-family: FontAwesome;
-    cursor: pointer;
-    color: rgba(0, 0, 0, 0.3); }
+
+.owl-prev:before, .owl-next:before {
+  top: 50%;
+  text-decoration: inherit;
+  position: absolute;
+  padding-right: 0.5em;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  font-family: FontAwesome;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.3); }
 
 /* mouse grab icon */
 .grabbing {

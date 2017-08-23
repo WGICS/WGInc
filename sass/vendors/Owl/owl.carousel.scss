@@ -87,18 +87,7 @@
     left: -5%;
     content:"\f104";
     
-&:before {
-        top: 50%;
-        text-decoration: inherit;
-        position: absolute;
-        padding-right: 0.5em;
-        font-weight: normal;
-        font-style: normal;
-        font-size: 0;
-        font-family: FontAwesome;
-        cursor: pointer;
-        color: rgba(#000, .3);
-    }
+
 }
 
 .owl-next {
@@ -106,20 +95,23 @@
     right: -5%;
     position: absolute;
     content:"\f105";
-    
-    &:before {
-        top: 50%;
-        text-decoration: inherit;
-        position: absolute;
-        padding-right: 0.5em;
-        font-weight: normal;
-        font-style: normal;
-        font-size: 0;
-        font-family: FontAwesome;
-        cursor: pointer;
-        color: rgba(#000, .3);
-    }
+  
 }
+
+
+.owl-prev:before, .owl-next:before
+			{
+				top: 50%;
+				text-decoration: inherit;
+				position: absolute;
+				padding-right: 0.5em;
+				font-weight: normal;
+				font-style: normal;
+				font-size: 30px;
+				font-family: FontAwesome;
+				cursor: pointer;
+				color: rgba(#000, .3);
+			}
 
 
 
