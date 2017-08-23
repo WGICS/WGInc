@@ -66,7 +66,7 @@
 
 }
 
-.item:hover .name {
+.owl-carousel .owl-item:hover .name {
         
      background-color: #00843D;
       height: 50px;
@@ -77,9 +77,6 @@
       top: 80%;
 
 }
-
-
-
 
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div {

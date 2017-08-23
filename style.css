@@ -462,7 +462,7 @@ textarea {
   opacity: -0.5;
   position: absolute; }
 
-.item:hover .name {
+.owl-carousel .owl-item:hover .name {
   background-color: #00843D;
   height: 50px;
   width: 180px;
