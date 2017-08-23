@@ -459,7 +459,7 @@ textarea {
   filter: grayscale(0); }
 
 .owl-carousel .owl-item .name {
-  display: none; }
+  opacity: -0.5; }
   .owl-carousel .owl-item .name:hover {
     background-color: #00843D;
     height: 50px;
