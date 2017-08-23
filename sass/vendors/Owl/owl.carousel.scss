@@ -62,16 +62,19 @@
 .owl-carousel .owl-item .name {
     opacity: -0.5;
     position: absolute;
-    
-    &:hover {
-      background-color: #00843D;
+
+}
+
+.owl-carousel .owl-item .name:hover {
+    background-color: #00843D;
       height: 50px;
       width: 180px;
       display: block;
       color: white;
       position: absolute;
       top: 80%;
-    }    
+
+
 }
 
 
