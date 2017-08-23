@@ -464,7 +464,10 @@ textarea {
     background-color: #00843D;
     height: 50px;
     width: 180px;
-    display: block; }
+    display: block;
+    color: white;
+    position: absolute;
+    top: 80%; }
 
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div {
