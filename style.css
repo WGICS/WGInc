@@ -459,7 +459,7 @@ textarea {
   filter: grayscale(0); }
 
 .owl-carousel .owl-item .name {
-  opacity: 0.5;
+  opacity: 0;
   position: absolute;
   bottom: 3%;
   padding-left: .2%;
@@ -467,13 +467,16 @@ textarea {
   text-align: left; }
 
 .owl-item .item:hover .name {
-  background-color: #00843D;
+  background-color: rgba(0, 132, 61, 0.85);
   height: 50px;
   width: 135px;
   display: block;
   color: white;
   position: absolute;
-  top: 80%; }
+  top: 80%;
+  opacity: 1;
+  text-align: left;
+  padding-left: .2%; }
 
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div {
