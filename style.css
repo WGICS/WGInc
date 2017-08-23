@@ -480,7 +480,7 @@ textarea {
   position: absolute;
   top: 50% !important;
   left: -5%; }
-  .owl-prev :before {
+  .owl-prev:before {
     top: 50%;
     text-decoration: inherit;
     position: absolute;
@@ -497,7 +497,7 @@ textarea {
   top: 50% !important;
   right: -5%;
   position: absolute; }
-  .owl-next :before {
+  .owl-next:before {
     top: 50%;
     text-decoration: inherit;
     position: absolute;

@@ -87,7 +87,7 @@
     left: -5%;
     
     
-& :before {
+&:before {
 				top: 50%;
 				text-decoration: inherit;
 				position: absolute;
@@ -109,10 +109,9 @@
     top: 50% !important;
     right: -5%;
     position: absolute;
+        
     
-    
-    
- & :before
+ &:before
 			{
 				top: 50%;
 				text-decoration: inherit;
