@@ -2,70 +2,42 @@
 Leadership team 
    ========================================================================== */
 
-
 #leaders {
     width: 100%;
-	max-width: 100%;
-    padding:0;
-
-
-	
-		.et_pb_row {
-		
-    padding: 0px 0;
-	}
-			
-	
-	.leadership h2 {
+    max-width: 100%;
+    padding: 0;
+    .et_pb_row {
+        padding: 0px 0;
+    }
+    .leadership h2 {
         color: #00833c;
         text-transform: uppercase;
         font-size: 3.5em;
-	    font-weight: bold;
-	    padding-top: 1%;
-		
-		
-		
-	
-		
-		@include breakpoint(max-width 570px) {
-		 padding-top:5%;
+        font-weight: bold;
+        padding-top: 1%;
+        @include breakpoint(max-width 570px) {
+            padding-top: 5%;
         }
-		
-		
-			@include breakpoint(max-width 370px) {
-		   font-size: 3em !important;
-			width: 100%;
-           margin-left:0%;
-		   margin-bottom: 0%;
-		   padding-top: 4%;		
+        @include breakpoint(max-width 370px) {
+            font-size: 3em !important;
+            width: 100%;
+            margin-left: 0%;
+            margin-bottom: 0%;
+            padding-top: 4%;
         }
-		
-			
-	 
-		}
-	
-	
-
-	
-		.featured h2 {
+    }
+    .featured h2 {
         color: #00833c;
         text-transform: uppercase;
         font-size: 3.5em;
-	    font-weight: bold;
-	    padding-top: 5%;
-			
-			
-		@include breakpoint(max-width 370px) {
-          font-size: 3em;
-		  margin-bottom: -10%;
+        font-weight: bold;
+        padding-top: 5%;
+        @include breakpoint(max-width 370px) {
+            font-size: 3em;
+            margin-bottom: -10%;
         }
-			
-	 
-		}
-	
-	.boxes {
-		margin-bottom: 2%;
-	}
-      
-		
-	}
+    }
+    .boxes {
+        margin-bottom: 2%;
+    }
+}

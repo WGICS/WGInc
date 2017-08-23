@@ -481,14 +481,14 @@ textarea {
   margin: -100px !important;
   left: 50px;
   content: "\f104"; }
-  .owl-prev .owl-prev:before {
+  .owl-prev:before {
     top: 50%;
     text-decoration: inherit;
     position: absolute;
     padding-right: 0.5em;
     font-weight: normal;
     font-style: normal;
-    font-size: 30px;
+    font-size: 0;
     font-family: FontAwesome;
     cursor: pointer;
     color: rgba(0, 0, 0, 0.3); }
@@ -499,7 +499,8 @@ textarea {
   position: absolute;
   content: "\f105"; }
 
-.owl-prev:before, .owl-nex:before {
+.owl-prev:before,
+.owl-next:before {
   top: 50%;
   text-decoration: inherit;
   position: absolute;
@@ -646,7 +647,8 @@ textarea {
     transform: translateZ(-500px) translateX(-200%); } }
 
 @-webkit-keyframes backSlideIn {
-  0%, 25% {
+  0%,
+  25% {
     opacity: .5;
     -webkit-transform: translateZ(-500px) translateX(200%); }
   75% {
@@ -657,7 +659,8 @@ textarea {
     -webkit-transform: translateZ(0) translateX(0); } }
 
 @-moz-keyframes backSlideIn {
-  0%, 25% {
+  0%,
+  25% {
     opacity: .5;
     -moz-transform: translateZ(-500px) translateX(200%); }
   75% {
@@ -668,7 +671,8 @@ textarea {
     -moz-transform: translateZ(0) translateX(0); } }
 
 @keyframes backSlideIn {
-  0%, 25% {
+  0%,
+  25% {
     opacity: .5;
     -webkit-transform: translateZ(-500px) translateX(200%);
     transform: translateZ(-500px) translateX(200%); }
