@@ -460,9 +460,11 @@ textarea {
 
 .owl-carousel .owl-item .name {
   display: none; }
-
-.owl-carousel .owl-item .name:hover {
-  background-color: aqua; }
+  .owl-carousel .owl-item .name:hover {
+    background-color: #00843D;
+    height: 50px;
+    width: 180px;
+    display: block; }
 
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div {
