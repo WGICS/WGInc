@@ -15,6 +15,7 @@ jq(document).ready(function () {
 		itemsDesktopSmall: [900, 4], // betweem 900px and 601px
 		itemsMobile: [600, 3], //2 items between 600 and 0
 		itemsTablet: [600, 3], //2 items between 600 and 0
+        touchDrag: false;
         
     });
 
@@ -29,7 +30,8 @@ jq(document).ready(function () {
         itemsDesktop: [1199, 6], //6 items between 1000px and 901px
 		itemsDesktopSmall: [900, 4], // betweem 900px and 601px
 		itemsMobile:  [ 600, 3], //3 items between 600 and 0
-		itemsTablet: [600, 3], //3 items between 600 and 0
+		itemsTablet: [600, 3], //3 items between 600 and 0.
+        touchDrag: false;
         
     });
 });
