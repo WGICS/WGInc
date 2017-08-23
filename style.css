@@ -479,7 +479,7 @@ textarea {
 .owl-prev {
   position: absolute;
   top: 50% !important;
-  left: -5%; }
+  left: -3%; }
   .owl-prev:before {
     top: 50%;
     text-decoration: inherit;
@@ -495,7 +495,7 @@ textarea {
 
 .owl-next {
   top: 50% !important;
-  right: -5%;
+  right: -3%;
   position: absolute; }
   .owl-next:before {
     top: 50%;
@@ -755,7 +755,7 @@ textarea {
   *display: inline;
   margin: 5px;
   padding: 3px 10px;
-  font-size: 12px;
+  font-size: 0;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
