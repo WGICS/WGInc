@@ -460,12 +460,16 @@ textarea {
 
 .owl-carousel .owl-item .name {
   opacity: -0.5;
-  position: absolute; }
+  position: absolute;
+  bottom: 3%;
+  padding-left: .2%;
+  position: absolute;
+  text-align: left; }
 
 .owl-item .item:hover .name {
   background-color: #00843D;
   height: 50px;
-  width: 180px;
+  width: 135px;
   display: block;
   color: white;
   position: absolute;
