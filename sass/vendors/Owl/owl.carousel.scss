@@ -55,6 +55,14 @@
 	
 }
 
+.owl-carousel .owl-item .name {
+    display : none;
+}
+
+.owl-carousel .owl-item .name:hover {
+    display :inline;
+    background-color: aqua;
+}
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{
 	cursor: pointer;
