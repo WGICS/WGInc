@@ -126,6 +126,11 @@
 				cursor: pointer;
 				color: rgba(#000, .3);
 			} 
+    
+    @include breakpoint(max-width 1200px) {
+                 left: -8%;
+          
+            }
 
 }
 
@@ -152,7 +157,11 @@
 				color: rgba(#000, .3);
 			}
 
-  
+   
+    @include breakpoint(max-width 1200px) {
+                 right: -6%;
+          
+            }
 }
 
 
