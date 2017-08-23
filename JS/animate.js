@@ -7,7 +7,7 @@ jq(document).ready(function () {
 
     owl.owlCarousel({
         navigation: true,
-        navigationText : ["\f104","\f105"],
+        navigationText : ["<i class="fa fa-angle-left" aria-hidden="true"></i>","<i class="fa fa-angle-right" aria-hidden="true"></i>"],
         pagination: false,
         autoPlay: 2500,
         stopOnHover: true,
