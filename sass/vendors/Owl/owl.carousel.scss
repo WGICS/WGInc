@@ -51,13 +51,14 @@
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+    background: rgba(black, 0.5);//test 
 }
 
 .owl-carousel .owl-item:hover {
     -webkit-filter: grayscale(0);
     /* Safari 6.0 - 9.0 */
     filter: grayscale(0);
-    background: rgba(black, 0.5);//test 
+    
 }
 
 .owl-carousel .owl-item .name {
