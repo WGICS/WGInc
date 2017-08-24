@@ -24,18 +24,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* ==========================================================================
    Variables
    ========================================================================== */
-.grayscale {
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: all 200ms ease-in-out;
-  -o-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out; }
-  .grayscale:hover {
-    -webkit-filter: grayscale(0);
-    -moz-filter: grayscale(0);
-    filter: grayscale(0); }
-
 /* ==========================================================================
    Typography
    ========================================================================== */
