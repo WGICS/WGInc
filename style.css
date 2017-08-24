@@ -459,7 +459,7 @@ textarea {
   -o-transition: height 500ms ease-in-out;
   transition: height 500ms ease-in-out; }
 
-.owl-carousel .owl-item .grayscale {
+.owl-carousel .owl-item {
   float: left;
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
@@ -468,7 +468,7 @@ textarea {
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out; }
 
-.owl-carousel .owl-item .grayscale:hover {
+.owl-carousel .owl-item:hover {
   -webkit-filter: grayscale(0);
   -moz-filter: grayscale(0);
   filter: grayscale(0); }

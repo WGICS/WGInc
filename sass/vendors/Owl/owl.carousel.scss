@@ -46,7 +46,7 @@
     transition: height 500ms ease-in-out;
 }
 
-.owl-carousel .owl-item .grayscale {
+.owl-carousel .owl-item {
     float: left;
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
@@ -55,7 +55,7 @@
    
 }
 
-.owl-carousel .owl-item .grayscale:hover {
+.owl-carousel .owl-item:hover {
     
     -webkit-filter: grayscale(0);
     -moz-filter: grayscale(0);
