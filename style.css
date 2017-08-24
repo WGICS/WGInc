@@ -24,6 +24,18 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* ==========================================================================
    Variables
    ========================================================================== */
+.grayscale {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  .grayscale:hover {
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    filter: grayscale(0); }
+
 /* ==========================================================================
    Typography
    ========================================================================== */
@@ -447,18 +459,18 @@ textarea {
   -o-transition: height 500ms ease-in-out;
   transition: height 500ms ease-in-out; }
 
-.owl-carousel .owl-item {
+.owl-carousel .owl-item .grayscale {
   float: left;
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
-  -webkit-filter: gray;
-  filter: gray;
-  /* IE6-9 */ }
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
 
-.owl-carousel .owl-item:hover {
+.owl-carousel .owl-item .grayscale:hover {
   -webkit-filter: grayscale(0);
-  /* Safari 6.0 - 9.0 */
+  -moz-filter: grayscale(0);
   filter: grayscale(0); }
 
 .owl-carousel .owl-item .name {
