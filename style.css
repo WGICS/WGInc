@@ -452,14 +452,15 @@ textarea {
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
-  -webkit-transition: all 200ms ease-in-out;
-  -o-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out; }
+  background: rgba(0, 0, 0, 0.5); }
 
 .owl-carousel .owl-item:hover {
   -webkit-filter: grayscale(0);
   -moz-filter: grayscale(0);
-  filter: grayscale(0); }
+  filter: grayscale(0);
+  -webkit-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  transition: background-color 1s; }
 
 .owl-carousel .owl-item .name {
   opacity: -0.5;
