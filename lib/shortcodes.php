@@ -159,8 +159,8 @@ add_shortcode( 'news', 'news_shortcode' );
 
 
 function project_portfolio_shortcode() {
-	
-    echo do_shortcode(get_field('slideshow_shortcode'));
+    
+    //echo do_shortcode(get_field('slideshow_shortcode'));
 	$post_title = get_the_title();
 	$location = get_field('project_location');
 	$description = get_field('project_description');
