@@ -459,7 +459,10 @@ textarea {
 .owl-carousel .owl-item:hover {
   -webkit-filter: grayscale(0);
   /* Safari 6.0 - 9.0 */
-  filter: grayscale(0); }
+  filter: grayscale(0);
+  opacity: 0;
+  background-color: none;
+  z-index: 0; }
 
 .owl-carousel .owl-item .name {
   opacity: -0.5;
