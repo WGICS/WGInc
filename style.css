@@ -437,8 +437,7 @@ textarea {
 .owl-carousel .owl-wrapper-outer {
   overflow: hidden;
   position: relative;
-  width: 100%;
-  margin-bottom: -3% !important; }
+  width: 100%; }
 
 .owl-carousel .owl-wrapper-outer.autoHeight {
   -webkit-transition: height 500ms ease-in-out;
@@ -449,6 +448,7 @@ textarea {
 
 .owl-carousel .owl-item {
   float: left;
+  vertical-align: top;
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
@@ -486,7 +486,7 @@ textarea {
   text-align: left;
   font-size: 1.3em;
   /*padding-top: .1%;*/
-  font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
   font-weight: bold; }
 
 .owl-controls .owl-page,
@@ -776,7 +776,7 @@ textarea {
     transform: scale(1.5); } }
 
 .owl-theme .owl-controls {
-  margin-top: 10px;
+  margin-top: 0;
   text-align: center; }
 
 .owl-theme .owl-controls .owl-buttons div {
@@ -816,7 +816,8 @@ textarea {
   border-radius: 20px;
   background: none; }
 
-.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
   filter: Alpha(Opacity=100);
   opacity: 1; }
 
@@ -1743,6 +1744,8 @@ Leadership team
         margin-left: 0%;
         margin-bottom: 0%;
         padding-top: 4%; } }
+  #leaders .team .principals {
+    margin-bottom: 0 !important; }
   #leaders .featured h2 {
     color: #00833c;
     text-transform: uppercase;
