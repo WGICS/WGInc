@@ -86,7 +86,10 @@
 
 .item {
     position:relative;
+    
+    p {
     padding-bottom: 0 !important;
+    }
 }
 .owl-item .item:hover .name {
         

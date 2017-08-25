@@ -470,8 +470,9 @@ textarea {
   text-align: left; }
 
 .item {
-  position: relative;
-  padding-bottom: 0 !important; }
+  position: relative; }
+  .item p {
+    padding-bottom: 0 !important; }
 
 .owl-item .item:hover .name {
   background-color: rgba(0, 132, 61, 0.85);
