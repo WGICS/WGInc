@@ -470,7 +470,8 @@ textarea {
   text-align: left; }
 
 .item {
-  position: relative; }
+  position: relative;
+  max-height: 260px; }
   .item p {
     padding-bottom: 0 !important; }
 
@@ -1799,9 +1800,6 @@ Blog
 /* ==========================================================================
    Structure
    ========================================================================== */
-div {
-  vertical-align: top !important; }
-
 .fullwidth {
   width: 100%;
   max-width: none; }
