@@ -464,7 +464,7 @@ textarea {
 .owl-carousel .owl-item .name {
   opacity: -0.5;
   position: absolute;
-  bottom: 0;
+  bottom: 3%;
   padding: 5% 9%;
   position: absolute;
   text-align: left; }
@@ -482,7 +482,7 @@ textarea {
   display: block;
   color: white;
   position: absolute;
-  bottom: 2%;
+  bottom: 0;
   opacity: 1;
   text-align: left;
   font-size: 1.3em;
