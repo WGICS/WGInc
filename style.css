@@ -1824,6 +1824,24 @@ Blog
     .blog .box .entry4 p {
       color: white;
       padding-bottom: 2%; }
+  .blog .box .entry5 {
+    padding: 5% 5%;
+    background-color: palevioletred; }
+    .blog .box .entry5 h3 {
+      color: white;
+      padding-top: 10%; }
+    .blog .box .entry5 p {
+      color: white;
+      padding-bottom: 2%; }
+  .blog .box .entry6 {
+    padding: 5% 5%;
+    background-color: dodgerblue; }
+    .blog .box .entry6 h3 {
+      color: white;
+      padding-top: 10%; }
+    .blog .box .entry6 p {
+      color: white;
+      padding-bottom: 2%; }
 
 /* =========================================================================
    Partials --> Global
