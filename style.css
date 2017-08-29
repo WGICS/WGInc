@@ -1787,32 +1787,26 @@ Blog
 .blog .entry1 {
   padding: 15% 5%;
   background-color: indianred; }
-
-.blog h3 {
-  color: white; }
-
-.blog p {
-  color: white; }
+  .blog .entry1 h3 {
+    color: white; }
+  .blog .entry1 p {
+    color: white; }
 
 .blog .entry2 {
   padding: 15% 5%;
   background-color: mediumpurple; }
-
-.blog h3 {
-  color: white; }
-
-.blog p {
-  color: white; }
+  .blog .entry2 h3 {
+    color: white; }
+  .blog .entry2 p {
+    color: white; }
 
 .blog .entry3 {
   padding: 15% 5%;
   background-color: deepskyblue; }
-
-.blog h3 {
-  color: white; }
-
-.blog p {
-  color: white; }
+  .blog .entry3 h3 {
+    color: white; }
+  .blog .entry3 p {
+    color: white; }
 
 /* =========================================================================
    Partials --> Global
