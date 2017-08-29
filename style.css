@@ -1796,7 +1796,8 @@ Blog
       padding-top: 10%; }
     .blog .box .entry1 p {
       color: white;
-      padding-bottom: 2%; }
+      padding-bottom: 2%;
+      font-size: 1.3em; }
   .blog .box .entry2 {
     padding: 5% 5%;
     background-color: mediumpurple;
@@ -1806,7 +1807,8 @@ Blog
       padding-top: 10%; }
     .blog .box .entry2 p {
       color: white;
-      padding-bottom: 2%; }
+      padding-bottom: 2%;
+      font-size: 1.3em; }
   .blog .box .entry3 {
     padding: 5% 5%;
     background-color: deepskyblue;
@@ -1816,7 +1818,8 @@ Blog
       padding-top: 10%; }
     .blog .box .entry3 p {
       color: white;
-      padding-bottom: 2%; }
+      padding-bottom: 2%;
+      font-size: 1.3em; }
   .blog .box .entry4 {
     padding: 5% 5%;
     background-color: darkgreen;
@@ -1826,7 +1829,8 @@ Blog
       padding-top: 10%; }
     .blog .box .entry4 p {
       color: white;
-      padding-bottom: 2%; }
+      padding-bottom: 2%;
+      font-size: 1.3em; }
   .blog .box .entry5 {
     padding: 5% 5%;
     background-color: palevioletred;
@@ -1836,7 +1840,8 @@ Blog
       padding-top: 10%; }
     .blog .box .entry5 p {
       color: white;
-      padding-bottom: 2%; }
+      padding-bottom: 2%;
+      font-size: 1.3em; }
   .blog .box .entry6 {
     padding: 5% 5%;
     background-color: darkgrey;
@@ -1846,7 +1851,8 @@ Blog
       padding-top: 10%; }
     .blog .box .entry6 p {
       color: white;
-      padding-bottom: 2%; }
+      padding-bottom: 2%;
+      font-size: 1.3em; }
 
 /* =========================================================================
    Partials --> Global
