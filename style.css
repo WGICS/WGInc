@@ -1791,9 +1791,11 @@ Blog
   padding: 5% 5%;
   background-color: indianred; }
   .blog .entry1 h3 {
-    color: white; }
+    color: white;
+    padding-top: 10%; }
   .blog .entry1 p {
-    color: white; }
+    color: white;
+    padding-bottom: 2%; }
 
 .blog .entry2 {
   padding: 5% 5%;
@@ -1809,9 +1811,11 @@ Blog
   padding: 5% 5%;
   background-color: deepskyblue; }
   .blog .entry3 h3 {
-    color: white; }
+    color: white;
+    padding-top: 10%; }
   .blog .entry3 p {
-    color: white; }
+    color: white;
+    padding-bottom: 2%; }
 
 /* =========================================================================
    Partials --> Global
