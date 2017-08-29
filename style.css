@@ -1784,6 +1784,9 @@ Blog
   margin-left: 1%;
   color: grey; }
 
+.blog .et_pb_gutters3 .et_pb_column {
+  margin-right: 1.5%; }
+
 .blog .entry1 {
   padding: 15% 5%;
   background-color: indianred; }
@@ -1794,8 +1797,7 @@ Blog
 
 .blog .entry2 {
   padding: 15% 5%;
-  background-color: mediumpurple;
-  margin-right: 1.5%; }
+  background-color: mediumpurple; }
   .blog .entry2 h3 {
     color: white; }
   .blog .entry2 p {
@@ -1803,8 +1805,7 @@ Blog
 
 .blog .entry3 {
   padding: 15% 5%;
-  background-color: deepskyblue;
-  margin-right: 1.5%; }
+  background-color: deepskyblue; }
   .blog .entry3 h3 {
     color: white; }
   .blog .entry3 p {
