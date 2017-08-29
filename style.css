@@ -1784,6 +1784,10 @@ Blog
   margin-left: 1%;
   color: grey; }
 
+.blog .box {
+  width: 32%;
+  margin-right: 0.5%; }
+
 .blog .entry1 {
   padding: 5% 5%;
   background-color: indianred; }
