@@ -1794,6 +1794,26 @@ Blog
 .blog p {
   color: white; }
 
+.blog .entry2 {
+  padding: 15% 5%;
+  background-color: mediumpurple; }
+
+.blog h3 {
+  color: white; }
+
+.blog p {
+  color: white; }
+
+.blog .entry3 {
+  padding: 15% 5%;
+  background-color: deepskyblue; }
+
+.blog h3 {
+  color: white; }
+
+.blog p {
+  color: white; }
+
 /* =========================================================================
    Partials --> Global
    ========================================================================= */
