@@ -1,0 +1,23 @@
+/*  ==========================================================================
+People
+   ========================================================================== */
+.menu-bar {
+  background-color: rgba(0, 132, 61, 0.85);
+  margin-bottom: .5% !important; }
+  .menu-bar h3 {
+    color: white;
+    padding: 1%;
+    font-size: 18px; }
+
+.menu-bar :before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 80px solid #fff;
+  border-left: 80px solid transparent;
+  width: 0; }
+
+.sub-menu {
+  margin-left: 1%;
+  color: grey; }
