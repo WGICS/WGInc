@@ -1878,6 +1878,15 @@ People
   margin-left: 1%;
   color: grey; }
 
+.title h2, .title h5 {
+  font-weight: bold;
+  font-style: italic; }
+
+.title p {
+  font-size: 1.5em;
+  line-height: 1.5;
+  color: black; }
+
 /* =========================================================================
    Partials --> Global
    ========================================================================= */
