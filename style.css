@@ -1788,7 +1788,7 @@ Blog
   margin-right: 1.5%; }
 
 .blog .entry1 {
-  padding: 15% 5%;
+  padding: 5% 5%;
   background-color: indianred; }
   .blog .entry1 h3 {
     color: white; }
@@ -1796,15 +1796,17 @@ Blog
     color: white; }
 
 .blog .entry2 {
-  padding: 15% 5%;
+  padding: 5% 5%;
   background-color: mediumpurple; }
   .blog .entry2 h3 {
-    color: white; }
+    color: white;
+    padding-top: 10%; }
   .blog .entry2 p {
-    color: white; }
+    color: white;
+    padding-bottom: 2%; }
 
 .blog .entry3 {
-  padding: 15% 5%;
+  padding: 5% 5%;
   background-color: deepskyblue; }
   .blog .entry3 h3 {
     color: white; }
