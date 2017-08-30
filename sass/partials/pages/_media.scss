@@ -36,6 +36,14 @@ Blog Post
     color: grey;
 }
 
+#blog { 
+    
+    .content {
+        
+        width: 60%;
+   
+    
+   
 .title {
     
     h2, h5 {
@@ -53,4 +61,6 @@ Blog Post
         font-weight: bold;
         color: black;
     }
+}
+}
 }

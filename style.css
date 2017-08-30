@@ -1881,15 +1881,16 @@ Blog Post
   margin-left: 1%;
   color: grey; }
 
-.title h2, .title h5 {
-  font-weight: bold;
-  font-style: italic; }
-
-.text p {
-  font-size: 1.5em;
-  line-height: 1.5;
-  font-weight: bold;
-  color: black; }
+#blog .content {
+  width: 60%; }
+  #blog .content .title h2, #blog .content .title h5 {
+    font-weight: bold;
+    font-style: italic; }
+  #blog .content .text p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: bold;
+    color: black; }
 
 /* =========================================================================
    Partials --> Global
