@@ -40,7 +40,7 @@ Blog Post
     
     .content {
         
-        width: 60%;
+        width: 65%;
    
     
    
@@ -62,7 +62,13 @@ Blog Post
         color: black;
     }
 }
-
+    }
+    
+    .author_articles {
+        
+            margin-right: 2.5%;
+            width :10%;
+        
 .about_author {
             
      background-color:  rgba(0, 132, 61, 0.85);
@@ -89,5 +95,5 @@ Blog Post
     }    
         }        
         
-}
 
+}
