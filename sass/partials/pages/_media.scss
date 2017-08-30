@@ -62,5 +62,32 @@ Blog Post
         color: black;
     }
 }
+
+.about_author {
+            
+     background-color:  rgba(0, 132, 61, 0.85);
+    margin-bottom: .5% !important;
+    
+    h3 {
+        color:white;
+        padding:1%;
+        font-size: 18px;
+        
+         
+        }
+
+    }
+        
+    .about_author :before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 80px solid #fff;
+    border-left: 80px solid transparent;
+    width: 0;
+    }    
+        }        
+        
 }
-}
+

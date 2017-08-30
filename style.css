@@ -1891,6 +1891,21 @@ Blog Post
     line-height: 1.5;
     font-weight: bold;
     color: black; }
+  #blog .content .about_author {
+    background-color: rgba(0, 132, 61, 0.85);
+    margin-bottom: .5% !important; }
+    #blog .content .about_author h3 {
+      color: white;
+      padding: 1%;
+      font-size: 18px; }
+  #blog .content .about_author :before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 80px solid #fff;
+    border-left: 80px solid transparent;
+    width: 0; }
 
 /* =========================================================================
    Partials --> Global
