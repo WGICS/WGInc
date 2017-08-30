@@ -1892,6 +1892,9 @@ Blog Post
     font-weight: bold;
     color: black; }
 
+#blog .vertical_divider {
+  width: 0; }
+
 #blog .author_articles {
   margin-right: 2.5%;
   width: 10%; }
