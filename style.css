@@ -1893,7 +1893,8 @@ Blog Post
     color: black; }
 
 #blog .vertical_divider {
-  width: 0; }
+  width: 0;
+  margin-right: 1.5%; }
 
 #blog .author_articles {
   margin-right: 2.5%;
@@ -1903,8 +1904,8 @@ Blog Post
     margin-bottom: .5% !important; }
     #blog .author_articles .about_author h3 {
       color: white;
-      padding: 1%;
-      font-size: 18px; }
+      padding: 2%;
+      font-size: 15px; }
   #blog .author_articles .about_author :before {
     content: '';
     position: absolute;
