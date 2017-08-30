@@ -1855,8 +1855,11 @@ Blog
       font-size: 1.3em; }
 
 /*  ==========================================================================
-People
+Blog Post 
    ========================================================================== */
+.et_post_meta_wrapper {
+  display: none; }
+
 .menu-bar {
   background-color: rgba(0, 132, 61, 0.85);
   margin-bottom: .5% !important; }
