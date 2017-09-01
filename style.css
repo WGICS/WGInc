@@ -1861,7 +1861,8 @@ Blog Post
   display: none; }
 
 .menu-bar {
-  background-color: rgba(0, 132, 61, 0.85);
+  /*background-color:  rgba(0, 132, 61, 0.85);*/
+  background-color: #ffff;
   margin-bottom: .5% !important; }
   .menu-bar h3 {
     color: white;
@@ -1899,14 +1900,14 @@ Blog Post
 
 #blog .author_articles {
   width: 30%;
-  left: 2%; }
+  left: 1.8%; }
   #blog .author_articles .about_author {
     background-color: rgba(0, 132, 61, 0.85);
     margin-bottom: .5% !important; }
     #blog .author_articles .about_author h3 {
       color: white;
       padding: 2%;
-      font-size: 15px; }
+      font-size: 18px; }
   #blog .author_articles .about_author :before {
     content: '';
     position: absolute;
