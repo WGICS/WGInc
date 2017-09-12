@@ -1907,12 +1907,6 @@ Blog Post
       color: white;
       padding: 2%;
       font-size: 18px; }
-    #blog .author_articles .about_author h4 {
-      line-height: 1em; }
-    #blog .author_articles .about_author h6 {
-      line-height: .5em !important;
-      color: lightgrey;
-      font-size: 1.2em; }
   #blog .author_articles .about_author :before {
     content: '';
     position: absolute;
@@ -1921,6 +1915,14 @@ Blog Post
     border-top: 80px solid #fff;
     border-left: 80px solid transparent;
     width: 0; }
+
+#blog .bio h4 {
+  line-height: 1em; }
+
+#blog .bio h6 {
+  line-height: .5em !important;
+  color: lightgrey;
+  font-size: 1.2em; }
 
 /* =========================================================================
    Partials --> Global

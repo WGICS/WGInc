@@ -89,18 +89,7 @@ Blog Post
          
         }
     
-    h4 {
-        line-height: 1em;
-        
-         
-        }
-     
-    h6 {
-        line-height: .5em !important;
-        color: lightgrey;
-        font-size: 1.2em;
-         
-        }
+   
 
 
     }
@@ -116,5 +105,19 @@ Blog Post
     }    
         }        
         
-
+    .bio {
+        
+    h4 {
+        line-height: 1em;
+        
+         
+        }
+     
+    h6 {
+        line-height: .5em !important;
+        color: lightgrey;
+        font-size: 1.2em;
+         
+        }
+    }
 }
