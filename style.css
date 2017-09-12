@@ -1917,7 +1917,8 @@ Blog Post
     width: 0; }
 
 #blog .bio h4 {
-  line-height: 1em; }
+  line-height: 1em;
+  font-weight: bold; }
 
 #blog .bio h6 {
   line-height: .5em !important;
