@@ -1902,11 +1902,14 @@ Blog Post
   left: 1.8%; }
   #blog .author_articles .about_author {
     background-color: rgba(0, 132, 61, 0.85);
-    margin-bottom: .5% !important; }
+    margin-bottom: 10% !important; }
     #blog .author_articles .about_author h3 {
       color: white;
       padding: 2%;
       font-size: 18px; }
+    #blog .author_articles .about_author h6 {
+      line-height: .5em;
+      color: lightgrey; }
   #blog .author_articles .about_author :before {
     content: '';
     position: absolute;
