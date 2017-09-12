@@ -1907,9 +1907,12 @@ Blog Post
       color: white;
       padding: 2%;
       font-size: 18px; }
+    #blog .author_articles .about_author h4 {
+      line-height: 1em; }
     #blog .author_articles .about_author h6 {
-      line-height: .5em;
-      color: lightgrey; }
+      line-height: .5em !important;
+      color: lightgrey;
+      font-size: 1.2em; }
   #blog .author_articles .about_author :before {
     content: '';
     position: absolute;
