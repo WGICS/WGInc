@@ -1921,8 +1921,12 @@ Blog Post
 
 #blog .bio h6 {
   line-height: .5em !important;
-  color: lightgrey;
+  color: grey;
   font-size: 1.2em; }
+
+#blog .bio p {
+  padding-bottom: 1em;
+  width: 88%; }
 
 /* =========================================================================
    Partials --> Global

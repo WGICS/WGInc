@@ -115,9 +115,14 @@ Blog Post
      
     h6 {
         line-height: .5em !important;
-        color: lightgrey;
+        color: grey;
         font-size: 1.2em;
          
         }
+        
+    p {
+        padding-bottom: 1em;
+        width: 88%;
+        }    
     }
 }
