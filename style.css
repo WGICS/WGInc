@@ -1964,7 +1964,8 @@ People-PopUp
   font-size: 1em !important; }
 
 #popup .people .bio p {
-  color: #00843D !important; }
+  color: #00843D !important;
+  width: 91%; }
 
 /* =========================================================================
    Partials --> Global
