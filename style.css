@@ -1932,15 +1932,15 @@ Blog Post
 /*  ==========================================================================
 People-PopUp
    ========================================================================== */
-.menu-bar {
+#popup .menu-bar {
   background-color: rgba(0, 132, 61, 0.85);
   margin-bottom: .5% !important; }
-  .menu-bar h3 {
+  #popup .menu-bar h3 {
     color: white;
     padding: 1%;
     font-size: 18px; }
 
-.menu-bar :before {
+#popup .menu-bar :before {
   content: '';
   position: absolute;
   top: 0;
@@ -1949,22 +1949,22 @@ People-PopUp
   border-left: 80px solid transparent;
   width: 0; }
 
-.sub-menu {
+#popup .sub-menu {
   margin-left: 1%;
   color: grey; }
 
-#people .name-title h3 {
+#popup .people .name-title h3 {
   color: black;
   font-weight: bold !important;
   padding: 2%;
   font-size: 18px; }
 
-#people .name-title h4 {
+#popup .people .name-title h4 {
   line-height: .5em !important;
   color: grey !important;
   font-size: 1.1em !important; }
 
-#people .bio p {
+#popup .people .bio p {
   color: #00843D !important; }
 
 /* =========================================================================

@@ -2,6 +2,9 @@
 People-PopUp
    ========================================================================== */
 
+
+#popup {
+    
 .menu-bar {
     background-color:  rgba(0, 132, 61, 0.85);
     margin-bottom: .5% !important;
@@ -32,9 +35,9 @@ People-PopUp
     color: grey;
 }
 
-#people {
+.people {
     
-.name-title {
+    .name-title {
     
     h3 {
         color: black;
@@ -57,4 +60,5 @@ People-PopUp
             color: #00843D !important;
         }
     }
+}
 }
