@@ -1953,13 +1953,13 @@ People-PopUp
   margin-left: 1%;
   color: grey; }
 
-#people .name_title h3 {
+#people .name-title h3 {
   color: black;
   font-weight: bold !important;
   padding: 2%;
   font-size: 18px; }
 
-#people .name_title h4 {
+#people .name-title h4 {
   line-height: .5em !important;
   color: grey !important;
   font-size: 1.1em !important; }
