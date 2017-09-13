@@ -1953,6 +1953,20 @@ People-PopUp
   margin-left: 1%;
   color: grey; }
 
+#people .name_title h3 {
+  color: black;
+  font-weight: bold;
+  padding: 2%;
+  font-size: 18px; }
+
+#people .name_title h4 {
+  line-height: .5em !important;
+  color: grey;
+  font-size: 1.2em; }
+
+#people .bio p {
+  color: #00843D; }
+
 /* =========================================================================
    Partials --> Global
    ========================================================================= */
