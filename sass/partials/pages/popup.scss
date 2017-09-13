@@ -38,15 +38,15 @@ People-PopUp
     
     h3 {
         color: black;
-        font-weight: bold;
+        font-weight: bold !important;
         padding: 2%;
         font-size: 18px;
     }
     
     h4 {
         line-height: .5em !important;
-        color: grey;
-        font-size: 1.1em;
+        color: grey !important;
+        font-size: 1.1em !important;
     }
     
         }
@@ -54,7 +54,7 @@ People-PopUp
     .bio {
         
         p {
-            color: #00843D;
+            color: #00843D !important;
         }
     }
 }
