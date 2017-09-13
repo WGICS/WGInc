@@ -1961,7 +1961,8 @@ People-PopUp
 #popup .people .name-title h4 {
   line-height: .5em !important;
   color: grey !important;
-  font-size: 1em !important; }
+  font-size: 1em !important;
+  margin-bottom: 2%; }
 
 #popup .people .bio p {
   color: #00843D !important;
