@@ -1773,7 +1773,9 @@ Blog
   right: 0;
   border-top: 80px solid #fff;
   border-left: 80px solid transparent;
-  width: 0; }
+  width: 0;
+  pointer-events: none;
+  cursor: default; }
 
 .sub-menu {
   margin-left: 1%;
@@ -1960,7 +1962,9 @@ People-PopUp
   right: 0;
   border-top: 80px solid #fff;
   border-left: 80px solid transparent;
-  width: 0; }
+  width: 0;
+  pointer-events: none;
+  cursor: default; }
 
 #popup .sub-menu {
   margin-left: 1%;
