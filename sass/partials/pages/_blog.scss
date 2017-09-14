@@ -43,7 +43,7 @@ Blog
      
     
 .entry1 {
-    padding: 5% 5%;
+    padding: 2% 5%;
     background-color:indianred;
     margin-bottom: 1.5%;
     cursor: pointer;
@@ -66,11 +66,15 @@ Blog
 }
 
 .entry2 {
-    padding: 5% 5%;
+    padding: 2% 5%;
     background-color: mediumpurple;
     margin-bottom: 1.5%;
     cursor: pointer;
 
+    a {
+            color: white !important;
+    }
+    
     h3 {
         color:white;
         padding-top: 10%;
@@ -84,11 +88,14 @@ Blog
     }
 }
 .entry3 {
-    padding: 5% 5%;
+    padding: 2% 5%;
     background-color: deepskyblue;
     margin-bottom: 1.5%;
     cursor: pointer;
-    
+   
+    a {
+            color: white !important;
+    }
 
     h3 {
         color:white;
@@ -103,11 +110,14 @@ Blog
         }
     }
 .entry4 {
-    padding: 5% 5%;
+    padding: 2% 5%;
     background-color: darkgreen;
     margin-bottom: 1.5%;
     cursor: pointer;
-    
+   
+    a {
+            color: white !important;
+    }
 
     h3 {
         color:white;
@@ -123,11 +133,14 @@ Blog
     }
         
 .entry5 {
-    padding: 5% 5%;
+    padding: 2% 5%;
     background-color: palevioletred;
     margin-bottom: 1.5%;
     cursor: pointer;
     
+    a {
+            color: white !important;
+    }
 
     h3 {
         color:white;
@@ -142,10 +155,15 @@ Blog
         }
     }
 .entry6 {
-    padding: 5% 5%;
+    padding: 2% 5%;
     background-color: darkgrey;
     margin-bottom: 1.5%;
     cursor: pointer;
+    
+    
+    a {
+            color: white !important;
+    }
 
     h3 {
         color:white;
