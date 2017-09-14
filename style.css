@@ -1777,8 +1777,6 @@ Blog
 
 .sub-menu {
   margin-left: 1%;
-  font-size: .6em !important;
-  margin-top: 1% !important;
   color: grey; }
 
 .blog .box {
@@ -1966,7 +1964,9 @@ People-PopUp
 
 #popup .sub-menu {
   margin-left: 1%;
-  color: grey; }
+  color: grey;
+  font-size: .6em !important;
+  margin-top: 1% !important; }
 
 #popup .people .name-title h3 {
   color: black;
