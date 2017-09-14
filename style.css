@@ -142,6 +142,7 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
+  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   /* 2 */ }
 
@@ -1786,6 +1787,8 @@ Blog
     background-color: indianred;
     margin-bottom: 1.5%;
     cursor: pointer; }
+    .blog .box .entry1 a {
+      color: white !important; }
     .blog .box .entry1 h3 {
       color: white;
       padding-top: 10%; }
