@@ -74,11 +74,56 @@ function portfolio_shortcode($atts, $content, $tag) {
 
 add_shortcode('portfolio_tiles', 'portfolio_shortcode');
 
+function blog_shortcode($atts, $content, $tag) {
+    
+    $author = //Custom Field Author of the current article;
+    $args = array(
+        'post_type' => 'blog_post',
+        'posts_per_page' => 2,
+        'orderby' => 'rand',
+        'tax_query' => array(
+				array(
+					'taxonomy' => 'blog_author',
+					'field' => 'id',
+					'terms' => $author, 
+				),
+			),
+    );
 
+    $output .= '<div class="portfolio-tiles">';
+    $query = new WP_Query( $args );
 
+    //var_dump($query);
 
+    if ( $query->have_posts() ){
 
+    
 
+    while ( $query->have_posts() ) : $query->the_post();
+        
+        $page_img = get_the_post_thumbnail();
+        $output .= '<div class="portfolio-project">';
+            $output .= '<a href="' . get_permalink() . '">';
+                $output .= '<div class="portfolio-project-img">';
+                    $output .= '<div class="see-more"> See More </div>';
+                    $output .= '<div class="portfolio-project-img">' . $page_img . '</div>';
+                $output .= '</div>';
+
+                $output .= '<div class="portfolio-project-overlay">';
+                    $output .= '<div class="portfolio-project_name portfolio-project-info"><h5>' . get_the_title() . '</h5></div>';
+                $output .= '</div>';
+            $output .= '</a>';
+        $output .= '</div>';
+    endwhile;     
+    $output .= '</div>';
+
+}
+
+    return $output;
+
+}
+
+add_shortcode('blog_articles_related', 'blog_shortcode');
 
 function news_shortcode($atts, $content, $tag) {
 
@@ -153,9 +198,6 @@ function news_shortcode($atts, $content, $tag) {
 }
 
 add_shortcode( 'news', 'news_shortcode' );
-
-
-
 
 
 function project_portfolio_shortcode() {
