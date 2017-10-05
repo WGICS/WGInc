@@ -492,6 +492,16 @@ textarea {
   font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
   font-weight: bold; }
 
+.membersname {
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif; }
+  .membersname h5 {
+    font-size: 1.3em;
+    color: black; }
+  .membersname h6 {
+    font-size: 1em;
+    color: darkgrey; }
+
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div {
   cursor: pointer; }
