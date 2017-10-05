@@ -496,10 +496,11 @@ textarea {
   text-align: left;
   font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif; }
   .membersname h5 {
-    font-size: 1.3em;
-    color: black; }
+    font-size: 2em;
+    padding-bottom: 5px;
+    font-weight: bold; }
   .membersname h6 {
-    font-size: 1em;
+    font-size: 1.2em;
     color: darkgrey; }
 
 .owl-controls .owl-page,
