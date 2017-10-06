@@ -494,14 +494,15 @@ textarea {
 
 .membersname {
   text-align: left;
-  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif; }
+  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+  padding-left: 5%; }
   .membersname h5 {
-    font-size: 2em;
+    font-size: 1.8em;
     padding-bottom: 5px;
     font-weight: bold; }
   .membersname h6 {
-    font-size: 1.2em;
-    color: darkgrey; }
+    font-size: 1.1em;
+    color: grey; }
 
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div {
