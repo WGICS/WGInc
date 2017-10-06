@@ -44,6 +44,18 @@ Leadership team
             margin-bottom: -10%;
         }
     }
+    
+     .featured2 h2 {
+        color: #00833c;
+        text-transform: uppercase;
+        font-size: 3.5em;
+        font-weight: bold;
+        padding-top: 12%;
+        @include breakpoint(max-width 370px) {
+            font-size: 3em;
+            margin-bottom: -10%;
+        }
+    }
     .boxes {
         margin-bottom: 2%;
     }

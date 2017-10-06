@@ -1775,6 +1775,16 @@ Leadership team
       #leaders .featured h2 {
         font-size: 3em;
         margin-bottom: -10%; } }
+  #leaders .featured2 h2 {
+    color: #00833c;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    font-weight: bold;
+    padding-top: 12%; }
+    @media (max-width: 370px) {
+      #leaders .featured2 h2 {
+        font-size: 3em;
+        margin-bottom: -10%; } }
   #leaders .boxes {
     margin-bottom: 2%; }
 
