@@ -494,8 +494,7 @@ textarea {
 
 .membersname {
   text-align: left;
-  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
-  padding-left: 5%; }
+  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif; }
   .membersname h5 {
     font-size: 1.8em;
     padding-bottom: 5px;
@@ -504,7 +503,7 @@ textarea {
     font-size: 1.1em;
     color: grey; }
   .membersname p {
-    width: 15%;
+    width: 17%;
     font-size: 1.1em;
     color: #00843D; }
 
