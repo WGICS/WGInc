@@ -503,9 +503,10 @@ textarea {
     font-size: 1.1em;
     color: grey; }
   .membersname p {
-    width: 17%;
+    width: 284%;
     font-size: 1.1em;
-    color: #00843D; }
+    color: #00843D;
+    display: table-caption; }
 
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div {
