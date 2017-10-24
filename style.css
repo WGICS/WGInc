@@ -1775,16 +1775,17 @@ Leadership team
       #leaders .featured h2 {
         font-size: 3em;
         margin-bottom: -10%; } }
-  #leaders #featured2 h2 {
-    color: #00833c;
-    text-transform: uppercase;
-    font-size: 3.5em;
-    font-weight: bold;
+  #leaders .featured-board {
     padding-top: 13%; }
-    @media (max-width: 370px) {
-      #leaders #featured2 h2 {
-        font-size: 3em;
-        margin-bottom: -10%; } }
+    #leaders .featured-board h2 {
+      color: #00833c;
+      text-transform: uppercase;
+      font-size: 3.5em;
+      font-weight: bold; }
+      @media (max-width: 370px) {
+        #leaders .featured-board h2 {
+          font-size: 3em;
+          margin-bottom: -10%; } }
   #leaders .boxes {
     margin-bottom: 2%; }
 
