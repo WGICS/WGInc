@@ -137,7 +137,7 @@ Blog Post
 
 .creative-bar {
    background-color:  rgba(0, 132, 61, 0.85);
-  background: -moz-linear-gradient(left, rgba(130, 188, 0, 0.8) 0%, rgba(0, 132, 61, 0.85) 90%);  /* FF3.6+ */
+  background: -moz- (left, rgba(130, 188, 0, 0.8) 0%, rgba(0, 132, 61, 0.85) 90%);  /* FF3.6+ */
   background: -webkit-linear-gradient(left, rgba(130, 188, 0, 0.8) 0%, rgba(0, 132, 61, 0.85) 80%);  /* Chrome10+,Safari5.1+ */
   background: -o-linear-gradient(left, rgba(130, 188, 0, 0.8) 0%, rgba(0, 132, 61, 0.85) 80%); /* Opera 11.10+ */
   background: -ms-linear-gradient(left, rgba(130, 188, 0, 0.8) 0%, rgba(0, 132, 61, 0.85) 80%); /* IE10+ */
@@ -164,6 +164,11 @@ Blog Post
     border-left: 80px solid transparent;
     width: 0;
     }
+
+.creative-bar :after {
+    
+    background-color: greenyellow;
+}
 
 .sub-menu {
     margin-left: 1%;
