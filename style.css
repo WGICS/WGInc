@@ -1915,19 +1915,6 @@ Blog Post
 
 .menu-bar {
   background-color: rgba(0, 132, 61, 0.85);
-  background: -moz-linear-gradient(left, #c4de8a 0%, #c4de8a 12.5%, #f5fdd4 12.5%, #f5fdd4 25%, #ffd084 25%, #ffd084 37.5%, #f27a6b 37.5%, #f27a6b 50%, #df9db9 50%, #df9db9 62.5%, #c09cdd 62.5%, #c09cdd 75%, #5f9cd9 75%, #5f9cd9 87.5%, #5ebee3 87.5%, #5ebee3 87.5%, #5ebee3 100%);
-  /* FF3.6+ */
-  background: -webkit-linear-gradient(left, #c4de8a 0%, #c4de8a 12.5%, #f5fdd4 12.5%, #f5fdd4 25%, #ffd084 25%, #ffd084 37.5%, #f27a6b 37.5%, #f27a6b 50%, #df9db9 50%, #df9db9 62.5%, #c09cdd 62.5%, #c09cdd 75%, #5f9cd9 75%, #5f9cd9 87.5%, #5ebee3 87.5%, #5ebee3 87.5%, #5ebee3 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left, #c4de8a 0%, #c4de8a 12.5%, #f5fdd4 12.5%, #f5fdd4 25%, #ffd084 25%, #ffd084 37.5%, #f27a6b 37.5%, #f27a6b 50%, #df9db9 50%, #df9db9 62.5%, #c09cdd 62.5%, #c09cdd 75%, #5f9cd9 75%, #5f9cd9 87.5%, #5ebee3 87.5%, #5ebee3 87.5%, #5ebee3 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(left, #c4de8a 0%, #c4de8a 12.5%, #f5fdd4 12.5%, #f5fdd4 25%, #ffd084 25%, #ffd084 37.5%, #f27a6b 37.5%, #f27a6b 50%, #df9db9 50%, #df9db9 62.5%, #c09cdd 62.5%, #c09cdd 75%, #5f9cd9 75%, #5f9cd9 87.5%, #5ebee3 87.5%, #5ebee3 87.5%, #5ebee3 100%);
-  /* IE10+ */
-  background: -webkit-gradient(linear, left top, right top, from(#c4de8a), color-stop(12.5%, #c4de8a), color-stop(12.5%, #f5fdd4), color-stop(25%, #f5fdd4), color-stop(25%, #ffd084), color-stop(37.5%, #ffd084), color-stop(37.5%, #f27a6b), color-stop(50%, #f27a6b), color-stop(62.5%), color-stop(62.5%, #c09cdd), color-stop(75%, #c09cdd), color-stop(75%, #5f9cd9), color-stop(87.5%, #5f9cd9), color-stop(87.5%, #5ebee3), color-stop(87.5%, #5ebee3), to(#5ebee3));
-  background: -webkit-linear-gradient(left, #c4de8a 0%, #c4de8a 12.5%, #f5fdd4 12.5%, #f5fdd4 25%, #ffd084 25%, #ffd084 37.5%, #f27a6b 37.5%, #f27a6b 50%, 62.5%, #c09cdd 62.5%, #c09cdd 75%, #5f9cd9 75%, #5f9cd9 87.5%, #5ebee3 87.5%, #5ebee3 87.5%, #5ebee3 100%);
-  background: -o-linear-gradient(left, #c4de8a 0%, #c4de8a 12.5%, #f5fdd4 12.5%, #f5fdd4 25%, #ffd084 25%, #ffd084 37.5%, #f27a6b 37.5%, #f27a6b 50%, 62.5%, #c09cdd 62.5%, #c09cdd 75%, #5f9cd9 75%, #5f9cd9 87.5%, #5ebee3 87.5%, #5ebee3 87.5%, #5ebee3 100%);
-  background: linear-gradient(to right, #c4de8a 0%, #c4de8a 12.5%, #f5fdd4 12.5%, #f5fdd4 25%, #ffd084 25%, #ffd084 37.5%, #f27a6b 37.5%, #f27a6b 50%, 62.5%, #c09cdd 62.5%, #c09cdd 75%, #5f9cd9 75%, #5f9cd9 87.5%, #5ebee3 87.5%, #5ebee3 87.5%, #5ebee3 100%);
-  /* W3C */
   margin-bottom: .5% !important; }
   .menu-bar h3 {
     color: white;
@@ -1935,6 +1922,93 @@ Blog Post
     font-size: 18px; }
 
 .menu-bar :before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 80px solid #fff;
+  border-left: 80px solid transparent;
+  width: 0; }
+
+.sub-menu {
+  margin-left: 1%;
+  color: grey; }
+
+#blog .content {
+  width: 64%;
+  margin-right: 4%; }
+  #blog .content .title h2, #blog .content .title h5 {
+    font-weight: bold;
+    font-style: italic; }
+  #blog .content .text p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: bold;
+    color: black; }
+
+#blog .vertical_divider {
+  width: 0;
+  margin-right: 1.5%; }
+
+#blog .author_articles {
+  width: 30%;
+  left: 1.8%; }
+  #blog .author_articles .about_author {
+    background-color: rgba(0, 132, 61, 0.85);
+    margin-bottom: 10% !important; }
+    #blog .author_articles .about_author h3 {
+      color: white;
+      padding: 2%;
+      font-size: 18px; }
+  #blog .author_articles .about_author :before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 80px solid #fff;
+    border-left: 80px solid transparent;
+    width: 0; }
+
+#blog .bio h4 {
+  line-height: 1em;
+  font-weight: bold; }
+
+#blog .bio h6 {
+  line-height: .5em !important;
+  color: grey;
+  font-size: 1.2em; }
+
+#blog .bio p {
+  padding-bottom: 1em;
+  width: 88%; }
+
+/*  ==========================================================================
+        Creative Blog Post 
+   ========================================================================== */
+.et_post_meta_wrapper {
+  display: none; }
+
+.creative-bar {
+  background-color: rgba(0, 132, 61, 0.85);
+  background: -moz-linear-gradient(left, #c4de8a 0%, #c4de8a 12.5%, #f5fdd4 12.5%, #f5fdd4 25%, #ffd084 25%, #ffd084 37.5%, #f27a6b 37.5%, #f27a6b 50%, #df9db9 50%, #df9db9 62.5%, #c09cdd 62.5%, #c09cdd 75%, #5f9cd9 75%, #5f9cd9 87.5%, #5ebee3 87.5%, #5ebee3 87.5%, #5ebee3 100%);
+  /* FF3.6+ */
+  /* FF3.6+ */
+  background: -webkit-linear-gradient(left, #c4de8a 0%, #c4de8a 12.5%, #f5fdd4 12.5%, #f5fdd4 25%, #ffd084 25%, #ffd084 37.5%, #f27a6b 37.5%, #f27a6b 50%, #df9db9 50%, #df9db9 62.5%, #c09cdd 62.5%, #c09cdd 75%, #5f9cd9 75%, #5f9cd9 87.5%, #5ebee3 87.5%, #5ebee3 87.5%, #5ebee3 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #c4de8a 0%, #c4de8a 12.5%, #f5fdd4 12.5%, #f5fdd4 25%, #ffd084 25%, #ffd084 37.5%, #f27a6b 37.5%, #f27a6b 50%, #df9db9 50%, #df9db9 62.5%, #c09cdd 62.5%, #c09cdd 75%, #5f9cd9 75%, #5f9cd9 87.5%, #5ebee3 87.5%, #5ebee3 87.5%, #5ebee3 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #c4de8a 0%, #c4de8a 12.5%, #f5fdd4 12.5%, #f5fdd4 25%, #ffd084 25%, #ffd084 37.5%, #f27a6b 37.5%, #f27a6b 50%, #df9db9 50%, #df9db9 62.5%, #c09cdd 62.5%, #c09cdd 75%, #5f9cd9 75%, #5f9cd9 87.5%, #5ebee3 87.5%, #5ebee3 87.5%, #5ebee3 100%);
+  /* IE10+ */
+  background: -webkit-gradient(linear, left top, right top, from(#c4de8a), color-stop(12.5%, #c4de8a), color-stop(12.5%, #f5fdd4), color-stop(25%, #f5fdd4), color-stop(25%, #ffd084), color-stop(37.5%, #ffd084), color-stop(37.5%, #f27a6b), color-stop(50%, #f27a6b), color-stop(50%, #df9db9), color-stop(62.5%, #df9db9), color-stop(62.5%, #c09cdd), color-stop(75%, #c09cdd), color-stop(75%, #5f9cd9), color-stop(87.5%, #5f9cd9), color-stop(87.5%, #5ebee3), color-stop(87.5%, #5ebee3), to(#5ebee3));
+  background: linear-gradient(to right, #c4de8a 0%, #c4de8a 12.5%, #f5fdd4 12.5%, #f5fdd4 25%, #ffd084 25%, #ffd084 37.5%, #f27a6b 37.5%, #f27a6b 50%, #df9db9 50%, #df9db9 62.5%, #c09cdd 62.5%, #c09cdd 75%, #5f9cd9 75%, #5f9cd9 87.5%, #5ebee3 87.5%, #5ebee3 87.5%, #5ebee3 100%);
+  /* W3C */
+  margin-bottom: .5% !important; }
+  .creative-bar h3 {
+    color: white;
+    padding: 1%;
+    font-size: 18px; }
+
+.creative-bar :before {
   content: '';
   position: absolute;
   top: 0;
