@@ -1753,9 +1753,6 @@ Leadership team
     font-size: 3.5em;
     font-weight: bold;
     padding-top: 1%; }
-    @media (max-width: 570px) {
-      #leaders .leadership h2 {
-        padding-top: 5%; } }
     @media (max-width: 370px) {
       #leaders .leadership h2 {
         font-size: 3em !important;
@@ -1773,10 +1770,13 @@ Leadership team
       font-size: 3.5em;
       font-weight: bold;
       padding-top: 5%; }
+      @media (max-width: 570px) {
+        #leaders .featured h2 {
+          width: 80%; } }
       @media (max-width: 370px) {
         #leaders .featured h2 {
           font-size: 3em;
-          margin-bottom: -10%; } }
+          margin-bottom: 0%; } }
   #leaders .featured-board {
     width: 100%; }
     #leaders .featured-board h2 {
@@ -1788,10 +1788,13 @@ Leadership team
       @media (max-width: 370px) {
         #leaders .featured-board h2 {
           font-size: 3em;
-          margin-bottom: -10%; } }
+          margin-bottom: 0%; } }
   #leaders .boxes {
     width: 100%;
     margin-bottom: 2%; }
+    @media (max-width: 570px) {
+      #leaders .boxes {
+        width: 80%; } }
 
 /*  ==========================================================================
 Blog
