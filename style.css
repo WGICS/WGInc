@@ -1996,17 +1996,6 @@ Blog Post
 
 .creative-bar {
   background-color: rgba(0, 132, 61, 0.85);
-  background: -moz- left, rgba(130, 188, 0, 0.8) 0%, rgba(0, 132, 61, 0.85) 90%;
-  /* FF3.6+ */
-  background: -webkit-linear-gradient(left, rgba(130, 188, 0, 0.8) 0%, rgba(0, 132, 61, 0.85) 80%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left, rgba(130, 188, 0, 0.8) 0%, rgba(0, 132, 61, 0.85) 80%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(left, rgba(130, 188, 0, 0.8) 0%, rgba(0, 132, 61, 0.85) 80%);
-  /* IE10+ */
-  background: -webkit-gradient(linear, left top, right top, from(rgba(130, 188, 0, 0.8)), color-stop(80%, rgba(0, 132, 61, 0.85)));
-  background: linear-gradient(to right, rgba(130, 188, 0, 0.8) 0%, rgba(0, 132, 61, 0.85) 80%);
-  /* W3C */
   margin-bottom: .5% !important; }
   .creative-bar h3 {
     color: white;
