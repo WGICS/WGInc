@@ -1999,9 +1999,9 @@ Blog Post
   margin-bottom: .5% !important; }
   .creative-bar h3 {
     color: white;
-    padding: .5%;
-    font-size: 15px;
-    vertical-align: text-bottom !important; }
+    padding: .6%;
+    font-size: 1.4em;
+    vertical-align: middle !important; }
 
 .creative-bar :before {
   content: '';
