@@ -1765,16 +1765,18 @@ Leadership team
         padding-top: 4%; } }
   #leaders .team .principals {
     margin-bottom: 0 !important; }
-  #leaders .featured h2 {
-    color: #00833c;
-    text-transform: uppercase;
-    font-size: 3.5em;
-    font-weight: bold;
-    padding-top: 5%; }
-    @media (max-width: 370px) {
-      #leaders .featured h2 {
-        font-size: 3em;
-        margin-bottom: -10%; } }
+  #leaders .featured {
+    width: 100%; }
+    #leaders .featured h2 {
+      color: #00833c;
+      text-transform: uppercase;
+      font-size: 3.5em;
+      font-weight: bold;
+      padding-top: 5%; }
+      @media (max-width: 370px) {
+        #leaders .featured h2 {
+          font-size: 3em;
+          margin-bottom: -10%; } }
   #leaders .featured-board {
     padding-top: 2%; }
     #leaders .featured-board h2 {
@@ -1787,6 +1789,7 @@ Leadership team
           font-size: 3em;
           margin-bottom: -10%; } }
   #leaders .boxes {
+    width: 100%;
     margin-bottom: 2%; }
 
 /*  ==========================================================================
