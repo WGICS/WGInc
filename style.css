@@ -1772,7 +1772,8 @@ Leadership team
       padding-top: 5%; }
       @media (max-width: 570px) {
         #leaders .featured h2 {
-          width: 80%; } }
+          width: 80%;
+          margin-left: 10%; } }
       @media (max-width: 370px) {
         #leaders .featured h2 {
           font-size: 3em;
