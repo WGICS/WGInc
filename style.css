@@ -494,7 +494,8 @@ textarea {
 
 .membersname {
   text-align: left;
-  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif; }
+  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+  position: absolute; }
   .membersname h5 {
     font-size: 1.8em;
     padding-bottom: 5px;
@@ -503,10 +504,11 @@ textarea {
     font-size: 1.1em;
     color: grey; }
   .membersname p {
-    width: 304%;
+    width: 95%;
+    max-width: 100%;
     font-size: 1.1em;
     color: #00843D;
-    display: table-caption; }
+    /*display: table-caption;*/ }
 
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div {
@@ -1781,7 +1783,8 @@ Leadership team
           margin-bottom: 0%;
           padding-top: 4%; } }
   #leaders .featured-board {
-    width: 100%; }
+    width: 100%;
+    padding-top: 2%; }
     #leaders .featured-board h2 {
       color: #00833c;
       text-transform: uppercase;
