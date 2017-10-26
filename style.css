@@ -1784,7 +1784,8 @@ Leadership team
           padding-top: 4%; } }
   #leaders .featured-board {
     width: 100%;
-    padding-top: 7%; }
+    padding-top: 7%;
+    position: static !important; }
     #leaders .featured-board h2 {
       color: #00833c;
       text-transform: uppercase;
