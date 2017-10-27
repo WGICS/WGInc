@@ -503,18 +503,7 @@
     }
 }
 
- /* Tablet 600 Width */ 
- @media only screen and (max-width : 600px) {
-     
-     .boardmembers {
-         
-       
-        margin: 0% 0% 0% 3%;
-        padding: 0% 0% 30% 2%;
-  
-}
-     
- } 
+
  /* Small Devices, Tablets */ 
  @media only screen and (max-width : 768px) { 
      
@@ -527,6 +516,19 @@
 
      
  }
+
+ /* Tablet 600 Width */ 
+ @media only screen and (max-width : 600px) {
+     
+     .boardmembers {
+         
+       
+        margin: 0% 0% 0% 3%;
+        padding: 0% 0% 30% 2%;
+  
+}
+     
+ } 
 
 /* Extra Small Devices, Phones */ 
  @media only screen and (max-width : 480px) {  } 

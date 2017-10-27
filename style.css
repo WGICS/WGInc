@@ -796,16 +796,16 @@ textarea {
     -webkit-transform: scale(1.5);
     transform: scale(1.5); } }
 
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .boardmembers {
+    padding: 0% 0% 25% 2%; } }
+
 /* Tablet 600 Width */
 @media only screen and (max-width: 600px) {
   .boardmembers {
     margin: 0% 0% 0% 3%;
     padding: 0% 0% 30% 2%; } }
-
-/* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
-  .boardmembers {
-    padding: 0% 0% 25% 2%; } }
 
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
