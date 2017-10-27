@@ -2115,6 +2115,9 @@ People-PopUp
   color: #00843D !important;
   width: 91%; }
 
+.et_pb_section {
+  padding: 0 !important; }
+
 #invite .rsvp {
   background-color: none;
   padding: 0 !important; }
