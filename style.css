@@ -796,6 +796,14 @@ textarea {
     -webkit-transform: scale(1.5);
     transform: scale(1.5); } }
 
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .boardmembers {
+    padding-bottom: 23%; } }
+
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
 .owl-theme .owl-controls {
   margin-top: 0;
   text-align: center; }
@@ -1803,6 +1811,10 @@ Leadership team
       #leaders .boxes {
         width: 80%; } }
 
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
 /*  ==========================================================================
 Blog
    ========================================================================== */
