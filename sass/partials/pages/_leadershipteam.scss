@@ -122,13 +122,18 @@ Leadership team
  /* Small Devices, Tablets */ 
  @media only screen and (max-width : 768px) { 
      
+     .featured-board  {
+         
+         padding: 0% 0% 3% 0% ;
+     }
+     
      .featured-board h2 {
          
          padding: 0% 0% 3% 13% ;
      }
      
         .leadership h2 {
-         padding: 4% 0% 0% 4% !important;
+         padding: 0% 0% 4% 4% !important;
      }
      
  }
