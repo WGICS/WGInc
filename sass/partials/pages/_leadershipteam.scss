@@ -101,6 +101,16 @@ Leadership team
  /* Tablet 600 Width */ 
  @media only screen and (max-width : 600px) { 
      
+      .leadership h2 {
+        
+    padding: 40px 0px 0px 21px !important;
+     }
+     
+     .featured-board h2 {
+         
+         padding: 0% 0% 3% 13%;
+     }
+     
  } 
 
 /* Extra Small Devices, Phones */ 
