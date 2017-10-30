@@ -811,6 +811,10 @@ textarea {
 
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .boardmembers {
+    padding: 0% 0% 60% 2%; } }
+
 .owl-theme .owl-controls {
   margin-top: 0;
   text-align: center; }
