@@ -798,7 +798,7 @@ textarea {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  .boardmembers a img {
+  .team .boardmembers a img {
     padding: 10% 0% 0% 2%; } }
 
 /* Tablet 600 Width */
