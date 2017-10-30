@@ -805,7 +805,8 @@ textarea {
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1024px) {
-  padding: 0% 0% 50% 21%; }
+  .boardmembers {
+    padding: 0% 0% 50% 21%; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
