@@ -17,13 +17,13 @@ Leadership team
         font-weight: bold;
         padding-top: 1%;
        
-        @include breakpoint(max-width 370px) {
+        /*@include breakpoint(max-width 370px) {
             font-size: 3em !important;
             width: 100%;
             margin-left: 0%;
             margin-bottom: 0%;
             padding-top: 4%;
-        }
+        }*/
     }
     .team
     {
@@ -90,6 +90,10 @@ Leadership team
      .featured-board h2 {
          
          padding: 0% 0% 3% 13%;
+     }
+     
+        .leadership h2 {
+         padding: 4% 0% 0% 4%;
      }
      
  }
