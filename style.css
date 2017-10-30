@@ -799,7 +799,9 @@ textarea {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .boardmembers {
-    padding: 0% 0% 27% 2%; } }
+    padding: 0% 0% 27% 2%; }
+    .boardmembers .last-member {
+      padding: 0% 0% 10% 2% !important; } }
 
 /* Tablet 600 Width */
 @media only screen and (max-width: 600px) {
