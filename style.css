@@ -810,6 +810,10 @@ textarea {
     padding: 0% 0% 36% 2%; } }
 
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .boardmembers {
+    padding: 0% 0% 50% 2%; } }
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   .boardmembers {
