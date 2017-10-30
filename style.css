@@ -805,7 +805,7 @@ textarea {
 
 /* Tablet 600 Width */
 @media only screen and (max-width: 600px) {
-  .boardmembers a img {
+  .boardmembers {
     margin: 0% 0% 0% 3%;
     padding: 10% 0% 0% 2%; } }
 
@@ -1832,7 +1832,7 @@ Leadership team
   .featured-board h2 {
     padding: 0% 0% 3% 13%; }
   .boxes {
-    width: 80%; } }
+    width: 80% !important; } }
 
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
