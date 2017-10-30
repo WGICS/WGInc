@@ -1844,6 +1844,20 @@ Leadership team
       #leaders .boxes {
         width: 80%; } }
 
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1024px) {
+  .featured-board h2 {
+    padding: 0% 0% 3% 13%; }
+  .leadership h2 {
+    padding: 4% 0% 0% 4% !important; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .featured-board h2 {
+    padding: 0% 0% 3% 13%; }
+  .leadership h2 {
+    padding: 4% 0% 0% 4% !important; } }
+
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .featured-board h2 {
