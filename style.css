@@ -1847,9 +1847,12 @@ Leadership team
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1024px) {
   .featured-board h2 {
-    padding: 0% 0% 3% 13%; }
+    padding: 0% 0% 3% 13% !important; }
   .leadership h2 {
-    padding: 4% 0% 0% 4% !important; } }
+    padding: 4% 0% 0% 4% !important; }
+  .boxes {
+    width: 94% !important;
+    padding-bottom: 5%; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
