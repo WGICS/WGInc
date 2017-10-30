@@ -507,10 +507,10 @@
  /* Small Devices, Tablets */ 
  @media only screen and (max-width : 768px) { 
      
-     .boardmembers {
+     .boardmembers a img {
          
        
-        padding: 0% 0% 27% 2%;
+        padding: 10% 0% 0% 2%;
   
 }
 
@@ -520,11 +520,11 @@
  /* Tablet 600 Width */ 
  @media only screen and (max-width : 600px) {
      
-     .boardmembers {
+     .boardmembers a img {
          
        
         margin: 0% 0% 0% 3%;
-        padding: 0% 0% 33% 2%;
+        padding: 10% 0% 0% 2%;
   
 }
      
