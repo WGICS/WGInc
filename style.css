@@ -799,13 +799,13 @@ textarea {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .boardmembers {
-    padding: 0% 0% 25% 2%; } }
+    padding: 0% 0% 27% 2%; } }
 
 /* Tablet 600 Width */
 @media only screen and (max-width: 600px) {
   .boardmembers {
     margin: 0% 0% 0% 3%;
-    padding: 0% 0% 30% 2%; } }
+    padding: 0% 0% 33% 2%; } }
 
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
@@ -1816,8 +1816,12 @@ Leadership team
       #leaders .boxes {
         width: 80%; } }
 
-/* Medium Devices, Desktops */
 /* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .featured-board h2 {
+    padding: 0% 0% 3% 13%; } }
+
+/* Tablet 600 Width */
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
 /*  ==========================================================================
