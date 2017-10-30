@@ -477,12 +477,12 @@ textarea {
   .boardmembers p {
     padding-bottom: 0 !important; }
   .boardmembers .vl {
-    border-left: 6px solid green;
-    height: 500px;
+    border-left: 1px solid lightgrey;
+    height: 137px;
     position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 0; }
+    left: 100%;
+    margin-left: -1px;
+    top: -5px; }
 
 .owl-item .item:hover .name {
   background-color: rgba(0, 132, 61, 0.85);
