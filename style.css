@@ -798,8 +798,8 @@ textarea {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  #leaders .team .boardmembers a img {
-    padding: 10% 0% 0% 2%; } }
+  .boardmembers {
+    padding: 0% 0% 27% 2%; } }
 
 /* Tablet 600 Width */
 @media only screen and (max-width: 600px) {
