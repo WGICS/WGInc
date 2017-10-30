@@ -476,6 +476,13 @@ textarea {
   float: left; }
   .boardmembers p {
     padding-bottom: 0 !important; }
+  .boardmembers .vl {
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0; }
 
 .owl-item .item:hover .name {
   background-color: rgba(0, 132, 61, 0.85);
