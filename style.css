@@ -804,7 +804,7 @@ textarea {
     transform: scale(1.5); } }
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1450px) {
   .boardmembers {
     padding: 0% 0% 18% 0%;
     margin: 0% -1% 0% 2%; } }
