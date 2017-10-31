@@ -805,7 +805,7 @@ textarea {
 
 @media only screen and (max-width: 1635px) {
   .last-member {
-    padding: 11% 0% 0% 0% !important; } }
+    padding: 11% 0% 0% 0%; } }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1450px) {
