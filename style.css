@@ -2435,7 +2435,7 @@ People-PopUp
   line-height: 1; }
 
 #main-header .nav-menu .navigation #top-menu-nav #top-menu .menu-item .board-of-directors .nav li ul {
-  padding: 4px 0px; }
+  padding: 4px 0px !important; }
 
 #main-header .nav-menu .navigation #top-menu-nav #top-menu .menu-item .sub-menu {
   width: 200px;
