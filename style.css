@@ -1871,6 +1871,8 @@ Leadership team
     padding: 2% 0% 2% 5% !important; } }
 
 @media only screen and (max-width: 870px) {
+  .featured-board {
+    padding: 0% 0% 30% 0%; }
   .featured-board h2 {
     width: 80%;
     margin-left: 10%; } }
