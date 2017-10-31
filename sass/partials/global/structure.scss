@@ -295,11 +295,10 @@
     line-height: 1
 }
 
-#main-header .nav-menu .navigation #top-menu-nav #top-menu .menu-item .board-of-directors .nav li ul {
-  padding: 4px 0px !important; }
 
 #main-header .nav-menu .navigation #top-menu-nav #top-menu .menu-item .sub-menu {
     width: 200px;
+    padding: 4px 0;
     border-top: 3px solid #FFF;
     background-color: rgba(0, 132, 61, 0.85)
 }
