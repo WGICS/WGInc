@@ -6,16 +6,17 @@ Leadership team
 #leaders {
     width: 100%;
     max-width: 100%;
-    padding: 0;
+    padding: 0px;
     .et_pb_row {
-        padding: 0px 0;
+        padding: 0px 0px;
     }
     .leadership h2 {
         color: #00833c;
         text-transform: uppercase;
         font-size: 3.5em;
         font-weight: bold;
-        padding-top: 1%;
+        padding-top: 3%;
+        padding-bottom: 1%;
        
         /*@include breakpoint(max-width 370px) {
             font-size: 3em !important;
@@ -57,7 +58,7 @@ Leadership team
     .featured-board {
         
         width: 100%;
-        padding-top: 7%;
+        padding-top: 10%;
         position: static !important;
         
           h2 {
@@ -66,6 +67,7 @@ Leadership team
         font-size: 3.5em;
         font-weight: bold;
          padding-top: 2%;
+        padding-bottom: 2%;
         
         @include breakpoint(max-width 370px) {
             font-size: 3em;
@@ -75,7 +77,7 @@ Leadership team
     }
     .boxes {
         width: 100%;
-        margin-bottom: 2%;
+        margin-bottom: 4%;
         
          @include breakpoint(max-width 570px) {
             width: 80%;

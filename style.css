@@ -1791,15 +1791,16 @@ Leadership team
 #leaders {
   width: 100%;
   max-width: 100%;
-  padding: 0; }
+  padding: 0px; }
   #leaders .et_pb_row {
-    padding: 0px 0; }
+    padding: 0px 0px; }
   #leaders .leadership h2 {
     color: #00833c;
     text-transform: uppercase;
     font-size: 3.5em;
     font-weight: bold;
-    padding-top: 1%;
+    padding-top: 3%;
+    padding-bottom: 1%;
     /*@include breakpoint(max-width 370px) {
             font-size: 3em !important;
             width: 100%;
@@ -1829,21 +1830,22 @@ Leadership team
           padding-top: 4%; } }
   #leaders .featured-board {
     width: 100%;
-    padding-top: 7%;
+    padding-top: 10%;
     position: static !important; }
     #leaders .featured-board h2 {
       color: #00833c;
       text-transform: uppercase;
       font-size: 3.5em;
       font-weight: bold;
-      padding-top: 2%; }
+      padding-top: 2%;
+      padding-bottom: 2%; }
       @media (max-width: 370px) {
         #leaders .featured-board h2 {
           font-size: 3em;
           margin-bottom: 0%; } }
   #leaders .boxes {
     width: 100%;
-    margin-bottom: 2%; }
+    margin-bottom: 4%; }
     @media (max-width: 570px) {
       #leaders .boxes {
         width: 80%; } }
