@@ -2190,11 +2190,12 @@ Blog Post
     width: 0; }
 
 #creative-blog .bio h4 {
-  font-size: 1.4em;
-  font-weight: bold; }
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-bottom: 0 !important; }
 
 #creative-blog .bio h5 {
-  line-height: .5em !important;
+  line-height: 1em !important;
   color: grey;
   font-size: 1.3em; }
 
