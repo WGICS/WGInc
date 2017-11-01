@@ -178,7 +178,7 @@ Blog Post
     color: grey;
 }
 
-#blog { 
+#creative-blog { 
     
     .content {
         
@@ -281,7 +281,8 @@ Blog Post
     .bio {
         
     h4 {
-        line-height: 1.5em;
+        
+        font-size: 1.4em;
         font-weight: bold;
         
          
@@ -295,7 +296,7 @@ Blog Post
         }
         
     p {
-        padding-bottom: 1em;
+        padding-bottom: .5em;
         padding-top: 3%;
         width: 88%;
         font-size: 1.3em;
