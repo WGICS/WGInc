@@ -2174,7 +2174,7 @@ Blog Post
     width: 0; }
   #blog .author_articles .about_author {
     background-color: #82bc00;
-    margin-bottom: 10% !important; }
+    margin-bottom: 0% !important; }
     #blog .author_articles .about_author h3 {
       color: white;
       padding: 2%;
