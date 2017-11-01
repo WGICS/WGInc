@@ -2111,10 +2111,11 @@ Blog Post
   margin-bottom: .5% !important; }
   .creative-bar h3 {
     color: white;
-    /*padding:.6%;*/
+    padding: .6%;
     margin-left: 1%;
-    font-size: 1.4em;
-    vertical-align: middle !important; }
+    font-size: 1.4em; }
+    .creative-bar h3 img {
+      vertical-align: middle !important; }
 
 .creative-bar :before {
   content: '';
