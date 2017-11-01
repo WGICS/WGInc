@@ -228,7 +228,17 @@ Blog Post
    
 
 
-    }       
+    }
+        
+.related-articles :before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 80px solid #fff;
+    border-left: 80px solid transparent;
+    width: 0;
+    } 
         
 .about_author {
             

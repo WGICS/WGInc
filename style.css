@@ -2158,6 +2158,14 @@ Blog Post
       color: white;
       padding: 2%;
       font-size: 18px; }
+  #blog .author_articles .related-articles :before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 80px solid #fff;
+    border-left: 80px solid transparent;
+    width: 0; }
   #blog .author_articles .about_author {
     background-color: #82bc00;
     margin-bottom: 10% !important; }
