@@ -2190,13 +2190,13 @@ Blog Post
     width: 0; }
 
 #blog .bio h4 {
-  line-height: 1em;
+  line-height: 1.5em;
   font-weight: bold; }
 
-#blog .bio h6 {
+#blog .bio h5 {
   line-height: .5em !important;
   color: grey;
-  font-size: 1.2em; }
+  font-size: 1.3em; }
 
 #blog .bio p {
   padding-bottom: 1em;
