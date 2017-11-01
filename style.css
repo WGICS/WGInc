@@ -2112,11 +2112,13 @@ Blog Post
   .creative-bar h3 {
     color: white;
     text-transform: uppercase;
-    padding: .6%;
-    margin-left: 1%;
-    font-size: 1.2em; }
+    padding: .5% .4% .4% .3%;
+    margin-left: .5%;
+    font-size: 1.3em; }
     .creative-bar h3 img {
-      vertical-align: middle !important; }
+      vertical-align: middle !important;
+      margin-left: 0.4%;
+      padding-bottom: 0.4%; }
 
 .creative-bar :before {
   content: '';
@@ -2161,7 +2163,7 @@ Blog Post
       color: white;
       padding: 2%;
       text-transform: uppercase;
-      font-size: 18px; }
+      font-size: 1.3em; }
   #blog .author_articles .related-articles :before {
     content: '';
     position: absolute;
@@ -2176,7 +2178,7 @@ Blog Post
     #blog .author_articles .about_author h3 {
       color: white;
       padding: 2%;
-      font-size: 18px;
+      font-size: 1.3em;
       text-transform: uppercase; }
   #blog .author_articles .about_author :before {
     content: '';
