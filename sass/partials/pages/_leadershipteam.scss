@@ -110,6 +110,17 @@ Leadership team
 
     }
 
+ /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1450px) {
+        
+    .featured-board h2 {
+         
+         padding: 0% 0% 3% 20% ;
+     }
+     
+        
+
+    }
 
 
     /* Medium Devices, Desktops */
@@ -140,20 +151,7 @@ Leadership team
 }
 
 
-/*** Responsive Styles Large Desktop And Above ***/
-@media all and (min-width: 1405px) {
-    
-    .featured-board  {
-         
-         padding: 5% 0% 3% 0% ;
-     }
-    
-    .featured-board h2 {
-         
-         padding: 5% 0% 3% 13% ;
-     }
-  
-}
+
 
 
  /* Small Devices, Tablets */ 

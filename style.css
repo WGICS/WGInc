@@ -1863,6 +1863,11 @@ Leadership team
     width: 94% !important;
     padding-bottom: 5%; } }
 
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1450px) {
+  .featured-board h2 {
+    padding: 0% 0% 3% 20%; } }
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .featured-board h2 {
@@ -1876,13 +1881,6 @@ Leadership team
   .featured-board h2 {
     width: 80%;
     margin-left: 10%; } }
-
-/*** Responsive Styles Large Desktop And Above ***/
-@media all and (min-width: 1405px) {
-  .featured-board {
-    padding: 5% 0% 3% 0%; }
-  .featured-board h2 {
-    padding: 5% 0% 3% 13%; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
