@@ -2199,6 +2199,10 @@ Blog Post
   color: grey;
   font-size: 1.3em; }
 
+#creative-blog .bio h6 {
+  font-size: 1.3em;
+  text-align: left; }
+
 #creative-blog .bio p {
   padding-bottom: .4em;
   padding-top: 3%;
