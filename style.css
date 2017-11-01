@@ -2104,10 +2104,10 @@ Blog Post
   display: none; }
 
 .creative-bar {
-  background: -webkit-gradient(linear, left top, right top, color-stop(20%, #82bc00), color-stop(20%, #00843D));
-  background: -webkit-linear-gradient(left, #82bc00 20%, #00843D 20%);
-  background: -o-linear-gradient(left, #82bc00 20%, #00843D 20%);
-  background: linear-gradient(90deg, #82bc00 20%, #00843D 20%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, #82bc00), color-stop(10%, #00843D));
+  background: -webkit-linear-gradient(left, #82bc00 10%, #00843D 10%);
+  background: -o-linear-gradient(left, #82bc00 10%, #00843D 10%);
+  background: linear-gradient(90deg, #82bc00 10%, #00843D 10%);
   margin-bottom: .5% !important; }
   .creative-bar h3 {
     color: white;
