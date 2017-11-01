@@ -2111,9 +2111,10 @@ Blog Post
   margin-bottom: .5% !important; }
   .creative-bar h3 {
     color: white;
+    text-transform: uppercase;
     padding: .6%;
     margin-left: 1%;
-    font-size: 1.4em; }
+    font-size: 1.2em; }
     .creative-bar h3 img {
       vertical-align: middle !important; }
 
@@ -2138,7 +2139,8 @@ Blog Post
   margin-right: 4%; }
   #blog .content .title h2, #blog .content .title h5 {
     font-weight: bold;
-    font-style: italic; }
+    font-style: italic;
+    text-transform: uppercase; }
   #blog .content .text p {
     font-size: 1.5em;
     line-height: 1.5;
@@ -2158,6 +2160,7 @@ Blog Post
     #blog .author_articles .related-articles h3 {
       color: white;
       padding: 2%;
+      text-transform: uppercase;
       font-size: 18px; }
   #blog .author_articles .related-articles :before {
     content: '';
@@ -2173,7 +2176,8 @@ Blog Post
     #blog .author_articles .about_author h3 {
       color: white;
       padding: 2%;
-      font-size: 18px; }
+      font-size: 18px;
+      text-transform: uppercase; }
   #blog .author_articles .about_author :before {
     content: '';
     position: absolute;
