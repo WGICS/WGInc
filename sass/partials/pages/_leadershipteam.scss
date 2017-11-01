@@ -113,9 +113,14 @@ Leadership team
  /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1450px) {
         
-    .featured-board h2 {
+    .featured-board  {
          
-         padding: 0% 0% 3% 20% ;
+         padding: -10% 0% 0% 0%;
+     }
+        
+        .featured-board h2 {
+         
+         padding: 0% 0% 3% 6% ;
      }
      
         
