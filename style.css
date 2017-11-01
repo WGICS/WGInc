@@ -2192,7 +2192,7 @@ Blog Post
 #creative-blog .bio h4 {
   font-size: 1.8em;
   font-weight: bold;
-  padding-bottom: 0 !important; }
+  padding-bottom: 1.5% !important; }
 
 #creative-blog .bio h5 {
   line-height: 1em !important;
@@ -2200,7 +2200,7 @@ Blog Post
   font-size: 1.3em; }
 
 #creative-blog .bio p {
-  padding-bottom: .5em;
+  padding-bottom: .4em;
   padding-top: 3%;
   width: 88%;
   font-size: 1.3em; }
