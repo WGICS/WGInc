@@ -2201,13 +2201,14 @@ Blog Post
 
 #creative-blog .bio h6 {
   font-size: 1.3em;
-  text-align: left; }
+  text-align: left;
+  color: #008000; }
 
 #creative-blog .bio p {
   padding-bottom: .4em;
-  padding-top: 3%;
+  padding-top: 0;
   width: 88%;
-  font-size: 1.3em; }
+  font-size: 1.1em; }
 
 /*  ==========================================================================
 People-PopUp
