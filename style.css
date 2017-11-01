@@ -2200,8 +2200,9 @@ Blog Post
 
 #blog .bio p {
   padding-bottom: 1em;
+  padding-top: 3%;
   width: 88%;
-  font-size: 1.1em; }
+  font-size: 1.3em; }
 
 /*  ==========================================================================
 People-PopUp
