@@ -2243,7 +2243,11 @@ Blog Post
   .author_articles {
     width: 97% !important; }
   .bio {
-    margin-bottom: 65px !important; } }
+    margin-bottom: 65px !important; }
+  .linkedin_logo {
+    float: right;
+    margin-right: 270px;
+    margin-top: 5px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 600px) {
