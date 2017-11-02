@@ -2210,6 +2210,16 @@ Blog Post
   width: 88%;
   font-size: 1.1em; }
 
+#creative-blog .bio .wgicreative_logo {
+  float: right;
+  margin-right: 69px;
+  margin-top: -5px; }
+
+#creative-blog .bio .linkedin_logo {
+  float: right;
+  margin-right: 69px;
+  margin-top: -5px; }
+
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
