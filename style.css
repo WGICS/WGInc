@@ -2217,16 +2217,14 @@ Blog Post
     width: 100% !important; } }
 
 @media (max-width: 980px) {
-  .et_pb_column {
-    width: 100% !important; } }
+  .et_pb_row_4col .et_pb_column.et_pb_column_1_4 .et_pb_row_1-4_1-4_1-2 .et_pb_column.et_pb_column_1_4 .et_pb_row_1-2_1-4_1-4 .et_pb_column.et_pb_column_1_4 .et_pb_row_1-4_1-4 .et_pb_column.et_pb_column_1_4 {
+    width: 99.25% !important; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .vertical_divider {
     display: none; }
   .author_articles {
-    width: 100% !important; }
-  .et_pb_column {
     width: 100% !important; } }
 
 /* Extra Small Devices, Phones */
