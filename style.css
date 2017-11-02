@@ -2221,6 +2221,8 @@ Blog Post
 @media only screen and (max-width: 980px) {
   .author_articles {
     width: 97% !important; }
+  .bio {
+    margin-bottom: 90px !important; }
   .vertical_divider {
     display: none; } }
 
