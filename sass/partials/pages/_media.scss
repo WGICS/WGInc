@@ -315,7 +315,11 @@ Blog Post
  @media only screen and (max-width : 1200px) { 
  } 
  /* Medium Devices, Desktops */ 
- @media only screen and (max-width : 992px) { 
+ @media only screen and (max-width : 992px) {
+     
+     .et_pb_column {
+    width: 100% !important;
+    }
  } 
 
 @media (max-width: 980px){
