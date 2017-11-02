@@ -2213,12 +2213,16 @@ Blog Post
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+  .vertical_divider {
+    display: none; }
   .author_articles {
     width: 97% !important; } }
 
 @media only screen and (max-width: 980px) {
   .author_articles {
-    width: 97% !important; } }
+    width: 97% !important; }
+  .vertical_divider {
+    display: none; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
