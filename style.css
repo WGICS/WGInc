@@ -2214,23 +2214,27 @@ Blog Post
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .author_articles {
-    width: 100% !important; } }
+    width: 97% !important; } }
 
 @media only screen and (max-width: 980px) {
   .author_articles {
-    width: 100% !important; } }
+    width: 97% !important; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .vertical_divider {
     display: none; }
   .author_articles {
-    width: 100% !important; } }
+    width: 97% !important; }
+  .bio {
+    margin-bottom: 65px !important; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 600px) {
   .vertical_divider {
-    display: none; } }
+    display: none; }
+  .bio {
+    margin-bottom: 65px !important; } }
 
 /*  ==========================================================================
 People-PopUp

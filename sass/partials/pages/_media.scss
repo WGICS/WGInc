@@ -318,14 +318,14 @@ Blog Post
  @media only screen and (max-width : 992px) {
      
     .author_articles {
-        width: 100% !important;
+        width: 97% !important;
     }
  }
 
 @media only screen and (max-width : 980px) {
      
     .author_articles {
-        width: 100% !important;
+        width: 97% !important;
     }
  }
 
@@ -340,8 +340,12 @@ Blog Post
  }
      
      .author_articles  {
-        width: 100% !important;
+        width: 97% !important;
     }
+     
+     .bio {
+         margin-bottom: 65px !important;
+     }
 }
  
 
@@ -350,6 +354,10 @@ Blog Post
 
 .vertical_divider {
          display: none;
+     }
+     
+     .bio {
+         margin-bottom: 65px !important;
      }
      
    
