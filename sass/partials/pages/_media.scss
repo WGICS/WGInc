@@ -317,8 +317,8 @@ Blog Post
  /* Medium Devices, Desktops */ 
  @media only screen and (max-width : 992px) {
      
-    #creative-blog {
-    width: 100% !important;
+    .about_author .bio .related-articles {
+        width: 100% !important;
     }
  } 
 
