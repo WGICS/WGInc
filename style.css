@@ -2180,6 +2180,10 @@ Blog Post
       padding: 2%;
       font-size: 1.3em;
       text-transform: uppercase; }
+    #creative-blog .author_articles .about_author .wgicreative_logo {
+      float: right;
+      margin-right: 69px;
+      margin-top: -5px; }
   #creative-blog .author_articles .about_author :before {
     content: '';
     position: absolute;
@@ -2209,11 +2213,6 @@ Blog Post
   padding-top: 0;
   width: 88%;
   font-size: 1.1em; }
-
-#creative-blog .bio .wgicreative_logo {
-  float: right;
-  margin-right: 69px;
-  margin-top: -5px; }
 
 #creative-blog .bio .linkedin_logo {
   float: right;
