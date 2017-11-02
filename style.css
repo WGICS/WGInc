@@ -2210,6 +2210,22 @@ Blog Post
   width: 88%;
   font-size: 1.1em; }
 
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .vertical_divider {
+    display: none; }
+  .about_author {
+    width: 99.25% !important; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 600px) {
+  .vertical_divider {
+    display: none; }
+  .about_author {
+    width: 99.25% !important; } }
+
 /*  ==========================================================================
 People-PopUp
    ========================================================================== */

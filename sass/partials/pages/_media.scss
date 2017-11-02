@@ -310,3 +310,38 @@ Blog Post
         }    
     }
 }
+
+ /* Large Devices, Wide Screens */ 
+ @media only screen and (max-width : 1200px) { 
+ } 
+ /* Medium Devices, Desktops */ 
+ @media only screen and (max-width : 992px) { 
+ } 
+
+ /* Small Devices, Tablets */ 
+ @media only screen and (max-width : 768px) { 
+     
+     .vertical_divider {
+         display: none;
+     }
+     
+     .about_author {
+         
+         width: 99.25% !important;
+     }
+ }
+
+/* Extra Small Devices, Phones */ 
+ @media only screen and (max-width : 600px) { 
+
+.vertical_divider {
+         display: none;
+     }
+     
+     .about_author {
+         
+         width: 99.25% !important;
+     }
+} 
+
+
