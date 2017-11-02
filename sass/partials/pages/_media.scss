@@ -318,18 +318,21 @@ Blog Post
  @media only screen and (max-width : 992px) { 
  } 
 
+@media (max-width: 980px){
+
+.et_pb_column {
+    width: 100% !important;
+    }
+}
+
  /* Small Devices, Tablets */ 
  @media only screen and (max-width : 768px) { 
      
      .vertical_divider {
          display: none;
-     }
      
-     .about_author {
-         
-         width: 99.25% !important;
-     }
  }
+}
 
 /* Extra Small Devices, Phones */ 
  @media only screen and (max-width : 600px) { 
@@ -338,10 +341,7 @@ Blog Post
          display: none;
      }
      
-     .about_author {
-         
-         width: 99.25% !important;
-     }
+   
 } 
 
 
