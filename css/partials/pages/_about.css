@@ -30,10 +30,3 @@
       text-rendering: optimizeLegibility;
       font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
       color: #404040; }
-  @media only screen and (max-width: 460px) {
-    #body .state1 {
-      margin-right: 0px !important; }
-    #body .state3 {
-      margin-right: 0px !important; }
-    #body .state4 {
-      margin-bottom: 30px !important; } }

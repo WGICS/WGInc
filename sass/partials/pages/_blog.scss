@@ -5,18 +5,18 @@ Blog
 .menu-bar {
     background-color:  rgba(0, 132, 61, 0.85);
     margin-bottom: .5% !important;
-    
+
     h3 {
         color:white;
         padding:1%;
         font-size: 18px;
-        
-         
+
+
         }
 
     }
 
-    
+
 .menu-bar :before {
     content: '';
     position: absolute;
@@ -36,14 +36,14 @@ Blog
 
 
 .blog {
-    
+
     .box {
-        
+
         width:32%;
         margin-right: 0.5%;
-        
-     
-    
+
+
+
 .entry1 {
     padding: 2% 5%;
     background-color:#82bc00;
@@ -53,13 +53,13 @@ Blog
     a {
             color: white !important;
     }
-    
+
     h3 {
         color:white;
          padding-top: 10%;
-        
+
     }
-    
+
     p {
         color:white;
         padding-bottom: 2%;
@@ -76,13 +76,13 @@ Blog
     a {
             color: white !important;
     }
-    
+
     h3 {
         color:white;
         padding-top: 10%;
-        
+
     }
-    
+
     p {
         color:white;
         padding-bottom: 2%;
@@ -94,7 +94,7 @@ Blog
     background-color: deepskyblue;
     margin-bottom: 1.5%;
     cursor: pointer;
-   
+
     a {
             color: white !important;
     }
@@ -102,9 +102,9 @@ Blog
     h3 {
         color:white;
         padding-top: 10%;
-        
+
     }
-    
+
     p {
         color:white;
         padding-bottom: 2%;
@@ -116,7 +116,7 @@ Blog
     background-color: darkgreen;
     margin-bottom: 1.5%;
     cursor: pointer;
-   
+
     a {
             color: white !important;
     }
@@ -124,22 +124,22 @@ Blog
     h3 {
         color:white;
         padding-top: 10%;
-        
+
     }
-    
+
     p {
         color:white;
         padding-bottom: 2%;
         font-size: 1.3em;
         }
     }
-        
+
 .entry5 {
     padding: 2% 5%;
     background-color: palevioletred;
     margin-bottom: 1.5%;
     cursor: pointer;
-    
+
     a {
             color: white !important;
     }
@@ -147,9 +147,9 @@ Blog
     h3 {
         color:white;
         padding-top: 10%;
-        
+
     }
-    
+
     p {
         color:white;
         padding-bottom: 2%;
@@ -161,8 +161,8 @@ Blog
     background-color: darkgrey;
     margin-bottom: 1.5%;
     cursor: pointer;
-    
-    
+
+
     a {
             color: white !important;
     }
@@ -170,11 +170,11 @@ Blog
     h3 {
         color:white;
         padding-top: 10%;
-        
+
     }
-    
+
     p {
-        color:white;
+        color:red;
         padding-bottom: 2%;
         font-size: 1.3em;
         }
