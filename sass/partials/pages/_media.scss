@@ -1,5 +1,5 @@
 /*  ==========================================================================
-Blog Post 
+Blog Post
    ========================================================================== */
 
 .et_post_meta_wrapper {
@@ -7,20 +7,21 @@ Blog Post
 }
 
 .menu-bar {
-   background-color:  rgba(0, 132, 61, 0.85);
+   /*background-color:  rgba(0, 132, 61, 0.85);*/
+   background-color: red;
    margin-bottom: .5% !important;
-    
+
     h3 {
         color:white;
         padding:1%;
         font-size: 18px;
-        
-         
+
+
         }
 
     }
 
-    
+
 .menu-bar :before {
     content: '';
     position: absolute;
@@ -36,26 +37,26 @@ Blog Post
     color: grey;
 }
 
-#blog { 
-    
+#blog {
+
     .content {
-        
+
         width: 64%;
         margin-right: 4%;
-   
-    
-   
+
+
+
 .title {
-    
+
     h2, h5 {
         font-weight: bold;
         font-style: italic;
-    }  
-    
+    }
+
 }
 
 .text {
-    
+
     p {
         font-size: 1.5em;
         line-height: 1.5;
@@ -64,36 +65,36 @@ Blog Post
     }
 }
     }
-    
-    
+
+
     .vertical_divider {
         width: 0;
         margin-right: 1.5%;
-        
-    }    
+
+    }
     .author_articles {
-        
+
             width: 30%;
             left: 1.8%;
-        
+
 .about_author {
-            
+
     background-color:  rgba(0, 132, 61, 0.85);
     margin-bottom: 10% !important;
-    
+
     h3 {
         color:white;
         padding: 2%;
         font-size: 18px;
-        
-         
+
+
         }
-    
-   
+
+
 
 
     }
-        
+
     .about_author :before {
     content: '';
     position: absolute;
@@ -102,62 +103,62 @@ Blog Post
     border-top: 80px solid #fff;
     border-left: 80px solid transparent;
     width: 0;
-    }    
-        }        
-        
+    }
+        }
+
     .bio {
-        
+
     h4 {
         line-height: 1em;
         font-weight: bold;
-        
-         
+
+
         }
-     
+
     h6 {
         line-height: .5em !important;
         color: grey;
         font-size: 1.2em;
-         
+
         }
-        
+
     p {
         padding-bottom: 1em;
         width: 88%;
-        }    
+        }
     }
 }
 
 /*  ==========================================================================
-        Creative Blog Post 
+        Creative Blog Post
    ========================================================================== */
 .et_post_meta_wrapper {
     display: none;
 }
 
 .creative-bar {
-      background:linear-gradient(90deg, #82bc00 10%, #00843D 10%); 
+      background:linear-gradient(90deg, #82bc00 10%, #00843D 10%);
       margin-bottom: .5% !important;
-    
+
     h3 {
         color:white;
         text-transform: uppercase;
         padding: .5% .4% .4% .3%;
         margin-left: .5%;
         font-size: 1.3em;
-      
+
         img {
                 vertical-align: middle !important;
                 margin-left: 0.4%;
                 padding-bottom: 0.4%;
         }
-        
-         
+
+
         }
 
     }
 
-    
+
 .creative-bar :before {
     content: '';
     position: absolute;
@@ -169,7 +170,7 @@ Blog Post
     }
 
 .creative-bar :after {
-    
+
     background-color: greenyellow;
 }
 
@@ -178,27 +179,27 @@ Blog Post
     color: grey;
 }
 
-#creative-blog { 
-    
+#creative-blog {
+
     .content {
-        
+
         width: 64%;
         margin-right: 4%;
-   
-    
-   
+
+
+
 .title {
-    
+
     h2, h5 {
         font-weight: bold;
         font-style: italic;
         text-transform: uppercase;
-    }  
-    
+    }
+
 }
 
 .text {
-    
+
     p {
         font-size: 1.5em;
         line-height: 1.5;
@@ -207,37 +208,37 @@ Blog Post
     }
 }
     }
-    
-    
+
+
     .vertical_divider {
         width: 0;
         margin-right: 1.5%;
-        
-    }    
+
+    }
     .author_articles {
-        
+
             width: 30%;
             left: 1.8%;
 
  .related-articles {
-            
+
     background-color:  rgba(0, 132, 61, 0.85);
     margin-bottom: 10% !important;
-    
+
     h3 {
         color:white;
         padding: 2%;
         text-transform: uppercase;
         font-size: 1.3em;
-        
-         
+
+
         }
-    
-   
+
+
 
 
     }
-        
+
 .related-articles :before {
     content: '';
     position: absolute;
@@ -246,24 +247,24 @@ Blog Post
     border-top: 80px solid #fff;
     border-left: 80px solid transparent;
     width: 0;
-    } 
-        
+    }
+
 .about_author {
-            
+
     background-color: #82bc00;
     margin-bottom: 0% !important;
-    
+
     h3 {
         color:white;
         padding: 2%;
         font-size: 1.3em;
         text-transform: uppercase;
-        
-         
+
+
         }
-    
+
     .wgicreative_logo {
-            
+
             float: right;
             margin-right: 69px;
             margin-top: -5px;
@@ -271,7 +272,7 @@ Blog Post
 
 
     }
-        
+
     .about_author :before {
     content: '';
     position: absolute;
@@ -280,45 +281,45 @@ Blog Post
     border-top: 80px solid #fff;
     border-left: 80px solid transparent;
     width: 0;
-    }    
-        }        
-        
+    }
+        }
+
     .bio {
-        
+
     h4 {
-        
+
         font-size: 1.8em;
         font-weight: bold;
         padding-bottom: 1.5% !important;
-        
-         
+
+
         }
-     
+
     h5 {
         line-height: 1em !important;
         color: grey;
         font-size: 1.3em;
-         
+
         }
-        
+
         h6 {
             font-size: 1.3em;
             text-align: left !important;
             color: #008000;
             padding-top: 10px;
         }
-        
+
     p {
         padding-bottom: .4em;
         padding-top: 0;
         width: 88%;
         font-size: 1.1em;
-        } 
-        
-       
-        
+        }
+
+
+
         .linkedin_logo {
-            
+
             float: right;
             margin-right: 95px;
             margin-top: 5px;
@@ -326,79 +327,77 @@ Blog Post
     }
 }
 
- /* Large Devices, Wide Screens */ 
- @media only screen and (max-width : 1200px) { 
- } 
- /* Medium Devices, Desktops */ 
+ /* Large Devices, Wide Screens */
+ @media only screen and (max-width : 1200px) {
+ }
+ /* Medium Devices, Desktops */
  @media only screen and (max-width : 992px) {
-     
+
         .vertical_divider {
          display: none;
-     
+
  }
-   
-     
+
+
     .author_articles {
         width: 97% !important;
     }
  }
 
 @media only screen and (max-width : 980px) {
-     
+
     .author_articles {
         width: 97% !important;
     }
-    
+
     .bio {
-        
+
             margin-bottom: 90px !important;
     }
        .vertical_divider {
          display: none;
-     
- }
-   
+
  }
 
-   
+ }
 
- /* Small Devices, Tablets */ 
- @media only screen and (max-width : 768px) { 
-     
+
+
+ /* Small Devices, Tablets */
+ @media only screen and (max-width : 768px) {
+
      .vertical_divider {
          display: none;
-     
+
  }
-     
+
      .author_articles  {
         width: 97% !important;
     }
-     
+
      .bio {
          margin-bottom: 65px !important;
      }
-     
+
      .linkedin_logo {
-            
+
             float: right;
             margin-right: 270px;
             margin-top: 5px;
         }
 }
- 
 
-/* Extra Small Devices, Phones */ 
- @media only screen and (max-width : 600px) { 
+
+/* Extra Small Devices, Phones */
+ @media only screen and (max-width : 600px) {
 
 .vertical_divider {
          display: none;
      }
-     
+
      .bio {
          margin-bottom: 65px !important;
      }
-     
-   
-} 
 
 
+}

@@ -1,54 +1,65 @@
 /* ==========================================================================
-   About 
+   About
    ========================================================================== */
 
 #body {
     width: 100%;
     padding:0;
-   
+
     .picture {
         width: 100%;
         background-color:#d5d5d3;
         max-width: none;
         padding:0;
         margin:auto;
-        
-        
+
+
     }
-    
+
     .title {
         width: 100%;
         max-width: 1350px;
         margin:auto;
-        
+
         h2 {
         color: #00833c;
         text-transform: uppercase;
         font-size: 5em;
         }
     }
-    
+
     .content {
         max-width: 1350px;
         background-color:white;
         padding: 0px;
         margin-top: -24px;
         margin-bottom: 3%;
-            
-        
-        
+
+
+
         p {
             font-size: 18px;
             line-height: 1.3em;
             text-rendering: optimizeLegibility;
             font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
             color: #404040;
-            
-                        
-                               
+
+
+
         }
-        
+
     }
-    
-    
+
+    @media only screen and (max-width : 980px) {
+
+        .state1 {
+            margin-right: 0px !important;
+        }
+
+        .state3 {
+            margin-right: 0px !important;
+        }
+
+
+     }
 }

@@ -2023,13 +2023,14 @@ Blog
       font-size: 1.3em; }
 
 /*  ==========================================================================
-Blog Post 
+Blog Post
    ========================================================================== */
 .et_post_meta_wrapper {
   display: none; }
 
 .menu-bar {
-  background-color: rgba(0, 132, 61, 0.85);
+  /*background-color:  rgba(0, 132, 61, 0.85);*/
+  background-color: red;
   margin-bottom: .5% !important; }
   .menu-bar h3 {
     color: white;
@@ -2098,7 +2099,7 @@ Blog Post
   width: 88%; }
 
 /*  ==========================================================================
-        Creative Blog Post 
+        Creative Blog Post
    ========================================================================== */
 .et_post_meta_wrapper {
   display: none; }
