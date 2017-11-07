@@ -1781,6 +1781,14 @@ Portfolio
   font-weight: bold;
   margin: 0; }
 
+@media only screen and (max-width: 768px) {
+  #registration .state1 {
+    margin-right: 0px !important; }
+  #registration .state3 {
+    margin-right: 0px !important; }
+  #registration .state4 {
+    margin-bottom: 30px !important; } }
+
 /* ==========================================================================
   Videos Page 
    ========================================================================== */
