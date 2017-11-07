@@ -2029,8 +2029,7 @@ Blog Post
   display: none; }
 
 .menu-bar {
-  /*background-color:  rgba(0, 132, 61, 0.85);*/
-  background-color: red;
+  background-color: rgba(0, 132, 61, 0.85);
   margin-bottom: .5% !important; }
   .menu-bar h3 {
     color: white;
