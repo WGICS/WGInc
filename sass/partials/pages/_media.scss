@@ -82,10 +82,10 @@ Blog Post
     margin-bottom: 10% !important;
 
     h3 {
-        color:white;
-        padding: 2%;
-        font-size: 18px;
-
+      color:white;
+      padding: 2%;
+      font-size: 1.3em;
+      text-transform: uppercase;
 
         }
 
@@ -113,18 +113,33 @@ Blog Post
 
 
         }
+        h5 {
+            line-height: 1em !important;
+            color: grey;
+            font-size: 1.3em;
 
-    h6 {
-        line-height: .5em !important;
-        color: grey;
-        font-size: 1.2em;
+            }
 
-        }
+            h6 {
+                font-size: 1.3em;
+                text-align: left !important;
+                color: #008000;
+                padding-top: 10px;
+            }
 
-    p {
-        padding-bottom: 1em;
-        width: 88%;
-        }
+        p {
+            padding-bottom: .4em;
+            padding-top: 0;
+            width: 88%;
+            font-size: 1.1em;
+            }
+
+                .linkedin_logo {
+
+                    float: right;
+                    margin-right: 95px;
+                    margin-top: 5px;
+                }
     }
 }
 
