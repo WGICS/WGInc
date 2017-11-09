@@ -2072,9 +2072,14 @@ Blog Post
   background-color: rgba(0, 132, 61, 0.85);
   margin-bottom: .5% !important; }
   .menu-bar h3 {
+    /*color:white;
+        padding:1%;
+        font-size: 18px;*/
     color: white;
-    padding: 1%;
-    font-size: 18px; }
+    text-transform: uppercase;
+    padding: .5% .4% .4% .3%;
+    margin-left: .5%;
+    font-size: 1.3em; }
 
 .menu-bar :before {
   content: '';
