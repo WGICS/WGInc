@@ -1782,13 +1782,13 @@ Portfolio
   margin: 0; }
 
 #registration .list h5 {
-  font-size: 1.2em;
+  font-size: 1.2em !important;
   color: #00843D;
   text-transform: uppercase; }
 
 #registration .list p {
   padding-bottom: 1.1em;
-  font-size: 1.2em; }
+  font-size: 1.1em !important; }
 
 @media only screen and (max-width: 980px) {
   .et_pb_row_4col .et_pb_column {
