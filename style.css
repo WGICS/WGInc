@@ -2150,7 +2150,7 @@ Blog Post
 #blog .bio .linkedin_logo {
   float: right;
   margin-right: 47px;
-  margin-top: 5px; }
+  margin-top: -5px; }
 
 /*  ==========================================================================
         Creative Blog Post
