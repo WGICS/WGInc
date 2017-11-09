@@ -1782,8 +1782,8 @@ Portfolio
   margin: 0; }
 
 @media only screen and (max-width: 768px) {
-  .et_pb_row_4col {
-    margin-right: 0px !important; }
+  .et_pb_row_4col .et_pb_column.et_pb_column_1_4 {
+    margin-right: 0% !important; }
   .state3 {
     margin-right: 0px !important; }
   .state4 {
@@ -1791,11 +1791,11 @@ Portfolio
 
 @media only screen and (max-width: 480px) {
   .pagetitle h1 {
-    font-size: 3.5em; } }
+    font-size: 3.5em !important; } }
 
 @media only screen and (max-width: 320px) {
   .pagetitle h1 {
-    font-size: 2.8em; } }
+    font-size: 2.8em !important; } }
 
 /* ==========================================================================
   Videos Page 
