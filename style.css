@@ -1782,12 +1782,20 @@ Portfolio
   margin: 0; }
 
 @media only screen and (max-width: 768px) {
-  #registration .state1 {
+  .state1 {
     margin-right: 0px !important; }
-  #registration .state3 {
+  .state3 {
     margin-right: 0px !important; }
-  #registration .state4 {
+  .state4 {
     margin-top: 30px !important; } }
+
+@media only screen and (max-width: 480px) {
+  .pagetitle h1 {
+    font-size: 3.5em; } }
+
+@media only screen and (max-width: 320px) {
+  .pagetitle h1 {
+    font-size: 3em; } }
 
 /* ==========================================================================
   Videos Page 
