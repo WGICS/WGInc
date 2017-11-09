@@ -1781,6 +1781,10 @@ Portfolio
   font-weight: bold;
   margin: 0; }
 
+@media only screen and (max-width: 980px) {
+  .et_pb_row_4col .et_pb_column {
+    margin-bottom: 29px !important; } }
+
 @media only screen and (max-width: 768px) {
   .et_pb_row_4col .et_pb_column.et_pb_column_1_4 {
     margin-right: 0% !important; }
