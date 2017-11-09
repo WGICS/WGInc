@@ -175,6 +175,7 @@
   font-size: 4.5em;
   font-weight: bold;
   margin: 0;
+  }
 }
 
 @media only screen and (max-width : 768px) {
@@ -194,4 +195,15 @@
 
   }
 
-}
+@media only screen and (max-width : 480px) {
+
+  .pagetitle h1 {
+    font-size: 3.5em;
+                    }
+ }
+
+ @media only screen and (max-width : 320px){
+   .pagetitle h1 {
+     font-size: 3em;
+                     }
+ }
