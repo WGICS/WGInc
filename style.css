@@ -2095,7 +2095,7 @@ Blog Post
   width: 0; }
 
 .sub-menu h6 {
-  font-size: 1.4em;
+  font-size: .9em;
   color: grey; }
 
 #blog .content {
@@ -2196,7 +2196,7 @@ Blog Post
   background-color: greenyellow; }
 
 .sub-menu h6 {
-  font-size: 1.4em;
+  font-size: .9em;
   color: grey; }
 
 #creative-blog .content {
@@ -2207,9 +2207,8 @@ Blog Post
     font-style: italic;
     text-transform: uppercase; }
   #creative-blog .content .text p {
-    font-size: 1.5em;
+    font-size: 1.8em;
     line-height: 1.5;
-    font-weight: bold;
     color: black; }
 
 #creative-blog .vertical_divider {
@@ -2275,8 +2274,8 @@ Blog Post
 #creative-blog .bio p {
   padding-bottom: .4em;
   padding-top: 0;
-  width: 88%;
-  font-size: 1.1em; }
+  width: 86%;
+  font-size: 1.4em; }
 
 #creative-blog .bio .linkedin_logo {
   float: right;
