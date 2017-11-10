@@ -133,7 +133,7 @@ Blog Post
 
 
 
-        .related_articles:before {
+        .related_articles :before {
             content: '';
             position: absolute;
             top: 0;

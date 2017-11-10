@@ -2142,7 +2142,7 @@ Blog Post
         padding: 2%;
         font-size: 1.3em;
         text-transform: uppercase; }
-    #blog .author_articles .related_articles .related_articles:before {
+    #blog .author_articles .related_articles .related_articles :before {
       content: '';
       position: absolute;
       top: 0;
