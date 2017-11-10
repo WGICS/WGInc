@@ -2147,7 +2147,8 @@ Blog Post
   font-size: 1.3em;
   text-align: left !important;
   color: #008000;
-  padding-top: 10px; }
+  padding-top: 10px;
+  padding-left: 185px; }
 
 #blog .bio p {
   /*padding-bottom: .4em;*/
