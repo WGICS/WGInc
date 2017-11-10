@@ -2268,7 +2268,8 @@ Blog Post
 #creative-blog .bio h6 {
   font-size: 1.3em;
   color: #008000;
-  padding-top: 10px; }
+  padding-top: 10px;
+  padding-left: 185px; }
 
 #creative-blog .bio p {
   padding-bottom: .4em;
@@ -2279,8 +2280,7 @@ Blog Post
 #creative-blog .bio .linkedin_logo {
   float: right;
   margin-right: 95px;
-  margin-top: 5px;
-  padding-left: 185px; }
+  margin-top: 5px; }
 
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
