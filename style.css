@@ -2297,7 +2297,11 @@ Blog Post
   .bio {
     margin-bottom: 90px !important; }
   .vertical_divider {
-    display: none; } }
+    display: none; }
+  .linkedin_logo {
+    /*float: right;*/
+    margin-right: 125px;
+    /*margin-top: 5px;*/ } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -2317,7 +2321,11 @@ Blog Post
   .vertical_divider {
     display: none; }
   .bio {
-    margin-bottom: 65px !important; } }
+    margin-bottom: 65px !important; }
+  .linkedin_logo {
+    /*float: right;*/
+    margin-right: 125px;
+    /*margin-top: 5px;*/ } }
 
 /*  ==========================================================================
 People-PopUp
