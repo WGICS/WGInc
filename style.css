@@ -2327,6 +2327,18 @@ Blog Post
     margin-right: 125px;
     /*margin-top: 5px;*/ } }
 
+@media only screen and (max-width: 480px) {
+  .linkedin_logo {
+    /*float: right;*/
+    margin-right: 125px;
+    /*margin-top: 5px;*/ } }
+
+@media only screen and (max-width: 320px) {
+  .linkedin_logo {
+    /*float: right;*/
+    margin-right: 125px;
+    /*margin-top: 5px;*/ } }
+
 /*  ==========================================================================
 People-PopUp
    ========================================================================== */
