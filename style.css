@@ -2124,7 +2124,25 @@ Blog Post
       padding: 2%;
       font-size: 1.3em;
       text-transform: uppercase; }
-  #blog .author_articles .about_author :before {
+    #blog .author_articles .about_author .about_author :before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-top: 80px solid #fff;
+      border-left: 80px solid transparent;
+      width: 0; }
+  #blog .author_articles .related_articles {
+    background-color: rgba(0, 132, 61, 0.85);
+    margin-bottom: 5% !important; }
+    #blog .author_articles .related_articles .content {
+      background-color: #e9e9e8; }
+      #blog .author_articles .related_articles .content h3 {
+        color: white;
+        padding: 2%;
+        font-size: 1.3em;
+        text-transform: uppercase; }
+  #blog .author_articles .related_articles:before {
     content: '';
     position: absolute;
     top: 0;
@@ -2132,26 +2150,6 @@ Blog Post
     border-top: 80px solid #fff;
     border-left: 80px solid transparent;
     width: 0; }
-
-#blog .related_articles {
-  background-color: rgba(0, 132, 61, 0.85);
-  margin-bottom: 5% !important; }
-  #blog .related_articles .content {
-    background-color: #e9e9e8; }
-    #blog .related_articles .content h3 {
-      color: white;
-      padding: 2%;
-      font-size: 1.3em;
-      text-transform: uppercase; }
-
-#blog .related_articles:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-top: 80px solid #fff;
-  border-left: 80px solid transparent;
-  width: 0; }
 
 #blog .bio h4 {
   font-size: 1.8em;
