@@ -2150,14 +2150,14 @@ Blog Post
   padding-top: 10px; }
 
 #blog .bio p {
-  padding-bottom: .4em;
+  /*padding-bottom: .4em;*/
   padding-top: 0;
   width: 86%;
   font-size: 1.4em; }
 
 #blog .bio .linkedin_logo {
   float: right;
-  margin-right: 75x;
+  margin-right: 75px;
   margin-top: 0px; }
 
 /*  ==========================================================================
