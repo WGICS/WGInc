@@ -87,7 +87,7 @@ Blog Post
 
             width: 30%;
             left: 1.8%;
-            background-color: #e9e9e8;
+
 
 .about_author {
 
@@ -117,6 +117,40 @@ Blog Post
     width: 0;
     }
         }
+
+    .related_articles {
+
+            background-color:  rgba(0, 132, 61, 0.85);
+            margin-bottom: 5% !important;
+
+        .content {
+
+            background-color: #e9e9e8;
+            h3 {
+              color:white;
+              padding: 2%;
+              font-size: 1.3em;
+              text-transform: uppercase;
+
+                }
+              }
+
+
+
+
+            }
+
+        .related_articles:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-top: 80px solid #fff;
+            border-left: 80px solid transparent;
+            width: 0;
+            }
+
+
 
     .bio {
 
