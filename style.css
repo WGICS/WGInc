@@ -2142,14 +2142,14 @@ Blog Post
         padding: 2%;
         font-size: 1.3em;
         text-transform: uppercase; }
-  #blog .author_articles .related_articles:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-top: 80px solid #fff;
-    border-left: 80px solid transparent;
-    width: 0; }
+    #blog .author_articles .related_articles .related_articles:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-top: 80px solid #fff;
+      border-left: 80px solid transparent;
+      width: 0; }
 
 #blog .bio h4 {
   font-size: 1.8em;
