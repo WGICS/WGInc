@@ -2322,18 +2322,24 @@ Blog Post
     display: none; }
   .bio {
     margin-bottom: 65px !important; }
+    .bio h6 {
+      padding-left: 0; }
   .linkedin_logo {
     /*float: right;*/
     margin-right: 125px;
     /*margin-top: 5px;*/ } }
 
 @media only screen and (max-width: 480px) {
+  .bio h6 {
+    padding-left: 0; }
   .linkedin_logo {
     /*float: right;*/
     margin-right: 125px;
     /*margin-top: 5px;*/ } }
 
 @media only screen and (max-width: 320px) {
+  .bio h6 {
+    padding-left: 0; }
   .linkedin_logo {
     /*float: right;*/
     margin-right: 125px;

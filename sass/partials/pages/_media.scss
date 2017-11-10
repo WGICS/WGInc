@@ -434,6 +434,10 @@ Blog Post
 
      .bio {
          margin-bottom: 65px !important;
+
+        h6 {
+             padding-left: 0;
+         }
      }
 
      .linkedin_logo {
@@ -448,6 +452,13 @@ Blog Post
 
 @media only screen and (max-width : 480px) {
 
+  .bio {
+    h6
+    {
+        padding-left: 0;
+    }
+  }
+
   .linkedin_logo {
 
          /*float: right;*/
@@ -457,6 +468,13 @@ Blog Post
 
 }
 @media only screen and (max-width : 320px){
+
+  .bio {
+    h6
+    {
+        padding-left: 0;
+    }
+  }
 
   .linkedin_logo {
 
