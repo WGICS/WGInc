@@ -2,7 +2,7 @@
 
 	require get_stylesheet_directory() . '/lib/shortcodes.php';
 	require get_stylesheet_directory() . '/lib/utilities.php';
-	require get_stylesheet_directory() . '/lib/relatedarticles.php';
+
 
 	function owl_scripts() {
 
