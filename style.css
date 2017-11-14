@@ -2124,32 +2124,14 @@ Blog Post
       padding: 2%;
       font-size: 1.3em;
       text-transform: uppercase; }
-    #blog .author_articles .about_author .about_author :before {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      border-top: 80px solid #fff;
-      border-left: 80px solid transparent;
-      width: 0; }
-  #blog .author_articles .related_articles {
-    background-color: rgba(0, 132, 61, 0.85);
-    margin-bottom: 5% !important; }
-    #blog .author_articles .related_articles .content {
-      background-color: #e9e9e8; }
-      #blog .author_articles .related_articles .content h3 {
-        color: white;
-        padding: 2%;
-        font-size: 1.3em;
-        text-transform: uppercase; }
-    #blog .author_articles .related_articles .related_articles :before {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      border-top: 80px solid #fff;
-      border-left: 80px solid transparent;
-      width: 0; }
+  #blog .author_articles .about_author :before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 80px solid #fff;
+    border-left: 80px solid transparent;
+    width: 0; }
 
 #blog .bio h4 {
   font-size: 1.8em;
@@ -2178,6 +2160,9 @@ Blog Post
   float: right;
   margin-right: 95px;
   margin-top: 0px; }
+
+#blog .articles {
+  background-color: #d1d1d1; }
 
 /*  ==========================================================================
         Creative Blog Post
@@ -2255,7 +2240,7 @@ Blog Post
     width: 0; }
   #creative-blog .author_articles .about_author {
     background-color: #82bc00;
-    margin-bottom: 0% !important; }
+    margin-bottom: 5% !important; }
     #creative-blog .author_articles .about_author h3 {
       color: white;
       padding: 2%;
@@ -2300,6 +2285,9 @@ Blog Post
   float: right;
   margin-right: 95px;
   margin-top: 5px; }
+
+#creative-blog .articles {
+  background-color: #d1d1d1; }
 
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
