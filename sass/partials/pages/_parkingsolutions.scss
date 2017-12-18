@@ -330,9 +330,9 @@
     }
 }
 
-.portfolio-tiles {
+.cwportfolio-tiles {
     width: 100%;
-    .portfolio-project {
+    .cwportfolio-project {
         width: 23%;
         margin: .5%;
         float: left;
@@ -361,7 +361,7 @@
             width: 120% !important;
             margin-left: -10%;
         }
-        .portfolio-project-overlay {
+        .project-overlay {
             position: absolute;
             bottom: 0;
             padding: 10% 40px 0;
@@ -378,7 +378,7 @@
                 margin-top: 2%;
             }
         }
-        .portfolio-project_name {
+        .cwportfolio-project_name {
             margin-bottom: 2%;
             text-transform: uppercase;
             text-align: center;
