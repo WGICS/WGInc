@@ -1,0 +1,440 @@
+/* ==========================================================================
+   CWI LANDING PAGE
+   ========================================================================== */
+.home #page-container
+{
+	padding-top: 0 !important;
+}
+#parking {
+    padding-top: 0 !important;
+    .pic_slider {
+        background-color: #FFF!important;
+        max-width: 1350px;
+        padding-top: 0!important;
+        width: 100%!important;
+        padding-bottom: 0 !important;
+        @include breakpoint(max-width 980px) {
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+        }
+        @include breakpoint(max-width 372px) {
+            padding-top: 0 !important;
+        }
+        .et_pb_column {
+            margin-bottom: 0 !important;
+        }
+    }
+    .whoweare {
+        background-color: #e5f2ec;
+        padding: 1.2% 1.5%;
+        max-width: none !important;
+        width: 100% !important;
+		@include breakpoint(max-width 980px)
+		{
+			padding: 7% 3%;
+		}
+		.col1
+		{
+			margin-right: 1.5%;
+			margin-bottom: 0;
+			@include breakpoint(max-width 1880px)
+			{
+				width: 20%;
+			}
+		}
+        .title {
+            h1 {
+                color: $WGI;
+                font-size: 4.4em;
+                margin-left: 80%;
+                font-weight: bold;
+                margin-top: 5%;
+				margin-bottom: 0;
+                @include breakpoint(max-width 1880px) {
+                    margin-top: 3%;
+                    margin-left: 25%;
+                    font-size: 4em;
+                }
+                @include breakpoint(max-width 1750px) {
+                    margin-top: 6%;
+                }
+                @include breakpoint(max-width 1550px) {
+                    margin-top: 7%;
+                }
+                @include breakpoint(max-width 1250px) {
+                    margin-top: 12%;
+                    margin-left: 13%;
+                }
+                @include breakpoint(max-width 980px) {
+                    margin-top: 0%;
+                    margin-left: 0%;
+                }
+                @include breakpoint(max-width 650px) {
+                    margin-left: 2%;
+                }
+                @include breakpoint(max-width 410px) {
+                    margin-left: 5%;
+                }
+                @include breakpoint(max-width 372px) {
+                    font-size: 3.5em;
+                }
+                @include breakpoint(max-width 270px) {
+                    font-size: 3.9em;
+                }
+				&.one
+				{
+					@include breakpoint (min-width 980px)
+					{
+						display: none;
+					}
+				}
+				&.three
+				{
+					@include breakpoint (max-width 980px)
+					{
+						display: none;
+					}
+				}
+            }
+        }
+        .description {
+            width: 70%;
+            text-align: justify;
+            margin-left: 0%;
+            float: left;
+			-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+			-moz-column-gap: 40px; /* Firefox */
+			column-gap: 40px;
+			-webkit-column-count: 2; /* Chrome, Safari, Opera */
+			-moz-column-count: 2; /* Firefox */
+			column-count: 2;
+            p {
+                font-size: 1.5em;
+                line-height: 1.4em;
+            }
+			.et_pb_text_inner
+			{
+				position: initial;
+			}
+            @include breakpoint(max-width 1880px) {
+                width: 100%;
+            }
+            @include breakpoint(max-width 980px) {
+				-webkit-column-gap: 0; /* Chrome, Safari, Opera */
+				-moz-column-gap: 0; /* Firefox */
+				column-gap: 0;
+				-webkit-column-count: 1; /* Chrome, Safari, Opera */
+				-moz-column-count: 1; /* Firefox */
+				column-count: 1;
+            }
+            @include breakpoint(max-width 410px) {
+                width: 90% !important;
+                margin-left: 5% !important;
+            }
+        }
+        .description1 {
+            width: 70%;
+            float: left;
+            margin-left: -13%;
+            text-align: justify;
+            p {
+                font-size: 1.5em;
+                line-height: 1.4em;
+            }
+            @include breakpoint(max-width 1880px) {
+                width: 100%;
+                margin-left: -55%;
+            }
+            @include breakpoint(max-width 1750px) {
+                margin-left: -50%;
+                margin-bottom: 4%;
+            }
+            @include breakpoint(max-width 980px) {
+                width: 95%;
+                margin-left: 0%;
+                margin-top: -5%;
+                margin-bottom: 4%;
+            }
+            @include breakpoint(max-width 650px) {
+                margin-left: 2%;
+                margin-bottom: 2%;
+            }
+            @include breakpoint(max-width 600px) {
+                margin-left: 2%;
+            }
+            @include breakpoint(max-width 410px) {
+                width: 90% !important;
+                margin-left: 5% !important;
+            }
+        }
+    }
+}
+
+#Leaders
+{
+	padding-top: 0;
+	.leaders-title p
+	{
+		text-align: center;
+		text-transform: uppercase;
+        font-weight: bold;
+		font-size: 4.4em;
+		color: $WGI;
+        @include breakpoint(max-width 600px) {
+            font-size: 3.4em;
+        }
+	}
+	.leaders-carousel
+	{
+		img
+		{
+			margin: 0 auto;
+		}
+		button
+		{
+			font-size: 0px;
+			border: none;
+			background: none;
+			&.slick-prev:before
+			{
+    			content: "\f060";
+				left: -8%;
+			}
+			&.slick-next:before
+			{
+    			content: "\f061";
+				right: -8%;
+			}
+			&.slick-prev:before, &.slick-next:before
+			{
+				top: 50%;
+				text-decoration: inherit;
+				position: absolute;
+				padding-right: 0.5em;
+				font-weight: normal;
+				font-style: normal;
+				font-size: 30px;
+				font-family: FontAwesome;
+				cursor: pointer;
+				color: rgba(#000, .3);
+			}
+		}
+		.name
+		{
+			text-transform: uppercase;
+			text-align: center;
+			padding-bottom: 3%;
+			margin-top: 5%;
+			font-size: 1.8em;
+			color: $WGI;
+		}
+		.title
+		{
+			text-align: center;
+			font-size: 1.5em;
+		}
+	}
+}
+
+#Projects-Portfolio {
+    padding: 0;
+    .picture {
+        width: 100% !important;
+        max-width: 1350px !important;
+        background-color: #d5d5d3;
+        padding-top: 0%;
+    }
+}
+
+.portfolio-title {
+    h1 {
+        color: $WGI;
+        text-transform: uppercase;
+        font-size: 4.4em;
+        font-weight: bold;
+        margin: 0;
+        text-align: center;
+        @include breakpoint(max-width 600px) {
+            font-size: 3.4em;
+        }
+    }
+    h3 {
+        color: $WGI;
+        text-transform: uppercase;
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 3%;
+        text-align: left;
+    }
+    h2 {
+        color: $WGI;
+        text-transform: uppercase;
+        font-size: 3em;
+        font-weight: bold;
+        margin: 0;
+    }
+}
+
+#Select {
+    width: 40%;
+    margin: 0 auto 2%;
+    @include breakpoint (max-width 1680px) {
+        width: 50%;
+    }
+    @include breakpoint (max-width 1300px) {
+        width: 60%;
+    }
+    @include breakpoint (max-width 1065px) {
+        width: 70%;
+    }
+    @include breakpoint (max-width 900px) {
+        width: 100%;
+    }
+    button {
+        text-transform: uppercase;
+        padding: 1%;
+        margin: 0;
+        letter-spacing: .2em;
+        font-size: 1.3em;
+        border-radius: 20px;
+        border: none;
+        background-color: transparent;
+        &#All {
+            width: 12.5%;
+			margin-right: 2.5%;
+        }
+        &#Rest {
+            width: 32.5%;
+			margin: 0 2.5%;
+        }
+        &#Park {
+            width: 20%;
+			margin: 0 2.5%;
+        }
+        &#Plan {
+            width: 20%;
+			margin-left: 2.5%;
+        }
+        &#All,
+        &#Rest,
+        &#Park,
+        &#Plan {
+            @include breakpoint (max-width 615px) {
+                width: 100%;
+            }
+        }
+        &:hover {
+			cursor: pointer;
+            background-color: rgba($WGI, .1);
+        }
+    }
+}
+
+.portfolio-tiles {
+    width: 100%;
+    .portfolio-project {
+        width: 23%;
+        margin: .5%;
+        float: left;
+        position: relative;
+        overflow: hidden;
+        @include breakpoint(max-width 1400px) {
+            width: 30% !important;
+            margin: .5%;
+        }
+        @include breakpoint(max-width 1200px) {
+            width: 32% !important;
+        }
+        @include breakpoint(max-width 900px) {
+            width: 49%!important;
+        }
+        @include breakpoint(max-width 600px) {
+            width: 85% !important;
+            margin: .5% auto;
+            float: none;
+        }
+        @include breakpoint(max-width 410px) {
+            width: 100% !important;
+            margin-left: 0%;
+        }
+        @include breakpoint(max-width 372px) {
+            width: 120% !important;
+            margin-left: -10%;
+        }
+        .portfolio-project-overlay {
+            position: absolute;
+            bottom: 0;
+            padding: 10% 40px 0;
+            background: white !important;
+            height: 36%;
+            width: 100%;
+            -webkit-transition: all .25s;
+            transition: all .25s;
+            transform: translate(0, 100%);
+            -webkit-transform: translate(0, 100%);
+			opacity: 0.9;
+            @include breakpoint(max-width 980px) {
+                margin-left: 0%;
+                margin-top: 2%;
+            }
+        }
+        .portfolio-project_name {
+            margin-bottom: 2%;
+            text-transform: uppercase;
+            text-align: center;
+            h5 {
+                text-transform: uppercase;
+                font-size: 16px!important;
+                color: #323232;
+                font-weight: bold;
+                @include breakpoint(max-width 1920px) {
+                    font-size: 16px;
+                }
+                @include breakpoint(max-width 1200px) {
+                    font-size: 14px;
+                }
+                @include breakpoint(max-width 600px) {
+                    margin-right: 20%;
+                }
+                @include breakpoint(max-width 450px) {
+                    margin-right: 0;
+                }
+                @include breakpoint(max-width 372px) {
+                    font-size: 18px;
+                }
+                @include breakpoint(max-width 290px) {
+                    font-size: 12px !important;
+                }
+            }
+        }
+        .portfolio-project_division {
+            margin-bottom: 2%;
+            text-transform: uppercase;
+            text-align: center;
+            h6 {
+                text-transform: uppercase;
+                font-size: 15px!important;
+                color: $WGI;
+                font-weight: bold;
+                @include breakpoint(max-width 790px) {
+                    font-size: 15px;
+                }
+                @include breakpoint(max-width 667px) {
+                    font-size: 13px;
+                }
+                @include breakpoint(max-width 372px) {
+                    font-size: 9px;
+                }
+            }
+        }
+        :hover {
+            .portfolio-project-overlay {
+                transform: translate(0, 0);
+                -webkit-transform: translate(0, 0);
+            }
+            .see-more {
+                opacity: 1;
+            }
+        }
+    }
+}
