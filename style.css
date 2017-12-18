@@ -2558,7 +2558,7 @@ Blog Post
     background-color: #d5d5d3;
     padding-top: 0%; }
 
-.portfolio-title h1 {
+.cwportfolio-title h1 {
   color: #00843D;
   text-transform: uppercase;
   font-size: 4.4em;
@@ -2566,10 +2566,10 @@ Blog Post
   margin: 0;
   text-align: center; }
   @media (max-width: 600px) {
-    .portfolio-title h1 {
+    .cwportfolio-title h1 {
       font-size: 3.4em; } }
 
-.portfolio-title h3 {
+.cwportfolio-title h3 {
   color: #00843D;
   text-transform: uppercase;
   font-size: 2.5em;
@@ -2577,7 +2577,7 @@ Blog Post
   margin-bottom: 3%;
   text-align: left; }
 
-.portfolio-title h2 {
+.cwportfolio-title h2 {
   color: #00843D;
   text-transform: uppercase;
   font-size: 3em;
