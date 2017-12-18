@@ -1265,7 +1265,7 @@ textarea {
   padding: 0; }
 
 #home .slider {
-  margin-top: -308px;
+  margin-top: -264px;
   width: 100%;
   margin-bottom: 0 !important; }
 
@@ -2658,7 +2658,7 @@ Blog Post
       .cwportfolio-tiles .cwportfolio-project {
         width: 120% !important;
         margin-left: -10%; } }
-    .cwportfolio-tiles .cwportfolio-project .project-overlay {
+    .cwportfolio-tiles .cwportfolio-project .cwproject-overlay {
       position: absolute;
       bottom: 0;
       padding: 10% 40px 0;
@@ -2673,7 +2673,7 @@ Blog Post
       -webkit-transform: translate(0, 100%);
       opacity: 0.9; }
       @media (max-width: 980px) {
-        .cwportfolio-tiles .cwportfolio-project .project-overlay {
+        .cwportfolio-tiles .cwportfolio-project .cwproject-overlay {
           margin-left: 0%;
           margin-top: 2%; } }
     .cwportfolio-tiles .cwportfolio-project .cwportfolio-project_name {
@@ -2703,25 +2703,25 @@ Blog Post
         @media (max-width: 290px) {
           .cwportfolio-tiles .cwportfolio-project .cwportfolio-project_name h5 {
             font-size: 12px !important; } }
-    .cwportfolio-tiles .cwportfolio-project .portfolio-project_division {
+    .cwportfolio-tiles .cwportfolio-project .cwportfolio-project_division {
       margin-bottom: 2%;
       text-transform: uppercase;
       text-align: center; }
-      .cwportfolio-tiles .cwportfolio-project .portfolio-project_division h6 {
+      .cwportfolio-tiles .cwportfolio-project .cwportfolio-project_division h6 {
         text-transform: uppercase;
         font-size: 15px !important;
         color: #00843D;
         font-weight: bold; }
         @media (max-width: 790px) {
-          .cwportfolio-tiles .cwportfolio-project .portfolio-project_division h6 {
+          .cwportfolio-tiles .cwportfolio-project .cwportfolio-project_division h6 {
             font-size: 15px; } }
         @media (max-width: 667px) {
-          .cwportfolio-tiles .cwportfolio-project .portfolio-project_division h6 {
+          .cwportfolio-tiles .cwportfolio-project .cwportfolio-project_division h6 {
             font-size: 13px; } }
         @media (max-width: 372px) {
-          .cwportfolio-tiles .cwportfolio-project .portfolio-project_division h6 {
+          .cwportfolio-tiles .cwportfolio-project .cwportfolio-project_division h6 {
             font-size: 9px; } }
-    .cwportfolio-tiles .cwportfolio-project :hover .portfolio-project-overlay {
+    .cwportfolio-tiles .cwportfolio-project :hover .cwportfolio-project-overlay {
       -ms-transform: translate(0, 0);
       transform: translate(0, 0);
       -webkit-transform: translate(0, 0); }

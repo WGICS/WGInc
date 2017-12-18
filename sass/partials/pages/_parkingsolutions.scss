@@ -361,7 +361,7 @@
             width: 120% !important;
             margin-left: -10%;
         }
-        .project-overlay {
+        .cwproject-overlay {
             position: absolute;
             bottom: 0;
             padding: 10% 40px 0;
@@ -407,7 +407,7 @@
                 }
             }
         }
-        .portfolio-project_division {
+        .cwportfolio-project_division {
             margin-bottom: 2%;
             text-transform: uppercase;
             text-align: center;
@@ -428,7 +428,7 @@
             }
         }
         :hover {
-            .portfolio-project-overlay {
+            .cwportfolio-project-overlay {
                 transform: translate(0, 0);
                 -webkit-transform: translate(0, 0);
             }
