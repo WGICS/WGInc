@@ -2359,20 +2359,20 @@ Blog Post
 
 #parking {
   padding-top: 0 !important; }
-  #parking .slider {
+  #parking .pictslider {
     background-color: #FFF !important;
     max-width: 1350px;
     padding-top: 0 !important;
     width: 100% !important;
     padding-bottom: 0 !important; }
     @media (max-width: 980px) {
-      #parking .slider {
+      #parking .pictslider {
         margin-top: 0 !important;
         margin-bottom: 0 !important; } }
     @media (max-width: 372px) {
-      #parking .slider {
+      #parking .pictslider {
         padding-top: 0 !important; } }
-    #parking .slider .et_pb_column {
+    #parking .pictslider .et_pb_column {
       margin-bottom: 0 !important; }
   #parking .whoweare {
     background-color: #e5f2ec;
