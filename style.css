@@ -2516,7 +2516,7 @@ Blog Post
     #mini-portfolio .cwportfolio-title h1 {
       font-size: 3.4em; } }
 
-#mini-portfolio .et_pb_gutters3 .et_pb_column_4_4 .et_pb_grid_item, #mini-portfolio .et_pb_gutters3 .et_pb_column_4_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item, #mini-portfolio .et_pb_gutters3 .et_pb_column_4_4 .et_pb_widget, #mini-portfolio .et_pb_gutters3 .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product, #mini-portfolio .et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_grid_item, #mini-portfolio .et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item, #mini-portfolio .et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_widget, #mini-portfolio .et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_shop_grid {
+#mini-portfolio .et_pb_gutters3 .et_pb_column_4_4 .et_pb_grid_item, #mini-portfolio .et_pb_gutters3 .et_pb_column_4_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item {
   width: 24% !important;
   margin: .5% !important; }
 
