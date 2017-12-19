@@ -2505,10 +2505,6 @@ Blog Post
           width: 90% !important;
           margin-left: 5% !important; } }
 
-.et_pb_gutters3 .et_pb_column_4_4 .et_pb_grid_item.et_pb_gutters3 .et_pb_column_4_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item {
-  width: 24% !important;
-  margin: .5% !important; }
-
 #mini-portfolio .cwportfolio-title h1 {
   color: #00843D;
   text-transform: uppercase;
@@ -2519,6 +2515,10 @@ Blog Post
   @media (max-width: 600px) {
     #mini-portfolio .cwportfolio-title h1 {
       font-size: 3.4em; } }
+
+#mini-portfolio .et_pb_column_4_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item {
+  width: 24% !important;
+  margin: .5% !important; }
 
 #mini-portfolio .et_pb_filterable_portfolio .et_pb_portfolio_filters li a {
   border: none !important; }
