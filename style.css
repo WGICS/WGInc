@@ -2523,6 +2523,10 @@ Blog Post
 #mini-portfolio .et_pb_filterable_portfolio .et_pb_portfolio_filters li a {
   border: none !important; }
 
+#mini-portfolio .et_pb_filterable_portfolio .et_pb_portfolio_filters .et_pb_filterable_portfolio .et_pb_portfolio_filters li a:hover {
+  color: #666;
+  background-color: rgba(0, 132, 61, 0.1); }
+
 #Parking-Portfolio {
   padding: 0; }
   #Parking-Portfolio .picture {
