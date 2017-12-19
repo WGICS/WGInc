@@ -2520,6 +2520,12 @@ Blog Post
   width: 24% !important;
   margin: .5% !important; }
 
+#mini-portfolio .et_pb_filterable_portfolio .et_pb_portfolio_filters li a {
+  border: none !important; }
+
+#mini-portfolio .et_pb_filterable_portfolio .et_pb_portfolio_filters:hover {
+  background-color: rgba(0, 132, 61, 0.1); }
+
 #Parking-Portfolio {
   padding: 0; }
   #Parking-Portfolio .picture {

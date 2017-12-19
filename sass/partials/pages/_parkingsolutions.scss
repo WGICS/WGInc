@@ -189,6 +189,18 @@
 					width: 24% !important;
     			margin: .5% !important;
 				}
+
+				.et_pb_filterable_portfolio .et_pb_portfolio_filters {
+					li a {
+						    border: none !important;
+					}
+					
+					&:hover
+					{
+						background-color: rgba($WGI, .1);
+					}
+				}
+
 }// END OF MINI-PORTFOLIO//
 
 #Parking-Portfolio {
