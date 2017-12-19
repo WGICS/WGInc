@@ -170,71 +170,27 @@
     }
 }
 
-#Leaders
-{
-	padding-top: 0;
-	.leaders-title p
-	{
-		text-align: center;
-		text-transform: uppercase;
-        font-weight: bold;
-		font-size: 4.4em;
-		color: $WGI;
-        @include breakpoint(max-width 600px) {
-            font-size: 3.4em;
-        }
-	}
-	.leaders-carousel
-	{
-		img
-		{
-			margin: 0 auto;
-		}
-		button
-		{
-			font-size: 0px;
-			border: none;
-			background: none;
-			&.slick-prev:before
-			{
-    			content: "\f060";
-				left: -8%;
-			}
-			&.slick-next:before
-			{
-    			content: "\f061";
-				right: -8%;
-			}
-			&.slick-prev:before, &.slick-next:before
-			{
-				top: 50%;
-				text-decoration: inherit;
-				position: absolute;
-				padding-right: 0.5em;
-				font-weight: normal;
-				font-style: normal;
-				font-size: 30px;
-				font-family: FontAwesome;
-				cursor: pointer;
-				color: rgba(#000, .3);
+#mini-portfolio {
+		.cwportfolio-title {
+			h1 {
+	        color: $WGI;
+	        text-transform: uppercase;
+	        font-size: 4.4em;
+	        font-weight: bold;
+	        margin: 0;
+	        text-align: center;
+	        @include breakpoint(max-width 600px) {
+	            font-size: 3.4em;
+	        }
+			.lds_portfolio {
+				.et_pb_gutters3 .et_pb_column_4_4 .et_pb_grid_item, .et_pb_gutters3 .et_pb_column_4_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item {
+					width: 24% !important;
+    			margin: .5% !important;
+				}
 			}
 		}
-		.name
-		{
-			text-transform: uppercase;
-			text-align: center;
-			padding-bottom: 3%;
-			margin-top: 5%;
-			font-size: 1.8em;
-			color: $WGI;
-		}
-		.title
-		{
-			text-align: center;
-			font-size: 1.5em;
-		}
-	}
 }
+}// END OF MINI-PORTFOLIO//
 
 #Parking-Portfolio {
     padding: 0;
