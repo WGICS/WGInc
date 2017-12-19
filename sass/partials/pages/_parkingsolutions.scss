@@ -193,9 +193,13 @@
 				.et_pb_filterable_portfolio .et_pb_portfolio_filters {
 					li a {
 						    border: none !important;
+
+								&hover {
+									background-color: rgba(0, 132, 61, 0.1) !important;
+								}
 					}
 					.et_pb_filterable_portfolio .et_pb_portfolio_filters li a:hover {
-    						
+
     						background-color: rgba(0, 132, 61, 0.1) !important;
 }
 				}
