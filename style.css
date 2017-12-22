@@ -1007,7 +1007,6 @@ textarea {
   border: 1px solid black; }
 
 #news .text p .images {
-  -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center; }
 
@@ -1265,7 +1264,7 @@ textarea {
   padding: 0; }
 
 #home .slider {
-  margin-top: -233px;
+  margin-top: -190px;
   width: 100%;
   margin-bottom: 0 !important; }
 
