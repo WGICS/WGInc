@@ -2168,11 +2168,11 @@ Blog Post
     margin-right: 5%; }
   #blog .articles .crp_excerpt {
     font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
-    line-height: 1em !important;
+    line-height: 0em !important;
     font-size: 1.4em; }
   #blog .articles .crp_title {
     font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
-    line-height: 1em !important;
+    line-height: 0em !important;
     font-size: 1.5em; }
 
 /*  ==========================================================================
