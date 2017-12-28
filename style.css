@@ -2161,11 +2161,8 @@ Blog Post
   margin-top: 0px; }
 
 #blog .articles {
-  /*background-color: #d1d1d1;*/ }
-  #blog .articles li {
-    list-style-type: none; }
-  #blog .articles .crp_related .crp_related_shortcode {
-    width: 87%; }
+  background-color: #f9f9f9;
+  width: 86%; }
   #blog .articles .code {
     font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif; }
 
