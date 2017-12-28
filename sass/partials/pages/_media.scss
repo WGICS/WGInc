@@ -160,7 +160,18 @@ Blog Post
     }
 
   .articles {
-      background-color: #d1d1d1;
+      /*background-color: #d1d1d1;*/
+
+      li {
+ list-style-type: none;
+    }
+  .crp_related .crp_related_shortcode {
+width: 87%
+}
+.code {
+    font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
+  }
+
 }
 }
 
@@ -259,7 +270,7 @@ Blog Post
  .related-articles {
 
     background-color:  rgba(0, 132, 61, 0.85);
-    margin-bottom: 10% !important;
+    margin-bottom: 5% !important;
 
     h3 {
         color:white;

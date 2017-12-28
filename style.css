@@ -2161,7 +2161,13 @@ Blog Post
   margin-top: 0px; }
 
 #blog .articles {
-  background-color: #d1d1d1; }
+  /*background-color: #d1d1d1;*/ }
+  #blog .articles li {
+    list-style-type: none; }
+  #blog .articles .crp_related .crp_related_shortcode {
+    width: 87%; }
+  #blog .articles .code {
+    font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif; }
 
 /*  ==========================================================================
         Creative Blog Post
@@ -2223,7 +2229,7 @@ Blog Post
   left: 1.8%; }
   #creative-blog .author_articles .related-articles {
     background-color: rgba(0, 132, 61, 0.85);
-    margin-bottom: 10% !important; }
+    margin-bottom: 5% !important; }
     #creative-blog .author_articles .related-articles h3 {
       color: white;
       padding: 2%;
