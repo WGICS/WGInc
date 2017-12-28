@@ -2170,6 +2170,10 @@ Blog Post
     font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
     line-height: 1em !important;
     font-size: 1.4em; }
+  #blog .articles .span.crp_title {
+    font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
+    line-height: 1em !important;
+    font-size: 1.5em; }
 
 /*  ==========================================================================
         Creative Blog Post
