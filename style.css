@@ -2163,6 +2163,9 @@ Blog Post
 #blog .articles {
   background-color: #f9f9f9;
   width: 86%; }
+  #blog .articles a img {
+    float: left;
+    margin-right: 5%; }
   #blog .articles .code {
     font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif; }
 

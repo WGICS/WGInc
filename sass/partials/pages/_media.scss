@@ -162,7 +162,10 @@ Blog Post
   .articles {
       background-color: #f9f9f9;
       width: 86%;
-
+a img {
+  float: left;
+  margin-right: 5%;
+}
 
 .code {
     font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
