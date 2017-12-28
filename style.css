@@ -2174,9 +2174,6 @@ Blog Post
     font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
     line-height: 0px !important;
     font-size: 1.5em; }
-  #blog .articles .entry-content ul {
-    padding: 0px 5px 23px 2em !important;
-    line-height: 26px !important; }
 
 /*  ==========================================================================
         Creative Blog Post
@@ -2301,7 +2298,19 @@ Blog Post
   margin-top: 5px; }
 
 #creative-blog .articles {
-  background-color: #d1d1d1; }
+  background-color: #f9f9f9;
+  width: 86%; }
+  #creative-blog .articles a img {
+    float: left;
+    margin-right: 5%; }
+  #creative-blog .articles .crp_excerpt {
+    font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
+    line-height: 0px !important;
+    font-size: 1.4em; }
+  #creative-blog .articles .crp_title {
+    font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
+    line-height: 0px !important;
+    font-size: 1.5em; }
 
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */

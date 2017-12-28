@@ -178,10 +178,7 @@ a img {
   line-height: 0px !important;
   font-size: 1.5em;
 }
-.entry-content ul {
-  padding: 0px 5px 23px 2em !important;
-  line-height: 26px !important;
-}
+
 }
 
 }
@@ -387,8 +384,26 @@ a img {
     }
 
     .articles {
-        background-color: #d1d1d1;
+        background-color: #f9f9f9;
+        width: 86%;
+  a img {
+    float: left;
+    margin-right: 5%;
+  }
+
+  .crp_excerpt {
+      font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
+      line-height: 0px !important;
+      font-size: 1.4em;
     }
+
+  .crp_title {
+    font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
+    line-height: 0px !important;
+    font-size: 1.5em;
+  }
+
+  }
 }
 
  /* Large Devices, Wide Screens */
