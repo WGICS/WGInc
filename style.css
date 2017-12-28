@@ -2166,8 +2166,10 @@ Blog Post
   #blog .articles a img {
     float: left;
     margin-right: 5%; }
-  #blog .articles .code {
-    font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif; }
+  #blog .articles .span.crp_excerpt {
+    font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
+    line-height: 1em !important;
+    font-size: 1.4em; }
 
 /*  ==========================================================================
         Creative Blog Post
