@@ -2110,33 +2110,33 @@ Blog Post
   font-size: 1.3em;
   color: grey; }
 
-#blog .content {
+#journals .content {
   width: 64%;
   margin-right: 4%; }
-  #blog .content .title h2, #blog .content .title h5 {
+  #journals .content .title h2, #journals .content .title h5 {
     font-weight: bold;
     font-style: italic; }
-  #blog .content .text p {
+  #journals .content .text p {
     font-size: 1.8em;
     line-height: 1.5;
     color: black; }
 
-#blog .vertical_divider {
+#journals .vertical_divider {
   width: 0;
   margin-right: 1.5%; }
 
-#blog .author_articles {
+#journals .author_articles {
   width: 30%;
   left: 1.8%; }
-  #blog .author_articles .about_author {
+  #journals .author_articles .about_author {
     background-color: rgba(0, 132, 61, 0.85);
     margin-bottom: 5% !important; }
-    #blog .author_articles .about_author h3 {
+    #journals .author_articles .about_author h3 {
       color: white;
       padding: 2%;
       font-size: 1.3em;
       text-transform: uppercase; }
-  #blog .author_articles .about_author :before {
+  #journals .author_articles .about_author :before {
     content: '';
     position: absolute;
     top: 0;
@@ -2145,45 +2145,45 @@ Blog Post
     border-left: 80px solid transparent;
     width: 0; }
 
-#blog .bio h4 {
+#journals .bio h4 {
   font-size: 1.8em;
   font-weight: bold;
   padding-bottom: 1.5% !important; }
 
-#blog .bio h5 {
+#journals .bio h5 {
   line-height: 1em !important;
   color: grey;
   font-size: 1.3em; }
 
-#blog .bio h6 {
+#journals .bio h6 {
   font-size: 1.3em;
   text-align: left !important;
   color: #008000;
   padding-top: 10px;
   padding-left: 182px; }
 
-#blog .bio p {
+#journals .bio p {
   /*padding-bottom: .4em;*/
   padding-top: 0;
   width: 86%;
   font-size: 1.4em; }
 
-#blog .bio .linkedin_logo {
+#journals .bio .linkedin_logo {
   float: right;
   margin-right: 95px;
   margin-top: 0px; }
 
-#blog .articles {
+#journals .articles {
   background-color: #f9f9f9;
   width: 86%; }
-  #blog .articles a img {
+  #journals .articles a img {
     float: left;
     margin-right: 5%; }
-  #blog .articles .crp_excerpt {
+  #journals .articles .crp_excerpt {
     font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
     line-height: 0px !important;
     font-size: 1.4em; }
-  #blog .articles .crp_title {
+  #journals .articles .crp_title {
     font-family: "Helvetica Neue",Helvetica,Tahoma,sans-serif;
     line-height: 0px !important;
     font-size: 1.5em;
