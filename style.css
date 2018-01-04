@@ -1953,7 +1953,8 @@ Blog
 .title {
   width: 100%;
   max-width: 1350px;
-  margin: auto; }
+  margin: auto;
+  padding-bottom: 0% !important; }
   .title h1 {
     color: #00833c;
     text-transform: uppercase;
