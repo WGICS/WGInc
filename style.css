@@ -1984,93 +1984,95 @@ Blog
   margin-left: 1%;
   color: grey; }
 
-.blog .box {
-  width: 32%;
-  margin-right: 0.5%; }
-  .blog .box .entry1 {
-    padding: 2% 5%;
-    background-color: #82bc00;
-    margin-bottom: 1.5%;
-    cursor: pointer; }
-    .blog .box .entry1 a {
-      color: white !important; }
-    .blog .box .entry1 h3 {
-      color: white;
-      padding-top: 10%; }
-    .blog .box .entry1 p {
-      color: white;
-      padding-bottom: 2%;
-      font-size: 1.3em; }
-  .blog .box .entry2 {
-    padding: 6% 5%;
-    background-color: mediumpurple;
-    margin-bottom: 1.5%;
-    cursor: pointer; }
-    .blog .box .entry2 a {
-      color: white !important; }
-    .blog .box .entry2 h3 {
-      color: white;
-      padding-top: 10%; }
-    .blog .box .entry2 p {
-      color: white;
-      padding-bottom: 2%;
-      font-size: 1.3em; }
-  .blog .box .entry3 {
-    padding: 6% 5%;
-    background-color: deepskyblue;
-    margin-bottom: 1.5%;
-    cursor: pointer; }
-    .blog .box .entry3 a {
-      color: white !important; }
-    .blog .box .entry3 h3 {
-      color: white;
-      padding-top: 10%; }
-    .blog .box .entry3 p {
-      color: white;
-      padding-bottom: 2%;
-      font-size: 1.3em; }
-  .blog .box .entry4 {
-    padding: 6% 5%;
-    background-color: darkgreen;
-    margin-bottom: 1.5%;
-    cursor: pointer; }
-    .blog .box .entry4 a {
-      color: white !important; }
-    .blog .box .entry4 h3 {
-      color: white;
-      padding-top: 10%; }
-    .blog .box .entry4 p {
-      color: white;
-      padding-bottom: 2%;
-      font-size: 1.3em; }
-  .blog .box .entry5 {
-    padding: 6% 5%;
-    background-color: palevioletred;
-    margin-bottom: 1.5%;
-    cursor: pointer; }
-    .blog .box .entry5 a {
-      color: white !important; }
-    .blog .box .entry5 h3 {
-      color: white;
-      padding-top: 10%; }
-    .blog .box .entry5 p {
-      color: white;
-      padding-bottom: 2%;
-      font-size: 1.3em; }
-  .blog .box .entry6 {
-    padding: 6% 5%;
-    background-color: darkgrey;
-    margin-bottom: 1.5%;
-    cursor: pointer; }
-    .blog .box .entry6 a {
-      color: white !important; }
-    .blog .box .entry6 h3 {
-      color: white;
-      padding-top: 10%; }
-    .blog .box .entry6 p {
-      color: red;
-      padding-bottom: 2%;
-      font-size: 1.3em; }
+.blog {
+  padding: 2% 6% 9% 6%; }
+  .blog .box {
+    width: 32%;
+    margin-right: 0.5%; }
+    .blog .box .entry1 {
+      padding: 2% 5%;
+      background-color: #82bc00;
+      margin-bottom: 1.5%;
+      cursor: pointer; }
+      .blog .box .entry1 a {
+        color: white !important; }
+      .blog .box .entry1 h3 {
+        color: white;
+        padding-top: 10%; }
+      .blog .box .entry1 p {
+        color: white;
+        padding-bottom: 2%;
+        font-size: 1.3em; }
+    .blog .box .entry2 {
+      padding: 6% 5%;
+      background-color: mediumpurple;
+      margin-bottom: 1.5%;
+      cursor: pointer; }
+      .blog .box .entry2 a {
+        color: white !important; }
+      .blog .box .entry2 h3 {
+        color: white;
+        padding-top: 10%; }
+      .blog .box .entry2 p {
+        color: white;
+        padding-bottom: 2%;
+        font-size: 1.3em; }
+    .blog .box .entry3 {
+      padding: 6% 5%;
+      background-color: deepskyblue;
+      margin-bottom: 1.5%;
+      cursor: pointer; }
+      .blog .box .entry3 a {
+        color: white !important; }
+      .blog .box .entry3 h3 {
+        color: white;
+        padding-top: 10%; }
+      .blog .box .entry3 p {
+        color: white;
+        padding-bottom: 2%;
+        font-size: 1.3em; }
+    .blog .box .entry4 {
+      padding: 6% 5%;
+      background-color: darkgreen;
+      margin-bottom: 1.5%;
+      cursor: pointer; }
+      .blog .box .entry4 a {
+        color: white !important; }
+      .blog .box .entry4 h3 {
+        color: white;
+        padding-top: 10%; }
+      .blog .box .entry4 p {
+        color: white;
+        padding-bottom: 2%;
+        font-size: 1.3em; }
+    .blog .box .entry5 {
+      padding: 6% 5%;
+      background-color: palevioletred;
+      margin-bottom: 1.5%;
+      cursor: pointer; }
+      .blog .box .entry5 a {
+        color: white !important; }
+      .blog .box .entry5 h3 {
+        color: white;
+        padding-top: 10%; }
+      .blog .box .entry5 p {
+        color: white;
+        padding-bottom: 2%;
+        font-size: 1.3em; }
+    .blog .box .entry6 {
+      padding: 6% 5%;
+      background-color: darkgrey;
+      margin-bottom: 1.5%;
+      cursor: pointer; }
+      .blog .box .entry6 a {
+        color: white !important; }
+      .blog .box .entry6 h3 {
+        color: white;
+        padding-top: 10%; }
+      .blog .box .entry6 p {
+        color: red;
+        padding-bottom: 2%;
+        font-size: 1.3em; }
 
 /*  ==========================================================================
 Blog Post
