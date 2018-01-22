@@ -410,7 +410,7 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-/* 
+/*
  * 	Core Owl Carousel CSS File
  *	v1.23
  */
@@ -1067,7 +1067,7 @@ textarea {
     margin-left: 15% !important; } }
 
 /* ==========================================================================
-   About,Awards.History.Public Entities, Private Clients, Engineering,Transportation, Sturctures, Water Resources, Land Development, Municipal,Land Services,Planning, Landscape Architecture, Survey, SUE, Environmental,Creative Services,Design-Build. 
+   About,Awards.History.Public Entities, Private Clients, Engineering,Transportation, Sturctures, Water Resources, Land Development, Municipal,Land Services,Planning, Landscape Architecture, Survey, SUE, Environmental,Creative Services,Design-Build.
    ========================================================================== */
 #body {
   width: 100%;
@@ -1811,7 +1811,7 @@ Portfolio
     font-size: 2.8em !important; } }
 
 /* ==========================================================================
-  Videos Page 
+  Videos Page
    ========================================================================== */
 #videos {
   width: 100%;
@@ -1826,7 +1826,7 @@ Portfolio
       margin-bottom: 0px !important; }
 
 /*  ==========================================================================
-Leadership team 
+Leadership team
    ========================================================================== */
 #leaders {
   width: 100%;
@@ -2436,7 +2436,7 @@ Blog Post
     #parking .whoweare .title h1 {
       color: #00843D;
       font-size: 4.4em;
-      margin-left: 80%;
+      margin-left: 80% !important;
       font-weight: bold;
       margin-top: 5%;
       margin-bottom: 0; }
