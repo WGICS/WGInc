@@ -483,7 +483,9 @@
 
 .simcal-default-calendar .simcal-current h3 {
      margin: 0;
-     padding: 0
+     padding: 0;
+     font-size: 16px;
+    font-family: "Open Sans", Arial, sans-serif !important;
 }
 
 .simcal-default-calendar .simcal-nav {
@@ -744,7 +746,7 @@
 }
 
 .simcal-default-calendar-grid .simcal-events {
-     font-size: 16px !important;
+     font-size: 11px !important;
      line-height: 1.4;
      list-style: none;
      margin: 0;
