@@ -410,7 +410,7 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-/*
+/* 
  * 	Core Owl Carousel CSS File
  *	v1.23
  */
@@ -1067,7 +1067,7 @@ textarea {
     margin-left: 15% !important; } }
 
 /* ==========================================================================
-   About,Awards.History.Public Entities, Private Clients, Engineering,Transportation, Sturctures, Water Resources, Land Development, Municipal,Land Services,Planning, Landscape Architecture, Survey, SUE, Environmental,Creative Services,Design-Build.
+   About,Awards.History.Public Entities, Private Clients, Engineering,Transportation, Sturctures, Water Resources, Land Development, Municipal,Land Services,Planning, Landscape Architecture, Survey, SUE, Environmental,Creative Services,Design-Build. 
    ========================================================================== */
 #body {
   width: 100%;
@@ -1810,8 +1810,19 @@ Portfolio
   .pagetitle h1 {
     font-size: 2.8em !important; } }
 
+/*/* ==========================================================================
+    Careers Calendar
+    ========================================================================== */
+.simcal-default-calendar-grid .simcal-events {
+  font-size: 16px !important;
+  line-height: 1.4;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left; }
+
 /* ==========================================================================
-  Videos Page
+  Videos Page 
    ========================================================================== */
 #videos {
   width: 100%;
@@ -1826,7 +1837,7 @@ Portfolio
       margin-bottom: 0px !important; }
 
 /*  ==========================================================================
-Leadership team
+Leadership team 
    ========================================================================== */
 #leaders {
   width: 100%;
